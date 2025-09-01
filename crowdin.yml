@@ -1,5 +1,0 @@
-files:
-  - source: /*
-    ignore:
-      - '*.md'
-    translation: '%original_file_name%'

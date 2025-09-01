@@ -1,0 +1,9 @@
+{
+  "name": "Bielarusizatar_Valheim_Belarusian_Translation",
+  "website_url": "",
+  "description": "Поўны пераклад Valheim па-беларуску",
+  "dependencies": [
+    "ValheimModding-Jotunn-2.24.3"
+  ],
+  "version_number": "1.0.0"
+}
