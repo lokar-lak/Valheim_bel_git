@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: localization.csv\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-09 21:29+0000\n"
-"PO-Revision-Date: 2026-09-22 22:57+0200\n"
+"PO-Revision-Date: 2026-09-24 22:52+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: be\n"
@@ -98,10 +98,9 @@ msgstr "Суровы вікінг"
 #. [PL] "Pokonaj wszystkich bossów na normalnym lub wyższym poziomie
 #. trudności."
 #. [RU] "Победить всех боссов на обычной или высокой сложности."
-#, fuzzy
 msgctxt "ach_allbossesnormal_desc"
 msgid "Defeat all bosses on normal difficulty or higher."
-msgstr "Перамажыце ўсіх босаў на звычайнай складанасці або вышэй."
+msgstr "Перамажыце ўсіх босаў на звычайнай або высокай складанасці."
 
 #. [UA] "Кулачний боєць"
 #. [PL] "Pięściarz"
@@ -358,10 +357,9 @@ msgstr "Перамажыце Смарагдавае Полымя."
 #. [UA] "Калл Зимовісник"
 #. [PL] "Kall Zwiastun Mrozu"
 #. [RU] "Калл Фимбульвест"
-#, fuzzy
 msgctxt "ach_boss8frozenking"
 msgid "Kall Fimbulbringer"
-msgstr "Кал Зіманосец"
+msgstr "Каль Зіманосец"
 
 #. [UA] "Здолайте закутого."
 #. [PL] "Pokonaj Spętanego."
@@ -810,10 +808,9 @@ msgstr "Паляўнічы"
 #. [UA] "Убийте бодай одну істоту кожного виду."
 #. [PL] "Zabij każdy typ stworzenia."
 #. [RU] "Убить существ каждого вида."
-#, fuzzy
 msgctxt "ach_killallcreatures_desc"
 msgid "Kill every kind of creature."
-msgstr "Забіце кожны від стварэнняў."
+msgstr "Забіце прынамсі па адной істоце кожнага віду."
 
 #. [UA] "Майстерний мисливець"
 #. [PL] "Mistrzowski łowca"
@@ -825,15 +822,13 @@ msgstr "Майстар-паляўнічы"
 #. [UA] "Убийте бодай одну істоту з кожного виду на високій складності."
 #. [PL] "Zabij każdy typ stworzenia na trudnym poziomie trudności."
 #. [RU] "Убить существ каждого вида на высокой сложности."
-#, fuzzy
 msgctxt "ach_killallcreatureshard_desc"
 msgid "Kill every kind of creature on hard difficulty."
-msgstr "Забіце кожны від стварэнняў на цяжкай складанасці."
+msgstr "Забіце прынамсі па адной істоце кожнага віду на высокай складанасці."
 
 #. [UA] "Королі й королеви Вальгайму"
 #. [PL] "Królowie i królowe Valheimu"
 #. [RU] "Короли и королевы Вальхейма"
-#, fuzzy
 msgctxt "ach_kingsqueens"
 msgid "Kings and Queens of Valheim"
 msgstr "Каралі і Каралевы Вальхэйма"
@@ -873,12 +868,9 @@ msgstr "Легенды былі праўдай"
 #. [UA] "Попливіть за край світу."
 #. [PL] "Pożegluj na kraniec świata."
 #. [RU] "Переплыть за край мира."
-#, fuzzy
-#| msgctxt "biome_edge"
-#| msgid "Edge of the World"
 msgctxt "ach_sailedge_desc"
 msgid "Sail over the edge of the world."
-msgstr "Праплывіце над краем свету."
+msgstr "Праплывіце за край свету."
 
 #. [UA] "Самотній вовк"
 #. [PL] "Samotny wilk"
@@ -947,10 +939,9 @@ msgstr "Дасягненні назаўжды адключаны для гэта
 #. zostały tymczasowo zablokowane."
 #. [RU] "Поднят предмет, созданный с помощью читов. Прогресс в получении
 #. достижений временно отключен."
-#, fuzzy
 msgctxt "achievements_picked_up_cheated_item"
 msgid "Picked up cheated item. Achievement progress is temporarily disabled."
-msgstr "Падняты прадмет, створаны з дапамогай чытаў. Прагрэс дасягненняў часова адключаны."
+msgstr "Вы паднялі прадмет, створаны з дапамогай чытоў. Дасягненні часова адключаны."
 
 #. [UA] "Унаслідок володіння шахрайськими предметами поступ досягнень для
 #. цього персонажа тимчасово вимкнено."
@@ -958,10 +949,9 @@ msgstr "Падняты прадмет, створаны з дапамогай ч
 #. na przedmioty zdobyte w wyniku cheatów."
 #. [RU] "Прогресс в получении достижений временно отключен для этого персонажа
 #. из-за владения предметами, созданными с помощью читов."
-#, fuzzy
 msgctxt "achievements_temporarily_cheated"
 msgid "Achievement progress is temporarily disabled for this character due to possession of cheated items."
-msgstr "Прагрэс дасягненняў часова адключаны для гэтага персанажа з-за наяўнасці прадметаў, створаных з дапамогай чытаў."
+msgstr "Дасягненні на гэтым персанажы часова адключаны, бо ён мае прадмет, створаных з дапамогай чытоў."
 
 #. [UA] "Додаткова функція: +"
 #. [PL] "Alternatywna funkcja: +"
@@ -4124,14 +4114,14 @@ msgstr "<color=orange>Гейрхафа</color>"
 #. [RU] "Калл Фимбульвест"
 msgctxt "enemy_frozenking"
 msgid "Kall Fimbulbringer"
-msgstr ""
+msgstr "Каль Зіманосец"
 
 #. [UA] "Калл Зимовісник"
 #. [PL] "Kall Zwiastun Mrozu"
 #. [RU] "Калл Фимбульвест"
 msgctxt "enemy_frozenking_p3"
 msgid "Kall Fimbulbringer"
-msgstr ""
+msgstr "Каль Зіманосец"
 
 #. [UA] "Морозовик"
 #. [PL] "Frysling"
@@ -6136,34 +6126,30 @@ msgstr "{name} Пануры"
 #. [UA] "{name} Боронителька"
 #. [PL] "{name} Pustoszycielka"
 #. [RU] "{name} Сокололикая"
-#, fuzzy
 msgctxt "fallenwarrior_title37_f"
 msgid "{name} the Harrower"
-msgstr "{name} Нішчальніца"
+msgstr "{name} Баранавалочніца"
 
 #. [UA] "{name} Боронитель"
 #. [PL] "{name} Pustoszyciel"
 #. [RU] "{name} Сокололикий"
-#, fuzzy
 msgctxt "fallenwarrior_title37_m"
 msgid "{name} the Harrower"
-msgstr "{name} Нішчальнік"
+msgstr "{name} Баранавалок"
 
 #. [UA] "{name} Творчиня Королів"
 #. [PL] "{name} Królotwórczyni"
 #. [RU] "{name} Серый кардинал"
-#, fuzzy
 msgctxt "fallenwarrior_title38_f"
 msgid "{name} the Kingmaker"
-msgstr "{name} Каралятворца"
+msgstr "{name} Шэры Кардынал"
 
 #. [UA] "{name} Творець Королів"
 #. [PL] "{name} Królotwórca"
 #. [RU] "{name} Серый кардинал"
-#, fuzzy
 msgctxt "fallenwarrior_title38_m"
 msgid "{name} the Kingmaker"
-msgstr "{name} Каралятворац"
+msgstr "{name} Шэры Кардынал"
 
 #. [UA] "{name} Віщунка"
 #. [PL] "{name} Wiedząca"
@@ -6302,18 +6288,16 @@ msgstr "{name} Магутны"
 #. [UA] "{name} Гороходка"
 #. [PL] "{name} Górołazka"
 #. [RU] "{name} Покорительница гор"
-#, fuzzy
 msgctxt "fallenwarrior_title48_f"
 msgid "{name} the Mountain Walker"
-msgstr "{name} Гаралазка"
+msgstr "{name} Скалалазка"
 
 #. [UA] "{name} Горохід"
 #. [PL] "{name} Górołaz"
 #. [RU] "{name} Покоритель гор"
-#, fuzzy
 msgctxt "fallenwarrior_title48_m"
 msgid "{name} the Mountain Walker"
-msgstr "{name} Гаралаз"
+msgstr "{name} Скалалаз"
 
 #. [UA] "{name} Загадкова"
 #. [PL] "{name} Tajemnicza"
@@ -6528,31 +6512,27 @@ msgstr "{name} Уладар"
 #. [UA] "{name} Шрамована"
 #. [PL] "{name} Oszpecona"
 #. [RU] "{name} Обезображенная"
-#, fuzzy
 msgctxt "fallenwarrior_title62_f"
 msgid "{name} the Scarred"
-msgstr "{name} Шрамаваная"
+msgstr "{name} Абязвечаная"
 
 #. [UA] "{name} Шрамований"
 #. [PL] "{name} Oszpecony"
 #. [RU] "{name} Обезображенный"
-#, fuzzy
 msgctxt "fallenwarrior_title62_m"
 msgid "{name} the Scarred"
-msgstr "{name} Шрамаваны"
+msgstr "{name} Абязвечаны"
 
 #. [UA] "{name} Мореходка"
 #. [PL] "{name} Żeglarka"
 #. [RU] "{name} Мореплавательница"
-#, fuzzy
 msgctxt "fallenwarrior_title63_f"
 msgid "{name} the Seafarer"
-msgstr "{name} Мараплаўка"
+msgstr "{name} Мараплаўца"
 
 #. [UA] "{name} Морехід"
 #. [PL] "{name} Żeglarz"
 #. [RU] "{name} Мореплаватель"
-#, fuzzy
 msgctxt "fallenwarrior_title63_m"
 msgid "{name} the Seafarer"
 msgstr "{name} Мараплавец"
@@ -6560,7 +6540,6 @@ msgstr "{name} Мараплавец"
 #. [UA] "{name} Шукачка слави"
 #. [PL] "{name} Poszukiwaczka Chwały"
 #. [RU] "{name} Искательница славы"
-#, fuzzy
 msgctxt "fallenwarrior_title64_f"
 msgid "{name} the Seeker of Glory"
 msgstr "{name} Шукальніца славы"
@@ -6568,7 +6547,6 @@ msgstr "{name} Шукальніца славы"
 #. [UA] "{name} Шукач слави"
 #. [PL] "{name} Poszukiwacz Chwały"
 #. [RU] "{name} Искатель славы"
-#, fuzzy
 msgctxt "fallenwarrior_title64_m"
 msgid "{name} the Seeker of Glory"
 msgstr "{name} Шукальнік славы"
@@ -6626,29 +6604,21 @@ msgstr "{name} Суднабудаўнік"
 #. [UA] "{name} Судноламка"
 #. [PL] "{name} Rozbita"
 #. [RU] "{name} Топящая корабли"
-#, fuzzy
 msgctxt "fallenwarrior_title69_f"
 msgid "{name} the Shipwrecker"
-msgstr "{name} Разбівальніца караблёў"
+msgstr "{name} Тапіцелька Караблёў"
 
 #. [UA] "{name} Суднолам"
 #. [PL] "{name} Rozbity"
 #. [RU] "{name} Топящий корабли"
-#, fuzzy
 msgctxt "fallenwarrior_title69_m"
 msgid "{name} the Shipwrecker"
-msgstr "{name} Разбівальнік караблёў"
+msgstr "{name} Тапіцель Караблёў"
 
-#, fuzzy
-#| msgctxt "enemy_goblinbrute"
-#| msgid "Fuling Berserker"
 msgctxt "fallenwarrior_title6_f"
 msgid "{name} the Berserker"
-msgstr "{name} Берсеркша"
+msgstr "{name} Берсерк"
 
-#, fuzzy
-#| msgctxt "enemy_goblinbrute"
-#| msgid "Fuling Berserker"
 msgctxt "fallenwarrior_title6_m"
 msgid "{name} the Berserker"
 msgstr "{name} Берсерк"
@@ -6656,7 +6626,6 @@ msgstr "{name} Берсерк"
 #. [UA] "{name} Балакуча"
 #. [PL] "{name} Złotousta"
 #. [RU] "{name} Среброязыкая"
-#, fuzzy
 msgctxt "fallenwarrior_title70_f"
 msgid "{name} the Silvertongue"
 msgstr "{name} Сярэбранаязыкая"
@@ -6664,7 +6633,6 @@ msgstr "{name} Сярэбранаязыкая"
 #. [UA] "{name} Балакучий"
 #. [PL] "{name} Złotousty"
 #. [RU] "{name} Среброязыкий"
-#, fuzzy
 msgctxt "fallenwarrior_title70_m"
 msgid "{name} the Silvertongue"
 msgstr "{name} Сярэбранаязыкі"
@@ -6672,7 +6640,6 @@ msgstr "{name} Сярэбранаязыкі"
 #. [UA] "{name} Скальдка"
 #. [PL] "{name} Skaldka"
 #. [RU] "{name} Скальд"
-#, fuzzy
 msgctxt "fallenwarrior_title71_f"
 msgid "{name} the Skald"
 msgstr "{name} Скальдка"
@@ -6680,7 +6647,6 @@ msgstr "{name} Скальдка"
 #. [UA] "{name} Скальд"
 #. [PL] "{name} Skald"
 #. [RU] "{name} Скальд"
-#, fuzzy
 msgctxt "fallenwarrior_title71_m"
 msgid "{name} the Skald"
 msgstr "{name} Скальд"
@@ -6906,18 +6872,16 @@ msgstr "{name} Непераможаны"
 #. [UA] "{name} Сіромаха"
 #. [PL] "{name} Przegrana"
 #. [RU] "{name} Темная лошадка"
-#, fuzzy
 msgctxt "fallenwarrior_title87_f"
 msgid "{name} the Underdog"
-msgstr "{name} Сірамаха"
+msgstr "{name} Гаротніца"
 
 #. [UA] "{name} Сіромаха"
 #. [PL] "{name} Przegrany"
 #. [RU] "{name} Темная лошадка"
-#, fuzzy
 msgctxt "fallenwarrior_title87_m"
 msgid "{name} the Underdog"
-msgstr "{name} Сірамаха"
+msgstr "{name} Гаротнік"
 
 #. [UA] "{name} Невмируща"
 #. [PL] "{name} Wieczna"
@@ -6936,7 +6900,6 @@ msgstr "{name} Неўміручы"
 #. [UA] "{name} Об’єднувачка"
 #. [PL] "{name} Jednocząca"
 #. [RU] "{name} Объединительница"
-#, fuzzy
 msgctxt "fallenwarrior_title89_f"
 msgid "{name} the Unifier"
 msgstr "{name} Аб'яднальніца"
@@ -6944,7 +6907,6 @@ msgstr "{name} Аб'яднальніца"
 #. [UA] "{name} Об’єднувач"
 #. [PL] "{name} Jednoczący"
 #. [RU] "{name} Объединитель"
-#, fuzzy
 msgctxt "fallenwarrior_title89_m"
 msgid "{name} the Unifier"
 msgstr "{name} Аб'яднальнік"
@@ -6952,7 +6914,6 @@ msgstr "{name} Аб'яднальнік"
 #. [UA] "{name} Кривава"
 #. [PL] "{name} Krwawa"
 #. [RU] "{name} Кровавая"
-#, fuzzy
 msgctxt "fallenwarrior_title8_f"
 msgid "{name} the Bloody"
 msgstr "{name} Крывавая"
@@ -6960,7 +6921,6 @@ msgstr "{name} Крывавая"
 #. [UA] "{name} Кривавий"
 #. [PL] "{name} Krwawy"
 #. [RU] "{name} Кровавый"
-#, fuzzy
 msgctxt "fallenwarrior_title8_m"
 msgid "{name} the Bloody"
 msgstr "{name} Крывавы"
@@ -6968,18 +6928,16 @@ msgstr "{name} Крывавы"
 #. [UA] "{name} Нездивовна"
 #. [PL] "{name} Niewzruszona"
 #. [RU] "{name} Бесстрастная"
-#, fuzzy
 msgctxt "fallenwarrior_title90_f"
 msgid "{name} the Unimpressed"
-msgstr "{name} Бесстрасная"
+msgstr "{name} Бясстрасная"
 
 #. [UA] "{name} Нездивовний"
 #. [PL] "{name} Niewzruszony"
 #. [RU] "{name} Бесстрастный"
-#, fuzzy
 msgctxt "fallenwarrior_title90_m"
 msgid "{name} the Unimpressed"
-msgstr "{name} Бесстрасны"
+msgstr "{name} Бясстрасны"
 
 #. [UA] "{name} Волоцюга"
 #. [PL] "{name} Włóczęga"
@@ -6998,7 +6956,6 @@ msgstr "{name} Валацуга"
 #. [UA] "{name} Убивця"
 #. [PL] "{name} Zwyciężczyni"
 #. [RU] "{name} Испепеляющая"
-#, fuzzy
 msgctxt "fallenwarrior_title92_f"
 msgid "{name} the Vanquisher"
 msgstr "{name} Спапяляльніца"
@@ -7006,7 +6963,6 @@ msgstr "{name} Спапяляльніца"
 #. [UA] "{name} Убивця"
 #. [PL] "{name} Zwycięzca"
 #. [RU] "{name} Испепеляющий"
-#, fuzzy
 msgctxt "fallenwarrior_title92_m"
 msgid "{name} the Vanquisher"
 msgstr "{name} Спапяляльнік"
@@ -7014,7 +6970,6 @@ msgstr "{name} Спапяляльнік"
 #. [UA] "{name} Переможна"
 #. [PL] "{name} Wygrana"
 #. [RU] "{name} Победительница"
-#, fuzzy
 msgctxt "fallenwarrior_title93_f"
 msgid "{name} the Victorious"
 msgstr "{name} Пераможная"
@@ -7022,7 +6977,6 @@ msgstr "{name} Пераможная"
 #. [UA] "{name} Переможний"
 #. [PL] "{name} Wygrany"
 #. [RU] "{name} Победитель"
-#, fuzzy
 msgctxt "fallenwarrior_title93_m"
 msgid "{name} the Victorious"
 msgstr "{name} Пераможны"
@@ -9479,7 +9433,7 @@ msgstr "Нябёсы ўзгучуць пахвалой, калі ты пусці
 #, fuzzy
 msgctxt "item_atgeir_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Atgeir"
-msgstr "Адлітак: Атгейр Громавай Крыві"
+msgstr "Загатоўка: Атгейр Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -9487,10 +9441,9 @@ msgstr "Адлітак: Атгейр Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_atgeir_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Край цієї зброї настільки лискучий, наскільки  смертоносний."
 #. [PL] "Ostrze tej broni jest równie zabójcze, co błyszczące."
@@ -9525,7 +9478,7 @@ msgstr "Няхай полымя пачне знішчаць, а лёд забя�
 #, fuzzy
 msgctxt "item_atgeir_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Atgeir"
-msgstr "Адлітак: Атгейр Зімняга Полымя"
+msgstr "Загатоўка: Атгейр Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде значно видовищнішим… З часом мороз
 #. усе викаже."
@@ -9533,18 +9486,16 @@ msgstr "Адлітак: Атгейр Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_atgeir_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордичний атгейр"
 #. [PL] "Odlew: nordycki atgeir"
 #. [RU] "Заготовка: нордская алебарда"
-#, fuzzy
 msgctxt "item_atgeir_gold_uncooked"
 msgid "Cast: Nord Atgeir"
-msgstr "Адлітак: Нардычны Атгейр"
+msgstr "Загатоўка: Нардычны Атгейр"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -9598,7 +9549,6 @@ msgstr "Шмат шкоды не наробіць, але затое які до
 #. [UA] "Нордичний топір"
 #. [PL] "Nordycki topór dwuręczny"
 #. [RU] "Нордская секира"
-#, fuzzy
 msgctxt "item_axe2h_gold"
 msgid "Nord Greataxe"
 msgstr "Нардычная аберучная сякера"
@@ -9625,10 +9575,9 @@ msgstr "Пакуль ты рассякаеш ворагаў надвое, іхн
 #. [UA] "Заготовина: Громокровний топір"
 #. [PL] "Odlew: grzmotokrwisty topór dwuręczny"
 #. [RU] "Заготовка: секира громовой крови"
-#, fuzzy
 msgctxt "item_axe2h_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Greataxe"
-msgstr "Адлітак: Аберучная сякера Громавай Крыві"
+msgstr "АдлітакЗагатоўка: Аберучная сякера Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -9636,17 +9585,13 @@ msgstr "Адлітак: Аберучная сякера Громавай Кры�
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_axe2h_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Могутній топір для могутніх воїтелів."
 #. [PL] "Potężny topór dla potężnego wojownika."
 #. [RU] "Могучий топор для настоящего воина."
-#, fuzzy
-#| msgctxt "item_sledge_iron_description"
-#| msgid "A mighty hammer, worthy of a champion."
 msgctxt "item_axe2h_gold_description"
 msgid "A mighty axe fit for a mighty warrior."
 msgstr "Магутная сякера для магутнага ваяра."
@@ -9654,20 +9599,16 @@ msgstr "Магутная сякера для магутнага ваяра."
 #. [UA] "Вогнекрижний топір"
 #. [PL] "Mroźnognisty topór dwuręczny"
 #. [RU] "Секира льда и огня"
-#, fuzzy
-#| msgctxt "se_frostres_name"
-#| msgid "Frost resistance"
 msgctxt "item_axe2h_gold_frostfire"
 msgid "Frostfire Greataxe"
-msgstr "Аберучная сякера Зімняга Полымя"
+msgstr ""
 
 #. [UA] "Уражайте своїх ворогів крижаним інферно!"
 #. [PL] "Uderz swoich wrogów zamrożonym ogniem piekielnym!"
 #. [RU] "Разите врагов леденящим огнем!"
-#, fuzzy
 msgctxt "item_axe2h_gold_frostfire_description"
 msgid "Strike your foes with a frozen inferno!"
-msgstr "Абрынь на ворагаў замарожаным пеклам!"
+msgstr "Абрыньце на ворагаў марознае пекла!"
 
 #. [UA] "Заготовина: Вогнекрижний топір"
 #. [PL] "Odlew: mroźnognisty topór dwuręczny"
@@ -9675,7 +9616,7 @@ msgstr "Абрынь на ворагаў замарожаным пеклам!"
 #, fuzzy
 msgctxt "item_axe2h_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Greataxe"
-msgstr "Адлітак: Аберучная сякера Зімняга Полымя"
+msgstr "Загатоўка: Аберучная сякера Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -9683,18 +9624,16 @@ msgstr "Адлітак: Аберучная сякера Зімняга Полы�
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_axe2h_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордичний топір"
 #. [PL] "Odlew: nordycki topór dwuręczny"
 #. [RU] "Заготовка: нордская секира"
-#, fuzzy
 msgctxt "item_axe2h_gold_uncooked"
 msgid "Cast: Nord Greataxe"
-msgstr "Адлітак: Нардычная аберучная сякера"
+msgstr "Загатоўка: Нардычная аберучная сякера"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -9861,7 +9800,7 @@ msgstr "Калі гэтая сякера сячэ і дрэва, і кроў, п
 #, fuzzy
 msgctxt "item_axe_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Axe"
-msgstr "Адлітак: Сякера Громавай Крыві"
+msgstr "Загатоўка: Сякера Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -9869,10 +9808,9 @@ msgstr "Адлітак: Сякера Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_axe_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Майстерно викувана сокира для майстерної рубанини ворогів."
 #. [PL] "Misterny plan pokonania wrogów wymaga topora o misternych detalach."
@@ -9907,7 +9845,7 @@ msgstr "Распай усё дашчэнту ці замразь у вечным
 #, fuzzy
 msgctxt "item_axe_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Axe"
-msgstr "Адлітак: Сякера Зімняга Полымя"
+msgstr "Загатоўка: Сякера Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -9915,10 +9853,9 @@ msgstr "Адлітак: Сякера Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_axe_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордична сокира"
 #. [PL] "Odlew: nordycki topór"
@@ -9926,7 +9863,7 @@ msgstr "Тая ж форма, аднак схільная да больш ура
 #, fuzzy
 msgctxt "item_axe_gold_uncooked"
 msgid "Cast: Nord Axe"
-msgstr "Адлітак: Нардычная сякера"
+msgstr "Загатоўка: Нардычная сякера"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -10224,10 +10161,9 @@ msgstr "Расколвае чарапы на радасць ваярам."
 #. [UA] "Заготовина: Нордичний топір"
 #. [PL] "Odlew: nordycki topór dwuręczny"
 #. [RU] "Заготовка: нордская секира"
-#, fuzzy
 msgctxt "item_battleaxe_gold_uncooked"
 msgid "Cast: Nord Greataxe"
-msgstr "Адлітак: Нардычная аберучная сякера"
+msgstr "Загатоўка: Нардычная аберучная сякера"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -10572,7 +10508,6 @@ msgstr "Асцярожна, не пракаліце яго падчас пера
 #. [UA] "Хитромудрий ключ"
 #. [PL] "Misterny klucz"
 #. [RU] "Сложный ключ"
-#, fuzzy
 msgctxt "item_bloodgoldkey"
 msgid "Intricate Key"
 msgstr "Мудрагелісты ключ"
@@ -10580,10 +10515,9 @@ msgstr "Мудрагелісты ключ"
 #. [UA] "Якщо є ключ, то десь точно має бути замок."
 #. [PL] "Jeśli jest klucz, to na pewno jest też i zamek."
 #. [RU] "Если есть ключ, значит, где-то есть и замок."
-#, fuzzy
 msgctxt "item_bloodgoldkey_description"
 msgid "If there's a key, then surely there must be a lock."
-msgstr "Калі ёсць ключ, значыць, мусіць быць і замак."
+msgstr "Калі ёсць ключ, значыць, мусіць быць і замок."
 
 #. [UA] "Кров’янка"
 #. [PL] "Kaszanka"
@@ -10602,9 +10536,6 @@ msgstr "Ад яе смаку аж кроў бурліць."
 #. [UA] "Жир ластонога"
 #. [PL] "Słonina z foki"
 #. [RU] "Жир тюленя"
-#, fuzzy
-#| msgctxt "item_dvergrkey"
-#| msgid "Sealbreaker"
 msgctxt "item_blubber"
 msgid "Seal Blubber"
 msgstr "Цюленевы тлушч"
@@ -10612,9 +10543,6 @@ msgstr "Цюленевы тлушч"
 #. [UA] "Витоплений жир ластонога"
 #. [PL] "Pieczona słonina z foki"
 #. [RU] "Приготовленный тюлений жир"
-#, fuzzy
-#| msgctxt "item_bjorn_meat_cooked"
-#| msgid "Cooked Bear Meat"
 msgctxt "item_blubber_cooked"
 msgid "Cooked Seal Blubber"
 msgstr "Печаны цюленевы тлушч"
@@ -10834,7 +10762,6 @@ msgstr "Кроплебомба: Мякаць"
 #. [UA] "Де є пульпаки, там і підземелля."
 #. [PL] "Loch znajduje się tam, gdzie śluz."
 #. [RU] "Где сгустень, там и подземелье."
-#, fuzzy
 msgctxt "item_bombblob_morkhalla_description"
 msgid "A dungeon is where the blob is."
 msgstr "Дзе падзямелле, там і кроплі."
@@ -11060,9 +10987,6 @@ msgstr "Просты лук з моцнай і гнуткай драўніны."
 #. [UA] "Нордичний лук"
 #. [PL] "Nordycki łuk"
 #. [RU] "Нордский лук"
-#, fuzzy
-#| msgctxt "item_bow"
-#| msgid "Crude Bow"
 msgctxt "item_bow_gold"
 msgid "Nord Bow"
 msgstr "Нардычны лук"
@@ -11081,7 +11005,6 @@ msgstr "Лук Громавай Крыві"
 #. [PL] "Na jego cięciwie tańczą błyskawice, czekając tylko, aż ktoś je
 #. uwolni."
 #. [RU] "Молния пляшет по тетиве, готовая вырваться наружу."
-#, fuzzy
 msgctxt "item_bow_gold_bloodlightning_description"
 msgid "Lightning dances along the string, waiting to be unleashed."
 msgstr "Па цеціве танцуе маланка, чакаючы вольнага палёту."
@@ -11092,7 +11015,7 @@ msgstr "Па цеціве танцуе маланка, чакаючы вольн
 #, fuzzy
 msgctxt "item_bow_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Bow"
-msgstr "Адлітак: Лук Громавай Крыві"
+msgstr "Загатоўка: Лук Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -11100,18 +11023,16 @@ msgstr "Адлітак: Лук Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_bow_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Випущені з лука стріли влучатимуть у ціль із золотою точністю."
 #. [PL] "Wystrzelone z niego strzały odnajdą swój cel z niezrównaną precyzją."
 #. [RU] "Этот лук попадет в цель с золотой точностью."
-#, fuzzy
 msgctxt "item_bow_gold_description"
 msgid "This bow shall find its target with a golden precision."
-msgstr "Гэты лук трапіць у цэль з залатой дакладнасцю."
+msgstr "Трапіць у цэль з ювелірнай дакладнасцю."
 
 #. [UA] "Вогнекрижний лук"
 #. [PL] "Mroźnognisty łuk"
@@ -11139,7 +11060,7 @@ msgstr "Трымай галаву халоднай, нацягваючы цец�
 #, fuzzy
 msgctxt "item_bow_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Bow"
-msgstr "Адлітак: Лук Зімняга Полымя"
+msgstr "Загатоўка: Лук Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -11147,10 +11068,9 @@ msgstr "Адлітак: Лук Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_bow_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордичний лук"
 #. [PL] "Odlew: nordycki łuk"
@@ -11160,7 +11080,7 @@ msgstr "Тая ж форма, аднак схільная да больш ура
 #| msgid "Crude Bow"
 msgctxt "item_bow_gold_uncooked"
 msgid "Cast: Nord Bow"
-msgstr "Адлітак: Нардычны лук"
+msgstr "Загатоўка: Нардычны лук"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -12009,7 +11929,7 @@ msgstr "Поўсць, шкура і метал дзейнічаюць разам
 #| msgid "A breastplate of hammered bronze."
 msgctxt "item_chest_heavy_gold_uncooked"
 msgid "Cast: Breastplate of the Protector"
-msgstr "Адлітак: Нагруднік Ахоўніка"
+msgstr "Загатоўка: Нагруднік Ахоўніка"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -12153,7 +12073,7 @@ msgstr "У кожнае шво і складку гэтага па-майстэ�
 #| msgid "Patterns of the Bear"
 msgctxt "item_chest_mage_gold_uncooked"
 msgid "Cast: Robes of the Caller"
-msgstr "Адлітак: Убранне Заклінальніка"
+msgstr "Загатоўка: Убранне Заклінальніка"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -12182,10 +12102,9 @@ msgstr "Першы чалавек Мідгарда ведаў, як абаран
 #. [UA] "Куртка авангарду"
 #. [PL] "Napierśnik awangardy"
 #. [RU] "Нагрудник авангарда"
-#, fuzzy
 msgctxt "item_chest_medium_deepnorth"
 msgid "Chestpiece of the Vanguard"
-msgstr "Нагруднік Авангарда"
+msgstr "Нагруднік авангарда"
 
 #. [UA] "Майстерно виготовлені шкіряні обладунки. Пропонують взірцевий захист,
 #. але не обмежують рухливість воїтелів."
@@ -12204,7 +12123,7 @@ msgstr "Майстэрску вырабленая скураная браня, �
 #, fuzzy
 msgctxt "item_chest_medium_gold_uncooked"
 msgid "Cast: Chestpiece of the Vanguard"
-msgstr "Адлітак: Нагруднік Авангарда"
+msgstr "Загатоўка: Нагруднік Авангарда"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -12672,7 +12591,7 @@ msgstr "Цеціва нацягнута нявызваленай сілай, н�
 #, fuzzy
 msgctxt "item_crossbow_bloodlightning_gold_uncooked"
 msgid "Cast: Thunderblood Crossbow"
-msgstr "Адлітак: Самастрэл Громавай Крыві"
+msgstr "Загатоўка: Самастрэл Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -12680,10 +12599,9 @@ msgstr "Адлітак: Самастрэл Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_crossbow_bloodlightning_gold_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Вогнекрижний арбалет"
 #. [PL] "Mroźnognista kusza"
@@ -12712,7 +12630,7 @@ msgstr "Калі ворагі не замёрзнуць, пакуль ты мэ�
 #, fuzzy
 msgctxt "item_crossbow_frostfire_gold_uncooked"
 msgid "Cast: Frostfire Crossbow"
-msgstr "Адлітак: Самастрэл Зімняга Полымя"
+msgstr "Загатоўка: Самастрэл Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -12720,10 +12638,9 @@ msgstr "Адлітак: Самастрэл Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_crossbow_frostfire_gold_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Нордичний арбалет"
 #. [PL] "Nordycka kusza"
@@ -12751,7 +12668,7 @@ msgstr "У гэтай зброі схаваная неверагодная сі�
 #, fuzzy
 msgctxt "item_crossbow_gold_uncooked"
 msgid "Cast: Nord Crossbow"
-msgstr "Адлітак: Нардычны самастрэл"
+msgstr "Загатоўка: Нардычны самастрэл"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -12765,7 +12682,7 @@ msgstr "Гэтую зброю трэба загартоўваць марозам
 #. [RU] "Разрыватель"
 msgctxt "item_crossbow_ripper"
 msgid "Ripper"
-msgstr "Рвач"
+msgstr "Ірвач"
 
 #. [UA] "Кровоточивий Упокоювач"
 #. [PL] "Raniący rozpruwacz"
@@ -12800,7 +12717,7 @@ msgstr "Навальнічны Рвач"
 #. [RU] "Болты будут рвать ваших врагов, словно свирепый ветер."
 msgctxt "item_crossbow_ripper_lightning_description"
 msgid "The bolts will tear through your enemies like a particularly nasty gale."
-msgstr "Гэтыя балты будуць пранізваць вашых ворагаў нібы штармавы павеў."
+msgstr "Гэтыя белты будуць пранізваць вашых ворагаў нібы штармавы павеў."
 
 #. [UA] "Первісний Упокоювач"
 #. [PL] "Rozpruwacz korzenia"
@@ -12817,7 +12734,7 @@ msgstr "Каранёвы Рвач"
 #. земли корни."
 msgctxt "item_crossbow_ripper_nature_description"
 msgid "If the bolt doesn't pin your foe in place, the roots surging up from the ground surely will."
-msgstr "Калі болт не прышпіліць ворага да месцы, то карані, што з зямлі ўзаўюцца, даробяць справу."
+msgstr "Калі белт не прыб'е ворага да месцы, то карані, што з зямлі ўзаўюцца, даробяць справу."
 
 #. [UA] "Перлина корони"
 #. [PL] "Klejnot koronny"
@@ -14004,7 +13921,7 @@ msgstr "Лёгкая рызыка абмаражэння непазбежная.
 #, fuzzy
 msgctxt "item_fistweapon_frostfire_gold_uncooked"
 msgid "Cast: Frostfire Knucklechains"
-msgstr "Адлітак: Кастэты Зімняга Полымя"
+msgstr "Загатоўка: Кастэты Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -14012,10 +13929,9 @@ msgstr "Адлітак: Кастэты Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_fistweapon_frostfire_gold_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Нордичні кулачні ланцюги"
 #. [PL] "Nordyckie łańcuchowe kastety"
@@ -14050,7 +13966,7 @@ msgstr "Калі ты б'ешся гэтай зброяй, цябе ахінае
 #, fuzzy
 msgctxt "item_fistweapon_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Knucklechains"
-msgstr "Адлітак: Кастэты Громавай Крыві"
+msgstr "Загатоўка: Кастэты Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -14058,10 +13974,9 @@ msgstr "Адлітак: Кастэты Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_fistweapon_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Обмотайте кулаки ланцюгами з найміцніших металів і най вороги
 #. відчують силу ваших ударів."
@@ -14080,7 +13995,7 @@ msgstr "Агарні свае кулакі ў найцвярдзейшы мет�
 #, fuzzy
 msgctxt "item_fistweapon_gold_uncooked"
 msgid "Cast: Nord Knucklechains"
-msgstr "Адлітак: Нардычныя кастэты"
+msgstr "Загатоўка: Нардычныя кастэты"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -14285,7 +14200,7 @@ msgstr "Страшэнна халодны навобмацак, напоўнен
 #, fuzzy
 msgctxt "item_frostorbs_uncooked"
 msgid "Cast: Northern Vengeance"
-msgstr "Адлітак: Паўночная Помста"
+msgstr "Загатоўка: Паўночная Помста"
 
 #. [UA] "Чарівний предмет потрібно загартувати морозом."
 #. [PL] "Ten magiczny przedmiot należy zahartować mrozem."
@@ -15126,7 +15041,7 @@ msgstr "Упрыгожаны крыламі перамогі."
 #, fuzzy
 msgctxt "item_helmet_heavy_gold_uncooked"
 msgid "Cast: Helmet of the Protector"
-msgstr "Адлітак: Шалом Ахоўніка"
+msgstr "Загатоўка: Шалом Ахоўніка"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -15244,7 +15159,7 @@ msgstr "Чараўніка можна пазнаць па вачах, таму �
 #| msgid "Headdress of the Bear"
 msgctxt "item_helmet_mage_gold_uncooked"
 msgid "Cast: Headdress of the Caller"
-msgstr "Адлітак: Каптур Заклінальніка"
+msgstr "Загатоўка: Каптур Заклінальніка"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -15290,7 +15205,7 @@ msgstr "Абароніць вашу шыю і ад непагадзі, і ад �
 #, fuzzy
 msgctxt "item_helmet_medium_gold_uncooked"
 msgid "Cast: Hood of the Vanguard"
-msgstr "Адлітак: Каптур Авангарда"
+msgstr "Загатоўка: Каптур Авангарда"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -15764,7 +15679,7 @@ msgstr "Пасадзіце, каб вырасціць кейл."
 #, fuzzy
 msgctxt "item_keys_gold_uncooked"
 msgid "Cast: Intricate Key"
-msgstr "Адлітак: Мудрагелісты ключ"
+msgstr "Загатоўка: Мудрагелісты ключ"
 
 #. [UA] "Ключі потрібно загартувати морозом."
 #. [PL] "Te klucze należy zahartować mrozem."
@@ -15876,7 +15791,7 @@ msgstr "Лязо ўжо ў крыві, аднак яно іскрыцца ў п�
 #, fuzzy
 msgctxt "item_knife_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Dagger"
-msgstr "Адлітак: Кінжал Громавай Крыві"
+msgstr "Загатоўка: Кінжал Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -15884,10 +15799,9 @@ msgstr "Адлітак: Кінжал Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_knife_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Золотий відблиск стане останнім, що побачать ваші вороги."
 #. [PL] "Złoty błysk to ostatnie, co zobaczą twoi wrogowie."
@@ -15921,7 +15835,7 @@ msgstr "Ранена дзяйсці гэтым лязом шчыпле, як л�
 #, fuzzy
 msgctxt "item_knife_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Dagger"
-msgstr "Адлітак: Кінжал Зімняга Полымя"
+msgstr "Загатоўка: Кінжал Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -15929,18 +15843,16 @@ msgstr "Адлітак: Кінжал Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_knife_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордичний кинджал"
 #. [PL] "Odlew: nordycki sztylet"
 #. [RU] "Заготовка: нордский кинжал"
-#, fuzzy
 msgctxt "item_knife_gold_uncooked"
 msgid "Cast: Nord Dagger"
-msgstr "Адлітак: Нардычны кінжал"
+msgstr "Загатоўка: Нардычны кінжал"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -15990,7 +15902,6 @@ msgstr "Заклінальнік Бездані"
 #. [UA] "Хто відгукнеться на поклик Порожнечі?"
 #. [PL] "Kto odpowie na wezwanie pustki?"
 #. [RU] "Кто откликнется на зов Пустоты?"
-#, fuzzy
 msgctxt "item_knife_void_description"
 msgid "Who shall answer the call of the Void?"
 msgstr "Хто адкажа на заклік Бездані?"
@@ -16203,28 +16114,25 @@ msgstr "Гэтую браню трэба загартоўваць марозам
 #. [UA] "Штани захисників"
 #. [PL] "Spodnie obrońcy"
 #. [RU] "Штаны защитника"
-#, fuzzy
 msgctxt "item_legs_heavy_deepnorth"
 msgid "Trousers of the Protector"
-msgstr "Штаны Ахоўніка"
+msgstr "Порткі абаронцы"
 
 #. [UA] "Товсте взуття й штани збережуть тепло, коли ви глибоко
 #. провалюватиметеся у сніг."
 #. [PL] "Ciężkie buty i spodnie, które zapewnią ci ciepło, gdy będziesz
 #. przedzierać się przez głęboki śnieg."
 #. [RU] "Тяжелые сапоги и штаны не дадут замерзнуть в глубоких снегах."
-#, fuzzy
 msgctxt "item_legs_heavy_deepnorth_description"
 msgid "Heavy boots and trousers, to keep you warm as you trudge through deep snow."
-msgstr "Цяжкія боты і штаны, каб было цёпла, пакуль ты тупаеш па глыбокім снегу."
+msgstr "Цяжкія боты і порткі, каб было цёпла, пакуль тупаеш па глыбокім снегу."
 
 #. [UA] "Заготовина: Штани захисників"
 #. [PL] "Odlew: spodnie obrońcy"
 #. [RU] "Заготовка: штаны защитника"
-#, fuzzy
 msgctxt "item_legs_heavy_gold_uncooked"
 msgid "Cast: Trousers of the Protector"
-msgstr "Адлітак: Штаны Ахоўніка"
+msgstr "Загатоўка: Штаны абаронцы"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -16264,17 +16172,13 @@ msgstr "Трохі рыпяць пры хадзе."
 #. [UA] "Штани з бикоящурового хутра"
 #. [PL] "Spodnie z futra loxa"
 #. [RU] "Штаны из меха локса"
-#, fuzzy
-#| msgctxt "item_legs_leather"
-#| msgid "Leather Trousers"
 msgctxt "item_legs_lox"
 msgid "Lox Fur Trousers"
-msgstr "Штаны з быкаяшчаравай поўсці"
+msgstr "Порткі з футра быкаяшчара "
 
 #. [UA] "М’які, тихі й гнучкі."
 #. [PL] "Miękkie, ciche i giętkie."
 #. [RU] "Мягкие, бесшумные и гибкие."
-#, fuzzy
 msgctxt "item_legs_lox_description"
 msgid "Soft, silent and flexible."
 msgstr "Мяккія, бясшумныя і гнуткія."
@@ -16305,12 +16209,9 @@ msgstr "Ці сапраўды першая чараўніца насіла ак�
 #. [UA] "Штани заклиначів"
 #. [PL] "Spodnie przywoływacza"
 #. [RU] "Штаны призывателя"
-#, fuzzy
-#| msgctxt "item_legs_mage_ashlands"
-#| msgid "Trousers of Embla"
 msgctxt "item_legs_mage_deepnorth"
 msgid "Trousers of the Caller"
-msgstr "Штаны Заклінальніка"
+msgstr "Порткі заклінальніка"
 
 #. [UA] "Щільна тканина вбереже шкіру від укусів холоду."
 #. [PL] "Dopasowane ocieplacze, dzięki którym zimno nie przeniknie ci przez
@@ -16334,12 +16235,9 @@ msgstr "Чараўніковы штаны заўсёды асабліва цес
 #. [UA] "Заготовина: Штани заклиначів"
 #. [PL] "Odlew: spodnie przywoływacza"
 #. [RU] "Заготовка: штаны призывателя"
-#, fuzzy
-#| msgctxt "item_chest_berserker"
-#| msgid "Patterns of the Bear"
 msgctxt "item_legs_mage_gold_uncooked"
 msgid "Cast: Trousers of the Caller"
-msgstr "Адлітак: Штаны Заклінальніка"
+msgstr "Загатоўка: Порткі заклінальніка"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -16368,12 +16266,9 @@ msgstr "Першы чалавек Мідгарда лічыў за лепшае 
 #. [UA] "Штани авангарду"
 #. [PL] "Spodnie awangardy"
 #. [RU] "Штаны авангарда"
-#, fuzzy
-#| msgctxt "item_legs_mage_ashlands"
-#| msgid "Trousers of Embla"
 msgctxt "item_legs_medium_deepnorth"
 msgid "Trousers of the Vanguard"
-msgstr "Штаны Авангарда"
+msgstr "Порткі авангарда"
 
 #. [UA] "Теплі штани підійдуть для холодного клімату. Взуття має взірцеве
 #. зчеплення зі слизькими поверхнями."
@@ -16381,18 +16276,16 @@ msgstr "Штаны Авангарда"
 #. przyczepność do zlodowaciałego podłoża."
 #. [RU] "Теплые штаны для холодных краев. Сапоги хорошо держат шаг на
 #. обледенелой местности."
-#, fuzzy
 msgctxt "item_legs_medium_deepnorth_description"
 msgid "Warm trousers suitable for a cold climate. The boots offer excellent grip in the icy terrain."
-msgstr "Цёплыя штаны для халоднага клімату. Боты забяспечваюць выдатнае счапленне на лёдзе."
+msgstr "Цёплыя штаны для халоднага клімату. Боты даюць выдатнае счапленне на лёдзе."
 
 #. [UA] "Заготовина: Штани авангарду"
 #. [PL] "Odlew: spodnie awangardy"
 #. [RU] "Заготовка: штаны авангарда"
-#, fuzzy
 msgctxt "item_legs_medium_gold_uncooked"
 msgid "Cast: Trousers of the Vanguard"
-msgstr "Адлітак: Штаны Авангарда"
+msgstr "Загатоўка: Порткі авангарда"
 
 #. [UA] "Обладунки потрібно загартувати морозом."
 #. [PL] "Ten element zbroi należy zahartować mrozem."
@@ -16495,9 +16388,6 @@ msgstr "Тонкая ільняная нітка з моцнага льняно�
 #. [UA] "Брусниця"
 #. [PL] "Czerwone borówki"
 #. [RU] "Брусника"
-#, fuzzy
-#| msgctxt "item_cloudberries"
-#| msgid "Cloudberries"
 msgctxt "item_lingonberries"
 msgid "Lingonberries"
 msgstr "Брусніцы"
@@ -16505,15 +16395,13 @@ msgstr "Брусніцы"
 #. [UA] "Терпкі ягоди, що можуть рости навіть у найхолоднішому кліматі."
 #. [PL] "Te cierpkie jagody rosną nawet w zimnych klimatach."
 #. [RU] "Эти терпкие ягоды могут расти даже в холодном климате."
-#, fuzzy
 msgctxt "item_lingonberries_description"
 msgid "These tart berries can grow even in cold climates."
-msgstr "Гэтыя кіслыя ягады растуць нават у халодным клімаце."
+msgstr "Кіслыя ягады, якія растуць нават у халодным клімаце."
 
 #. [UA] "Сік брусниці"
 #. [PL] "Sok z czerwonych borówek"
 #. [RU] "Брусничный сок"
-#, fuzzy
 msgctxt "item_lingondricka"
 msgid "Lingonberry Juice"
 msgstr "Бруснічны сок"
@@ -16521,10 +16409,9 @@ msgstr "Бруснічны сок"
 #. [UA] "Пасує майже всій їжі."
 #. [PL] "Dobrze pasuje do większości dań."
 #. [RU] "Хорошо сочетается с большинством блюд."
-#, fuzzy
 msgctxt "item_lingondricka_description"
 msgid "Pairs well with most foods."
-msgstr "Добра паруецца з большасцю страваў."
+msgstr "Добра пасуе да большасці страў."
 
 #. [UA] "М’ясо бикоящура"
 #. [PL] "Mięso Lox'a"
@@ -16619,10 +16506,9 @@ msgstr "Кувалда Громавай Крыві"
 #. całym świecie..."
 #. [RU] "Когда это оружие попадает в цель, грохот разносится эхом по всему
 #. миру..."
-#, fuzzy
 msgctxt "item_mace2h_gold_bloodlightning_description"
 msgid "As this weapon strikes true, the blow shall echo throughout the world..."
-msgstr "Калі гэтая зброя б'е дакладна, удару рэхам адгукнецца ўвесь свет..."
+msgstr "Калі зброя б'е у цэль, удару рэхам адгукаецца па ўсім свеце..."
 
 #. [UA] "Заготовина: Громокровна кувалда"
 #. [PL] "Odlew: grzmotokrwisty młot"
@@ -16630,7 +16516,7 @@ msgstr "Калі гэтая зброя б'е дакладна, удару рэх
 #, fuzzy
 msgctxt "item_mace2h_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Sledge"
-msgstr "Адлітак: Кувалда Громавай Крыві"
+msgstr "Загатоўка: Кувалда Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -16638,15 +16524,13 @@ msgstr "Адлітак: Кувалда Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_mace2h_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Ударам цієї зброї позаздрив би й троль."
 #. [PL] "Z tą bronią możesz zadawać ciosy potężne niczym troll."
 #. [RU] "С этим оружием ваши удары будут тяжелы, как у самого тролля."
-#, fuzzy
 msgctxt "item_mace2h_gold_description"
 msgid "With this weapon, your blows will be heavy as a troll's."
 msgstr "З гэтай зброяй твае ўдары будуць цяжкія, нібы ў троля."
@@ -16675,7 +16559,7 @@ msgstr "Такі халодны, што аж пячэ, ці такі гарач�
 #, fuzzy
 msgctxt "item_mace2h_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Sledge"
-msgstr "Адлітак: Кувалда Зімняга Полымя"
+msgstr "Загатоўка: Кувалда Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -16683,18 +16567,16 @@ msgstr "Адлітак: Кувалда Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_mace2h_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордична дворучна кувалда"
 #. [PL] "Odlew: nordycki młot"
 #. [RU] "Заготовка: нордская кувалда"
-#, fuzzy
 msgctxt "item_mace2h_gold_uncooked"
 msgid "Cast: Nord Sledge"
-msgstr "Адлітак: Нардычная кувалда"
+msgstr "Загатоўка: Нардычная кувалда"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -16782,9 +16664,6 @@ msgstr "Калі аднаго ўдару недастаткова, каб зва
 #. [UA] "Нордична булава"
 #. [PL] "Nordycka buława"
 #. [RU] "Нордская булава"
-#, fuzzy
-#| msgctxt "item_mace_wood"
-#| msgid "Wooden Mace"
 msgctxt "item_mace_gold"
 msgid "Nord Mace"
 msgstr "Нардычная булава"
@@ -16811,7 +16690,7 @@ msgstr "Зброя, якая можа паспрачацца нават з то�
 #, fuzzy
 msgctxt "item_mace_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Mace"
-msgstr "Адлітак: Булава Громавай Крыві"
+msgstr "Загатоўка: Булава Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -16819,10 +16698,9 @@ msgstr "Адлітак: Булава Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_mace_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Бийте швидко й болісно — не дайте ворогам і миті на відновлення."
 #. [PL] "Uderzaj mocno i szybko, nie dając swojemu wrogowi czasu na dojście do
@@ -16854,10 +16732,9 @@ msgstr "Гэта іскры ляцяць, калі зброя знаходзіц
 #. [UA] "Заготовина: Вогнекрижна булава"
 #. [PL] "Odlew: mroźnognista buława"
 #. [RU] "Заготовка: Булава льда и огня"
-#, fuzzy
 msgctxt "item_mace_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Mace"
-msgstr "Адлітак: Булава Зімняга Полымя"
+msgstr "Загатоўка: Булава агнялёду"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -16865,10 +16742,9 @@ msgstr "Адлітак: Булава Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_mace_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордична булава"
 #. [PL] "Odlew: nordycka buława"
@@ -16876,7 +16752,7 @@ msgstr "Тая ж форма, аднак схільная да больш ура
 #, fuzzy
 msgctxt "item_mace_gold_uncooked"
 msgid "Cast: Nord Mace"
-msgstr "Адлітак: Нардычная булава"
+msgstr "Загатоўка: Нардычная булава"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -17516,10 +17392,9 @@ msgstr "У мясе поўзаюць лярвы. Яно жудасна смяр�
 #. [UA] "Бульбейтир із котлетками"
 #. [PL] "Klopsiki z poteitrami"
 #. [RU] "Фрикадельки с картофэйтром"
-#, fuzzy
 msgctxt "item_meatballsmashedpoteitr"
 msgid "Meatballs and Poteitr"
-msgstr "Біткі з бульбай"
+msgstr "Біткі з бульбэйтрам"
 
 #. [UA] "Немає страви легендарнішої!"
 #. [PL] "Bardziej kultowo się już nie da!"
@@ -17626,12 +17501,9 @@ msgstr "Сыры засмужаны заяц"
 #. [UA] "Форма: Нагрудник захисників"
 #. [PL] "Forma: napierśnik obrońcy"
 #. [RU] "Форма: нагрудник защитника"
-#, fuzzy
-#| msgctxt "item_chest_bronze_description"
-#| msgid "A breastplate of hammered bronze."
 msgctxt "item_mold_armor_gold_chest"
 msgid "Mould: Breastplate of the Protector"
-msgstr "Форма: Нагруднік Ахоўніка"
+msgstr "Форма: Нагруднік абаронцы"
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити
 #. найвидовищніші обладунки."
@@ -17639,18 +17511,16 @@ msgstr "Форма: Нагруднік Ахоўніка"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_gold_chest_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Шолом захисників"
 #. [PL] "Forma: hełm obrońcy"
 #. [RU] "Форма: шлем защитника"
-#, fuzzy
 msgctxt "item_mold_armor_gold_helmet"
 msgid "Mould: Helmet of the Protector"
-msgstr "Форма: Шалом Ахоўніка"
+msgstr "Форма: Шалом абаронцы"
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити
 #. найвидовищніші обладунки."
@@ -17658,18 +17528,16 @@ msgstr "Форма: Шалом Ахоўніка"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_gold_helmet_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Штани захисників"
 #. [PL] "Forma: spodnie obrońcy"
 #. [RU] "Форма: штаны защитника"
-#, fuzzy
 msgctxt "item_mold_armor_gold_legs"
 msgid "Mould: Trousers of the Protector"
-msgstr "Форма: Штаны Ахоўніка"
+msgstr "Форма: Штаны абаронцы"
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити
 #. найвидовищніші обладунки."
@@ -17677,10 +17545,9 @@ msgstr "Форма: Штаны Ахоўніка"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_gold_legs_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Роба заклиначів"
 #. [PL] "Forma: szaty przywoływacza"
@@ -17696,20 +17563,16 @@ msgstr "Форма: Убранне Заклінальніка"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_mage_chest_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Каптур заклиначів"
 #. [PL] "Forma: nakrycie głowy przywoływacza"
 #. [RU] "Форма: головной убор призывателя"
-#, fuzzy
-#| msgctxt "item_helmet_berserker"
-#| msgid "Headdress of the Bear"
 msgctxt "item_mold_armor_mage_helmet"
 msgid "Mould: Headdress of the Caller"
-msgstr "Форма: Каптур Заклінальніка"
+msgstr "Форма: Нагалоўе заклінальніка"
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити
 #. найвидовищніші обладунки."
@@ -17717,10 +17580,9 @@ msgstr "Форма: Каптур Заклінальніка"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_mage_helmet_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Штани заклиначів"
 #. [PL] "Forma: spodnie przywoływacza"
@@ -17736,10 +17598,9 @@ msgstr "Форма: Штаны Заклінальніка"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_mage_legs_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Куртка авангарду"
 #. [PL] "Forma: napierśnik awangardy"
@@ -17755,18 +17616,16 @@ msgstr "Форма: Нагруднік Авангарда"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_medium_chest_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Каптур авангарду"
 #. [PL] "Forma: kaptur awangardy"
 #. [RU] "Форма: капюшон авангарда"
-#, fuzzy
 msgctxt "item_mold_armor_medium_helmet"
 msgid "Mould: Hood of the Vanguard"
-msgstr "Форма: Каптур Авангарда"
+msgstr "Форма: Каптур авангарда"
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити
 #. найвидовищніші обладунки."
@@ -17774,10 +17633,9 @@ msgstr "Форма: Каптур Авангарда"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_medium_helmet_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Штани авангарду"
 #. [PL] "Forma: spodnie awangardy"
@@ -17793,17 +17651,13 @@ msgstr "Форма: Штаны Авангарда"
 #. spektakularny element zbroi."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите великолепный
 #. предмет брони."
-#, fuzzy
 msgctxt "item_mold_armor_medium_legs_description"
 msgid "Filled with the right material, this mould will create a spectacular piece of armour."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць цудоўны элемент аховы."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць самавіты элемент брані."
 
 #. [UA] "Форма: Нордичний атгейр"
 #. [PL] "Forma: nordycki atgeir"
 #. [RU] "Форма: нордская алебарда"
-#, fuzzy
-#| msgctxt "item_atgeir_wood"
-#| msgid "Wooden Atgeir"
 msgctxt "item_mold_atgeir"
 msgid "Mould: Nord Atgeir"
 msgstr "Форма: Нардычны Атгейр"
@@ -17814,15 +17668,13 @@ msgstr "Форма: Нардычны Атгейр"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_atgeir_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Нордична сокира"
 #. [PL] "Forma: nordycki topór"
 #. [RU] "Форма: нордский топор"
-#, fuzzy
 msgctxt "item_mold_axe"
 msgid "Mould: Nord Axe"
 msgstr "Форма: Нардычная сякера"
@@ -17830,7 +17682,6 @@ msgstr "Форма: Нардычная сякера"
 #. [UA] "Форма: Нордичний топір"
 #. [PL] "Forma: nordycki topór dwuręczny"
 #. [RU] "Форма: нордская секира"
-#, fuzzy
 msgctxt "item_mold_axe2h"
 msgid "Mould: Nord Greataxe"
 msgstr "Форма: Нардычная аберучная сякера"
@@ -17841,10 +17692,9 @@ msgstr "Форма: Нардычная аберучная сякера"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_axe2h_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити найгрізнішу
 #. зброю."
@@ -17852,15 +17702,13 @@ msgstr "Напоўненая патрэбным матэрыялам, гэтая
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_axe_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Нордичний лук"
 #. [PL] "Forma: nordycki łuk"
 #. [RU] "Форма: нордский лук"
-#, fuzzy
 msgctxt "item_mold_bow"
 msgid "Mould: Nord Bow"
 msgstr "Форма: Нардычны лук"
@@ -17871,18 +17719,16 @@ msgstr "Форма: Нардычны лук"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_bow_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Нордичний арбалет"
 #. [PL] "Forma: nordycka kusza"
 #. [RU] "Форма: нордский арбалет"
-#, fuzzy
 msgctxt "item_mold_crossbow"
 msgid "Mould: Nord Crossbow"
-msgstr "Форма: Нардычны самастрэл"
+msgstr "Форма: Нардычны арбалет"
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити найгрізнішу
 #. зброю."
@@ -17890,18 +17736,16 @@ msgstr "Форма: Нардычны самастрэл"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_crossbow_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Нордичні кулачні ланцюги"
 #. [PL] "Forma: nordyckie łańcuchowe kastety"
 #. [RU] "Форма: нордские цепные кастеты"
-#, fuzzy
 msgctxt "item_mold_fistweapon"
 msgid "Mould: Nord Knucklechains"
-msgstr "Форма: Нардычныя кастэты"
+msgstr "Форма: Нардычныя ланцуговыя кастэты"
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити найгрізнішу
 #. зброю."
@@ -17909,15 +17753,13 @@ msgstr "Форма: Нардычныя кастэты"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_fistweapon_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Хитромудрий ключ"
 #. [PL] "Forma: misterny klucz"
 #. [RU] "Форма: сложный ключ"
-#, fuzzy
 msgctxt "item_mold_keys"
 msgid "Mould: Intricate Key"
 msgstr "Форма: Мудрагелісты ключ"
@@ -17927,15 +17769,13 @@ msgstr "Форма: Мудрагелісты ключ"
 #. [PL] "Wypełniona odpowiednim materiałem forma odlewnicza stworzy potężny
 #. klucz."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите мощный ключ."
-#, fuzzy
 msgctxt "item_mold_keys_description"
 msgid "Filled with the right material, this mould will create a powerful key."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць магутны ключ."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць магутны ключ."
 
 #. [UA] "Форма: Нордичний кинджал"
 #. [PL] "Forma: nordycki sztylet"
 #. [RU] "Форма: нордский кинжал"
-#, fuzzy
 msgctxt "item_mold_knife"
 msgid "Mould: Nord Dagger"
 msgstr "Форма: Нардычны кінжал"
@@ -17946,15 +17786,13 @@ msgstr "Форма: Нардычны кінжал"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_knife_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Нордична булава"
 #. [PL] "Forma: nordycka buława"
 #. [RU] "Форма: нордская булава"
-#, fuzzy
 msgctxt "item_mold_mace"
 msgid "Mould: Nord Mace"
 msgstr "Форма: Нардычная булава"
@@ -17962,9 +17800,6 @@ msgstr "Форма: Нардычная булава"
 #. [UA] "Форма: Нордична дворучна кувалда"
 #. [PL] "Forma: nordycki młot"
 #. [RU] "Форма: нордская кувалда"
-#, fuzzy
-#| msgctxt "item_sledge_wood"
-#| msgid "Wooden Sledge"
 msgctxt "item_mold_mace2h"
 msgid "Mould: Nord Sledge"
 msgstr "Форма: Нардычная кувалда"
@@ -17975,10 +17810,9 @@ msgstr "Форма: Нардычная кувалда"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_mace2h_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити найгрізнішу
 #. зброю."
@@ -17986,15 +17820,13 @@ msgstr "Напоўненая патрэбным матэрыялам, гэтая
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_mace_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Нордичний кулачний щит"
 #. [PL] "Forma: nordycki puklerz"
 #. [RU] "Форма: нордский баклер"
-#, fuzzy
 msgctxt "item_mold_shield_buckler"
 msgid "Mould: Nord Buckler"
 msgstr "Форма: Нардычны пуклер"
@@ -18003,17 +17835,13 @@ msgstr "Форма: Нардычны пуклер"
 #. [PL] "Wypełniona odpowiednim materiałem forma odlewnicza stworzy wytrzymałą
 #. tarczę."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите крепкий щит."
-#, fuzzy
 msgctxt "item_mold_shield_buckler_description"
 msgid "Filled with the right material, this mould will create a hardy shield."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць трывалы шчыт."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць трывалы шчыт."
 
 #. [UA] "Форма: Нордичний щит"
 #. [PL] "Forma: nordycka tarcza"
 #. [RU] "Форма: нордский щит"
-#, fuzzy
-#| msgctxt "item_shield_wood"
-#| msgid "Wood Shield"
 msgctxt "item_mold_shield_round"
 msgid "Mould: Nord Shield"
 msgstr "Форма: Нардычны шчыт"
@@ -18022,15 +17850,13 @@ msgstr "Форма: Нардычны шчыт"
 #. [PL] "Wypełniona odpowiednim materiałem forma odlewnicza stworzy wytrzymałą
 #. tarczę."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите крепкий щит."
-#, fuzzy
 msgctxt "item_mold_shield_round_description"
 msgid "Filled with the right material, this mould will create a hardy shield."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць трывалы шчыт."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць трывалы шчыт."
 
 #. [UA] "Форма: Нордичний великий щит"
 #. [PL] "Forma: nordycka wielka tarcza"
 #. [RU] "Форма: нордский большой щит"
-#, fuzzy
 msgctxt "item_mold_shield_tower"
 msgid "Mould: Nord Greatshield"
 msgstr "Форма: Нардычны вялікі шчыт"
@@ -18039,17 +17865,13 @@ msgstr "Форма: Нардычны вялікі шчыт"
 #. [PL] "Wypełniona odpowiednim materiałem forma odlewnicza stworzy wytrzymałą
 #. tarczę."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите крепкий щит."
-#, fuzzy
 msgctxt "item_mold_shield_tower_description"
 msgid "Filled with the right material, this mould will create a hardy shield."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць трывалы шчыт."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць трывалы шчыт."
 
 #. [UA] "Форма: Нордичний спис"
 #. [PL] "Forma: nordycka włócznia"
 #. [RU] "Форма: Нордское копье"
-#, fuzzy
-#| msgctxt "item_spear_wood"
-#| msgid "Wooden Spear"
 msgctxt "item_mold_spear"
 msgid "Mould: Nord Spear"
 msgstr "Форма: Нардычная дзіда"
@@ -18060,10 +17882,9 @@ msgstr "Форма: Нардычная дзіда"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_spear_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Форма: Північна помста"
 #. [PL] "Forma: północna zemsta"
@@ -18167,10 +17988,9 @@ msgstr "Форма: Нардычны аберучны меч"
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_sword2h_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "За наявності відповідних матеріалів дозволить виготовити найгрізнішу
 #. зброю."
@@ -18178,10 +17998,9 @@ msgstr "Напоўненая патрэбным матэрыялам, гэтая
 #. groźną broń."
 #. [RU] "Заполнив эту форму подходящим материалом, вы получите опасное
 #. оружие."
-#, fuzzy
 msgctxt "item_mold_sword_description"
 msgid "Filled with the right material, this mould will create a most formidable weapon."
-msgstr "Напоўненая патрэбным матэрыялам, гэтая форма стварыць найгрызотнейшую зброю."
+msgstr "Запоўніце ліцейную форму адпаведным рэчывам — і яна створыць найгрознейшую зброю."
 
 #. [UA] "Довгі пазурі"
 #. [PL] "Długie pazury"
@@ -18218,12 +18037,9 @@ msgstr "Унутры віруе магутная энергія, гатовая 
 #. [UA] "М’ясо лося"
 #. [PL] "Mięso z łosia"
 #. [RU] "Мясо лося"
-#, fuzzy
-#| msgctxt "item_meat_cooked"
-#| msgid "Cooked Meat"
 msgctxt "item_moose_meat"
 msgid "Moose Meat"
-msgstr "Мяса лася"
+msgstr "Ласяціна"
 
 #. [UA] "Смажене м’ясо лося"
 #. [PL] "Pieczone mięso łosia"
@@ -18256,9 +18072,6 @@ msgstr "З гэтага мяса атрымаецца дужая страва, �
 #. [UA] "Шкура лося"
 #. [PL] "Skóra łosia"
 #. [RU] "Шкура лося"
-#, fuzzy
-#| msgctxt "customization_beard06"
-#| msgid "Loose Braid"
 msgctxt "item_moosehide"
 msgid "Moose Hide"
 msgstr "Ласячая шкура"
@@ -18266,17 +18079,13 @@ msgstr "Ласячая шкура"
 #. [UA] "Це хутро ідеально пристосоване до клімату північних регіонів."
 #. [PL] "To futro jest idealnie przystosowane do północnych klimatów."
 #. [RU] "Эта шкура идеально подходит для северных земель."
-#, fuzzy
 msgctxt "item_moosehide_description"
 msgid "This fur is perfectly adapted to northern climates."
-msgstr "Гэтая поўсць ідэальна прыстасаваная да паўночнага клімату."
+msgstr "Поўсць, ідэальна прыстасаваная да паўночнага клімату."
 
 #. [UA] "М’ясо в булці"
 #. [PL] "Mięso w chlebie"
 #. [RU] "Мясо в хлебе"
-#, fuzzy
-#| msgctxt "customization_hair17"
-#| msgid "Neat Braids"
 msgctxt "item_moosekebab"
 msgid "Meat In Bread"
 msgstr "Мяса ў хлебе"
@@ -18285,25 +18094,20 @@ msgstr "Мяса ў хлебе"
 #. [PL] "Praktyczny posiłek. Częsty wybór podróżujących kupców."
 #. [RU] "Удобная еда, которой странствующие торговцы часто отдают
 #. предпочтение."
-#, fuzzy
 msgctxt "item_moosekebab_description"
 msgid "A convenient meal, often favoured by travelling merchants."
-msgstr "Зручная страва, якую часта аддаюць перавагу вандроўныя гандляры."
+msgstr "Зручная страва, якой аддаюць перавагу вандроўныя гандляры."
 
 #. [UA] "Сухожилля лося"
 #. [PL] "Ścięgno łosia"
 #. [RU] "Жила лося"
-#, fuzzy
-#| msgctxt "item_morgensinew"
-#| msgid "Morgen Sinew"
 msgctxt "item_moosesinew"
 msgid "Moose Sinew"
-msgstr "Ласінае сухажылле"
+msgstr "Сухаэылле лася"
 
 #. [UA] "Тверда й міцна штука, яка точно стане в пригоді."
 #. [PL] "Wytrzymałe i odporne, choć całkiem niepozorne."
 #. [RU] "Прочная и износостойкая. Полезная вещь в хозяйстве."
-#, fuzzy
 msgctxt "item_moosesinew_description"
 msgid "Tough and hardy, this is sure to come in handy."
 msgstr "Трывалае і цвёрдае — прыйдзецца дарэчы."
@@ -18327,7 +18131,7 @@ msgstr "Цяжка паверыць, яно некалі білася."
 #. [RU] "Сухожилие моргена"
 msgctxt "item_morgensinew"
 msgid "Morgen Sinew"
-msgstr "Сухажыла моргена"
+msgstr "Сухажылле моргена"
 
 #. [UA] "Жувати — не пережувати."
 #. [PL] "Żylaste."
@@ -18466,12 +18270,9 @@ msgstr "Вострае жала смертапіўца."
 #. [UA] "Нитка норни"
 #. [PL] "Nić Norna"
 #. [RU] "Нить Норн"
-#, fuzzy
-#| msgctxt "hud_powernotready"
-#| msgid "Power not ready"
 msgctxt "item_nornthread"
 msgid "Nornathread"
-msgstr "Норнаніці"
+msgstr "Ніць Норнаў"
 
 #. [UA] "Нехай витонченість виробу не вводить в оману. Ці нитки сплетені з
 #. могутності Світового Дерева."
@@ -18479,10 +18280,9 @@ msgstr "Норнаніці"
 #. z mocy samego drzewa świata."
 #. [RU] "Не позволяйте этим хрупким нитям ввести вас в заблуждение. Они
 #. сотканы из самой силы Мирового древа."
-#, fuzzy
 msgctxt "item_nornthread_description"
 msgid "Don't let the delicate strands fool you. These threads are spun from the power of the world tree itself."
-msgstr "Няхай далікатныя ніці не ўводзяць вас у зман. Яны спрадзеныя з самой сілы сусветнага дрэва."
+msgstr "Няхай далікатнасць не ўводзяць вас у зман. Яны спрадзены з самой сілы сусветнага дрэва."
 
 #. [UA] "Прохід не відкриється, якщо тримаєте при собі"
 #. [PL] "Nie można teleportować"
@@ -18508,7 +18308,6 @@ msgstr "Пасадзіце, каб з іх вырас дуб."
 #. [UA] "Овес"
 #. [PL] "Owies"
 #. [RU] "Овсяная крупа"
-#, fuzzy
 msgctxt "item_oat"
 msgid "Oats"
 msgstr "Авёс"
@@ -18518,17 +18317,13 @@ msgstr "Авёс"
 #. na mąkę."
 #. [RU] "Вкусный злак, который можно использовать как есть или перемолоть в
 #. муку."
-#, fuzzy
 msgctxt "item_oat_description"
 msgid "Tasty grains, to be used as they are or to be ground into flour."
-msgstr "Смачныя збожжы: іх ужываюць як яны ёсць або змельваюць у муку."
+msgstr "Смачная збажына, які можна хоць так з’есці, хоць у муку змалоць."
 
 #. [UA] "Вівсяне борошно"
 #. [PL] "Mąka owsiana"
 #. [RU] "Овсяная мука"
-#, fuzzy
-#| msgctxt "item_barleyflour"
-#| msgid "Barley Flour"
 msgctxt "item_oatflour"
 msgid "Oat Flour"
 msgstr "Аўсяная мука"
@@ -18537,7 +18332,6 @@ msgstr "Аўсяная мука"
 #. [PL] "Drobno zmielony owies posiadający mnóstwo potencjału."
 #. [RU] "Мелко перемолотый овес, который можно использовать множеством
 #. способов."
-#, fuzzy
 msgctxt "item_oatflour_description"
 msgid "Finely ground oats, with plenty of potential."
 msgstr "Дробна змолены авёс з вялікім патэнцыялам."
@@ -18545,7 +18339,6 @@ msgstr "Дробна змолены авёс з вялікім патэнцыя�
 #. [UA] "Вівсянка"
 #. [PL] "Owsianka"
 #. [RU] "Овсянка"
-#, fuzzy
 msgctxt "item_oatmeallingonberryjam"
 msgid "Oatmeal"
 msgstr "Аўсянка"
@@ -18553,10 +18346,9 @@ msgstr "Аўсянка"
 #. [UA] "Смакує, якщо додати чималу порцію брусничного повидла."
 #. [PL] "Serwowana z hojną porcją dżemu z czerwonych borówek."
 #. [RU] "Подается с большой порцией брусничного варенья."
-#, fuzzy
 msgctxt "item_oatmeallingonberryjam_description"
 msgid "Served with a generous helping of lingonberry jam."
-msgstr "Падаецца са шчодрай порцыяй бруснічнага варэння."
+msgstr "Падаецца са шчодрай порцыяй бруснічнага сочыва."
 
 #. [UA] "Вівсяне молоко"
 #. [PL] "Mleko owsiane"
@@ -18676,10 +18468,9 @@ msgstr "Мёртвая мякаць"
 #. [UA] "Ліпше не думати про його склад."
 #. [PL] "Lepiej nie myśleć o tym, z czego się składa."
 #. [RU] "Лучше не задумываться о ее происхождении."
-#, fuzzy
 msgctxt "item_ooze_mork_description"
 msgid "It's best not to think about what this consists of."
-msgstr "Пра тое, з чаго гэта складаецца, лепш не думаць."
+msgstr "Пра тое, з чаго яно складаецца, лепш не думаць."
 
 #. [UA] "Багниста бомба"
 #. [PL] "Cieknąca bomba"
@@ -18698,12 +18489,9 @@ msgstr "Ейны смурод невыносны..."
 #. [UA] "Вогнекрижна сутність"
 #. [PL] "Mroźnognista esencja"
 #. [RU] "Сущность льда и огня"
-#, fuzzy
-#| msgctxt "se_frostres_name"
-#| msgid "Frost resistance"
 msgctxt "item_orbfrostfire"
 msgid "Frostfire Essence"
-msgstr "Эсэнцыя Зімняга Полымя"
+msgstr "Эсэнцыя Агнялёду"
 
 #. [UA] "Якимсь чином водночас холодне й гаряче на дотик."
 #. [PL] "Jakimś cudem jest jednocześnie gorąca i zimna w dotyku."
@@ -19634,12 +19422,9 @@ msgstr "Шчыт з паліраванай бронзы, выдатна адаб
 #. [UA] "Заготовина: Нордичний кулачний щит"
 #. [PL] "Odlew: nordycki puklerz"
 #. [RU] "Заготовка: нордский баклер"
-#, fuzzy
-#| msgctxt "item_shield_carapacebuckler"
-#| msgid "Carapace Buckler"
 msgctxt "item_shield_buckler_gold_uncooked"
 msgid "Cast: Nord Buckler"
-msgstr "Адлітак: Нардычны пуклер"
+msgstr "З: Нардычны пуклер"
 
 #. [UA] "Щит потрібно загартувати морозом."
 #. [PL] "Tę tarczę należy zahartować mrozem."
@@ -19817,7 +19602,7 @@ msgstr "Гнуткія карані сплеценыя ў на дзіва тры
 #| msgid "Wood Shield"
 msgctxt "item_shield_round_gold_uncooked"
 msgid "Cast: Nord Shield"
-msgstr "Адлітак: Нардычны шчыт"
+msgstr "Загатоўка: Нардычны шчыт"
 
 #. [UA] "Щит потрібно загартувати морозом."
 #. [PL] "Tę tarczę należy zahartować mrozem."
@@ -19867,7 +19652,7 @@ msgstr "Ворагі не змогуць вас стукнуць, калі не 
 #, fuzzy
 msgctxt "item_shield_tower_gold_uncooked"
 msgid "Cast: Nord Greatshield"
-msgstr "Адлітак: Нардычны вялікі шчыт"
+msgstr "Загатоўка: Нардычны вялікі шчыт"
 
 #. [UA] "Щит потрібно загартувати морозом."
 #. [PL] "Tę tarczę należy zahartować mrozem."
@@ -20023,7 +19808,7 @@ msgstr "З гэтай зброяй твае ўдары будуць цяжкія
 #, fuzzy
 msgctxt "item_sledge_gold_uncooked"
 msgid "Cast: Nord Sledge"
-msgstr "Адлітак: Нардычная кувалда"
+msgstr "Загатоўка: Нардычная кувалда"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -20299,7 +20084,7 @@ msgstr "Няхай яна б'е, як маланка, — хутка і люта
 #, fuzzy
 msgctxt "item_spear_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Spear"
-msgstr "Адлітак: Дзіда Громавай Крыві"
+msgstr "Загатоўка: Дзіда Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -20307,10 +20092,9 @@ msgstr "Адлітак: Дзіда Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_spear_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Золота можливість боляче штрикнути."
 #. [PL] "Złota okazja do ataku."
@@ -20345,7 +20129,7 @@ msgstr "Акунутая ў мёрзлым полымі, гэтая дзіда �
 #, fuzzy
 msgctxt "item_spear_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Spear"
-msgstr "Адлітак: Дзіда Зімняга Полымя"
+msgstr "Загатоўка: Дзіда Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -20353,10 +20137,9 @@ msgstr "Адлітак: Дзіда Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_spear_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордичний спис"
 #. [PL] "Odlew: nordycka włócznia"
@@ -20364,7 +20147,7 @@ msgstr "Тая ж форма, аднак схільная да больш ура
 #, fuzzy
 msgctxt "item_spear_gold_uncooked"
 msgid "Cast: Nord Spear"
-msgstr "Адлітак: Нардычная дзіда"
+msgstr "Загатоўка: Нардычная дзіда"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -20669,7 +20452,7 @@ msgstr "Холад, які праймае да самых костак."
 #, fuzzy
 msgctxt "item_staff_orbofahri_uncooked"
 msgid "Cast: Echo Spike"
-msgstr "Адлітак: Рэхавы шып"
+msgstr "Загатоўка: Рэхавы шып"
 
 #. [UA] "Чарівний предмет потрібно загартувати морозом."
 #. [PL] "Ten magiczny przedmiot należy zahartować mrozem."
@@ -20705,7 +20488,7 @@ msgstr "Пакліч дапамогу з іншага свету. Каштуе �
 #, fuzzy
 msgctxt "item_staff_spiritcaller_uncooked"
 msgid "Cast: Spirit Caller"
-msgstr "Адлітак: Заклінальнік Духаў"
+msgstr "Загатоўка: Заклінальнік Духаў"
 
 #. [UA] "Чарівний предмет потрібно загартувати морозом."
 #. [PL] "Ten magiczny przedmiot należy zahartować mrozem."
@@ -20740,7 +20523,7 @@ msgstr "Проста навядзі — і ты паклічаш гнеў неб
 #, fuzzy
 msgctxt "item_staff_thunderblood_uncooked"
 msgid "Cast: Lightning Strike"
-msgstr "Адлітак: Удар Маланкі"
+msgstr "Загатоўка: Удар Маланкі"
 
 #. [UA] "Чарівний предмет потрібно загартувати морозом."
 #. [PL] "Ten magiczny przedmiot należy zahartować mrozem."
@@ -21024,7 +20807,7 @@ msgstr "Той, хто трымае гэтую зброю, напэўна ўну
 #| msgid "Wooden Greatsword"
 msgctxt "item_sword2h_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Greatsword"
-msgstr "Адлітак: Аберучны меч Громавай Крыві"
+msgstr "Загатоўка: Аберучны меч Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -21032,10 +20815,9 @@ msgstr "Адлітак: Аберучны меч Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_sword2h_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Разюча зброя, як на вигляд, так і на дотик."
 #. [PL] "Zabójczo imponująca broń do rażenia wrogów."
@@ -21072,7 +20854,7 @@ msgstr "Выбар паміж агнём і марозам просты: Бяр�
 #| msgid "Wooden Greatsword"
 msgctxt "item_sword2h_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Greatsword"
-msgstr "Адлітак: Аберучны меч Зімняга Полымя"
+msgstr "Загатоўка: Аберучны меч Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -21080,10 +20862,9 @@ msgstr "Адлітак: Аберучны меч Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_sword2h_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордичний палаш"
 #. [PL] "Odlew: nordycki miecz dwuręczny"
@@ -21093,7 +20874,7 @@ msgstr "Тая ж форма, аднак схільная да больш ура
 #| msgid "Wooden Greatsword"
 msgctxt "item_sword2h_gold_uncooked"
 msgid "Cast: Nord Greatsword"
-msgstr "Адлітак: Нардычны аберучны меч"
+msgstr "Загатоўка: Нардычны аберучны меч"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -21194,7 +20975,7 @@ msgstr "Калі кроў сцякае па лязу, то абуджае бур
 #, fuzzy
 msgctxt "item_sword_gold_bloodlightning_uncooked"
 msgid "Cast: Thunderblood Sword"
-msgstr "Адлітак: Меч Громавай Крыві"
+msgstr "Загатоўка: Меч Громавай Крыві"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -21202,10 +20983,9 @@ msgstr "Адлітак: Меч Громавай Крыві"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_sword_gold_bloodlightning_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Зброя сяє навіть за найслабшого освітлення."
 #. [PL] "Ta broń migocze nawet w najsłabszych promieniach słońca."
@@ -21239,7 +21019,7 @@ msgstr "Па лязу танцуе полымя, ды ці магло яно б�
 #, fuzzy
 msgctxt "item_sword_gold_frostfire_uncooked"
 msgid "Cast: Frostfire Sword"
-msgstr "Адлітак: Меч Зімняга Полымя"
+msgstr "Загатоўка: Меч Зімняга Полымя"
 
 #. [UA] "Та сама форма, але результат буде набагато видовищнішим… З часом
 #. мороз усе викаже."
@@ -21247,10 +21027,9 @@ msgstr "Адлітак: Меч Зімняга Полымя"
 #. spektakularnego... Z biegiem czasu mróz wszystko ukaże."
 #. [RU] "Хоть форма и осталась прежней, истинный потенциал стал куда более
 #. впечатляющим... Со временем мороз раскрывает все, что скрыто."
-#, fuzzy
 msgctxt "item_sword_gold_frostfire_uncooked_description"
 msgid "The same mould, yet inclined to yield a more spectacular result... The frost shall reveal all, in time."
-msgstr "Тая ж форма, аднак схільная да больш уражлівага выніку... Мароз усё раскрые, свайго часу."
+msgstr "Тая ж форма, але здольная прынесці значна ашаламляльнейшы плён ... Мароз расставіць усё па месцах, свайго часу."
 
 #. [UA] "Заготовина: Нордичний меч"
 #. [PL] "Odlew: nordycki miecz"
@@ -21258,7 +21037,7 @@ msgstr "Тая ж форма, аднак схільная да больш ура
 #, fuzzy
 msgctxt "item_sword_gold_uncooked"
 msgid "Cast: Nord Sword"
-msgstr "Адлітак: Нардычны меч"
+msgstr "Загатоўка: Нардычны меч"
 
 #. [UA] "Зброю потрібно загартувати морозом."
 #. [PL] "Tę broń należy zahartować mrozem."
@@ -22105,21 +21884,15 @@ msgstr "Касцісты глей"
 #. Kamieniom Ofiarnym."
 #. [RU] "Кости и вязкая слизь, удерживаемые какой-то невидимой
 #. силой.\n\nПринесите их к жертвенным камням."
-#, fuzzy
-#| msgctxt "item_trophy_bonemass_description"
-#| msgid ""
-#| "Bones and viscous goo, held together by some unseen force.\n"
-#| "\n"
-#| "Offer it to the Sacrificial Stones."
 msgctxt "item_trophy_bonemass_description"
 msgid ""
 "Bones and viscous goo, held together by some unseen force.\n"
 "\n"
 "Offer it to the Sacrificial Stones.\n"
 msgstr ""
-"Косткі і ліпкая глейкая маса, сцягнутыя нейкай нябачнай сілай.\n"
+"Косці і глейкая слізь, змацаваныя нейкай нявіднай сілай.\n"
 "\n"
-"Ахвяруйце яго Ахвярным Камяням.\n"
+"Паднясіце іх ахвярным камяням.\n"
 
 #. [UA] "Затихла груда кісток і чорнозему."
 #. [PL] "Sterta czarnej ziemi i starych kości, na szczęście już nieruchomych."
@@ -22324,12 +22097,9 @@ msgstr "Трафей аленя"
 #. wystarczy."
 #. [RU] "Великолепное животное, но убийство простого оленя не откроет вам
 #. врата в Вальгаллу."
-#, fuzzy
-#| msgctxt "item_trophy_deer_description"
-#| msgid "A fine specimen but you'll need to kill more than deer to enter Valhalla."
 msgctxt "item_trophy_deer_description"
 msgid "A fine specimen, but you'll need to kill more than deer to enter Valhalla."
-msgstr "Добны асобнік, але каб увайсці ў Вальгалу, табе прыйдзецца забіць не аднаго аленя."
+msgstr "Выдатная здабыча, але каб увайсці ў Вальхалу, вы мусіце забіць штосьці буйнейшае за аленя."
 
 #. [UA] "Гарна здобич, та цього замало, щоб увійти до Вальгалли."
 #. [PL] "Niezły okaz, lecz by dostać się do Walhalli, zabicie jelenia nie
@@ -22353,21 +22123,15 @@ msgstr "Трафей Мацеры"
 #. Kamieniom Ofiarnym."
 #. [RU] "Голова дракона, величественная даже после смерти.\n\nПринесите ее к
 #. жертвенным камням."
-#, fuzzy
-#| msgctxt "item_trophy_dragonqueen_description"
-#| msgid ""
-#| "The head of a dragon, majestic even in the rigor of death.\n"
-#| "\n"
-#| "Offer it to the Sacrificial Stones."
 msgctxt "item_trophy_dragonqueen_description"
 msgid ""
 "The head of a dragon, majestic even in the rigor of death.\n"
 "\n"
 "Offer it to the Sacrificial Stones.\n"
 msgstr ""
-"Галава цмока, велічная нават у калянасці смерці.\n"
+"Галава цмочыцы застаецца велічнаю нават пасля ейнай смерці.\n"
 "\n"
-"Ахвяруйце яго Ахвярным Камяням.\n"
+"Паднясіце яе ахвярным камяням.\n"
 
 #. [UA] "Безліч воїнів перед смертю бачили саме цю, вкриту багатовіковими
 #. шрамами голову."
@@ -22463,32 +22227,23 @@ msgstr "Трафей Эйкцюра"
 #. [PL] "Ta odcięta głowa emanuje mocą.\n\nZłóż w ofierze Kamieniom Ofiarnym."
 #. [RU] "Эта отрубленная голова источает силу.\n\nПринесите ее к жертвенным
 #. камням."
-#, fuzzy
-#| msgctxt "item_trophy_eikthyr_description"
-#| msgid ""
-#| "This severed head oozes power.\n"
-#| "\n"
-#| "Offer it to the Sacrificial Stones."
 msgctxt "item_trophy_eikthyr_description"
 msgid ""
 "This severed head oozes power.\n"
 "\n"
 "Offer it to the Sacrificial Stones.\n"
 msgstr ""
-"Гэтая адразаная галава выпраменьвае сілу.\n"
+"З адсечанай галавы струменіцца сіла.\n"
 "\n"
-"Ахвяруйце яго Ахвярным Камяням.\n"
+"Паднясіце яе ахвярным камяням.\n"
 
 #. [UA] "Колишній лісовий король із неймовірно величезними рогами."
 #. [PL] "Niegdyś wielki król lasów. Wielkość tego poroża jest naprawdę
 #. imponująca."
 #. [RU] "Размеры рогов бывшего короля лесов действительно впечатляют."
-#, fuzzy
-#| msgctxt "item_trophy_eikthyr_lore"
-#| msgid "Once the king of the forest, the size of the antlers are truly impressive."
 msgctxt "item_trophy_eikthyr_lore"
 msgid "Once the king of the forest, the size of the antlers is truly impressive."
-msgstr "Калісьці кароль лесу, веліч ягоных рагоў сапраўды ўражае."
+msgstr "Памер рагоў колішняга караля лясоў сапраўды ўражвае."
 
 #. [UA] "Голова злостивця"
 #. [PL] "Trofeum elakinga"
@@ -22503,20 +22258,18 @@ msgstr "Трафей Элакінга"
 #. [UA] "Злісні дрібні очиська витріщаються на вас."
 #. [PL] "Wpatrują się w ciebie maleńkie, złośliwe oczka."
 #. [RU] "Злобные маленькие глазки смотрят на вас."
-#, fuzzy
 msgctxt "item_trophy_elaking_description"
 msgid "Mean little eyes stare back at you."
-msgstr "Маленькія злыя вочы глядзяць на цябе ў адказ."
+msgstr "Маленькія злыя вочкі зыраць на вас."
 
 #. [UA] "Що керувало ним? Жорстокість чи халамидництво? Уже не дізнатися."
 #. [PL] "Kierował się okrucieństwem czy szelmostwem? Możliwe, że nigdy się nie
 #. dowiemy."
 #. [RU] "Этим существом двигала жестокость или озорство? Мы этого никогда не
 #. узнаем."
-#, fuzzy
 msgctxt "item_trophy_elaking_lore"
 msgid "Was it driven by cruelty or mischief? We may never know."
-msgstr "Што кіравала ім — злоснасць ці свавольства? Таго нам ніколі не дазнацца."
+msgstr "Што кіравала ім — жорсткасць ці свавольства? Таго нам ніколі не дазнацца."
 
 #. [UA] "Голова Прадавнього"
 #. [PL] "Trofeum Starca"
@@ -22530,21 +22283,15 @@ msgstr "Трафей Старадаўняга"
 #. [PL] "Ta odcięta głowa emanuje mocą.\n\nZłóż w ofierze Kamieniom Ofiarnym."
 #. [RU] "Эта отрубленная голова источает силу.\n\nПринесите ее к жертвенным
 #. камням."
-#, fuzzy
-#| msgctxt "item_trophy_elder_description"
-#| msgid ""
-#| "This severed head oozes power.\n"
-#| "\n"
-#| "Offer it to the Sacrificial Stones."
 msgctxt "item_trophy_elder_description"
 msgid ""
 "This severed head oozes power.\n"
 "\n"
 "Offer it to the Sacrificial Stones.\n"
 msgstr ""
-"Гэтая адразаная галава выпраменьвае сілу.\n"
+"З адсечанай галавы струменіцца сіла.\n"
 "\n"
-"Ахвяруйце яго Ахвярным Камяням.\n"
+"Паднясіце яе ахвярным камяням.\n"
 
 #. [UA] "Навіть після смерті від Прадавнього віє таємними знаннями."
 #. [PL] "Nawet po śmierci wydaje się uśmiechać tak, jakby posiadał jakąś
@@ -23311,7 +23058,6 @@ msgstr "Гэтае крышталічнае скальнае ўтварэнне 
 #. [PL] "Ta krystaliczna formacja skalna stanowiłaby imponującą dekorację
 #. podłogi."
 #. [RU] "Камень и кристалл, оживленные древней магией."
-#, fuzzy
 msgctxt "item_trophy_sgolem_lore"
 msgid "Rock and crystal, brought to life by ancient magic."
 msgstr "Камень і крышталь, ажыўленыя старадаўняй магіяй."
@@ -23375,10 +23121,9 @@ msgstr "Ейны гнеў палаў так моцна, што застаўся 
 #. [UA] "Безвиразний вищир черепа нагадує вам про неминучість смерті."
 #. [PL] "Martwy uśmiech tej czaszki przypomina o nieuchronności śmierci."
 #. [RU] "Оно умерло… и восстало вновь. Та же ли судьба ждет вас?"
-#, fuzzy
 msgctxt "item_trophy_skeleton_lore"
 msgid "It died and then rose again. Is this the fate that awaits you?"
-msgstr "Яно памерла і зноў паднялося. Ці такі лёс чакае цябе?"
+msgstr "Яно памерла і зноў узнялося. Ці нас чакае такі ж лёс?"
 
 #. [UA] "Голова тухлого скелета"
 #. [PL] "Trofeum siewcy zarazy"
@@ -25737,6 +25482,9 @@ msgid ""
 "\n"
 "The most common form of the wyrm are the Drakes, the small males who care for the offspring. Most often they can be seen poised by rocky nests guarding the eggs. In contrast, the females are much larger and a rare sight to behold, but once angered they provide a vicious foe.\n"
 msgstr ""
+"Няхай усякі, хто гэта чытае, сцеражэцца марозных змеяў, найстарэйшых стварэнняў, што з цела Іміра выпаўзлі.\n"
+"\n"
+"Пашыранымі самымі змеямі гэткімі будуць цмокі, маленькія самцы, клапоцяцца пра маладняк каторыя. Пабачыць іх можна ля скалістых гнёздаў, ахоўваюць яйкі яны. Саміцы ж, наадварот, буйнейшыя значна, і рэдка іх можна ўбачыць. Аднак раззлаваўшыся, лютым ворагам стануць яны.\n"
 
 #. [UA] "Знання: Дракони"
 #. [PL] "Legenda: Drakon"
@@ -25803,6 +25551,12 @@ msgid ""
 "\n"
 "Break them, bury them, let them know they are dead.\n"
 msgstr ""
+"Шмат стагоддзяў таму Вальхэйма свет быў домам людзей высакародных, але пыхлівых. Вялікія вежы будавалі яны, што дакраналіся аблокаў, і глыбока ў зямлю капалі яны, каштоўных металаў шукаючы. Але пыха іхнай пагібеллю стала. Кінулі выклік самім багам яны і пайшлі вайной супраць асаў і ванаў, знішчыўшы сябе цалкам. Вялікі Одзін зраўняў з зямлёй "
+"гарады іхныя, а Локі выпаліў агнём капальні. Магутны Тор разбурыў вежы іхныя, а Фрэя засеяла салёнымі слязьмі палі.\n"
+"\n"
+"Цяпер паглынула іх прадонне часу. Аніводны спеў гісторыі іх не раскажа, зямля ўвабрала ў сябе грады іхныя. Але нама методы пыху знішчыць цалкам, і ваяры апошняй бітвы не здадуцца, пакуль целы іхныя не стануць пылам, і пыл той на вятры не развеецца. Так яны вяртаюцца як Драўгры, бязбожныя мерцвякі ў старажытных даспехах, істоты ржы і адчаю.\n"
+"\n"
+"Знішчы іх, закапай іх, дай ім знаць, што яны даўно мёртвыя.\n"
 
 #. [UA] "Знання: Драуґри"
 #. [PL] "Legenda: Draugr"
@@ -25864,6 +25618,9 @@ msgid ""
 "\n"
 "Regrettably, nothing can last forever. The halls below and the treasures left within are now guarded by more sinister lodgers.\n"
 msgstr ""
+"Гэта жытлы двэргаў, пабудаваныя даўным-даўно ў залатым веку... Іхная раскоша магла параўняцца з самой Залатой Залай!\n"
+"\n"
+"На жаль, нішто не доўжыцца вечна. Падземныя палацы і пазасталыя ў іх скарбы цяпер ахоўваюцца куды больш злавеснымі жыхарамі.\n"
 
 #. [UA] "УПОЛЮЙТЕ ЙОГО РОДИЧІВ"
 #. [PL] "POLUJ NA JEGO RÓD"
@@ -25962,6 +25719,11 @@ msgid ""
 "\n"
 "It should not walk but when the night comes it walks. Should you who read this see one with a sword to your hand, lance it and let it out. Or put it to the torch, for it fears the flame.\n"
 msgstr ""
+"Хай усякі, хто гэта чытае, сцеражэцца шэрых карлаў, бяздушных начных валацуг. Яны родзяцца з гнілі і дажджу, узыходзяць яны, нібы грыбы з дымлівай глебы. У галовах іхных няма святла свядомасці, рот іх не вымавіць ні слова. Адно нават бясстрашныя лякацца іх павінны.\n"
+"\n"
+"Калі душа забойцы ці грэшніка вялікага пад зямлёй гніе, прыцягвае яна да сабе камень, дрэва і мох усякія. Стаецца торф мясам, заплятаецца чарот у косці і анучы скуру замяняюць.\n"
+"\n"
+"Не мусіць яно магчы хадзіць, але як ноч настае, ды ідзе. Калі той, хто чытае гэта, як пачвару такую стрэне, возьме няхай меч і парубіць поскудзь. Або адпудзіць паходняй палючай, бо полымя лякаецца яно.\n"
 
 #. [UA] "Знання: Сіролюди"
 #. [PL] "Legenda: Szarły"
@@ -26028,6 +25790,19 @@ msgid ""
 "\n"
 "…in VALHEIM!\n"
 msgstr ""
+"Даўным-даўно Бацька Усяго Одзін аб'яднаў сусветы. Ён паразіў усіх сваіх ворагаў і зрынуў іх у дзясяты свет, затым раструшчыў галіны, што злучалі іхную вязніцу з Сусветным Дрэвам. З тых часоў гэты свет бязмэтна плыве ў прасторы, будучы месцам вечнага выгнання…\n"
+"\n"
+"\n"
+"\n"
+"Стагоддзямі ён перабываў у трывожнай дрымоце. Але пагроза не загінула... Эпоха замянялася эпохай, гаспадарствы ўзвышаліся і занепадалі пад пільным позіркам багоў.\n"
+"\n"
+"\n"
+"\n"
+"Калі Одзін прачуў, што ягоныя ворагі зноў набіраюць моцы, ён зорыў на Мідгард і паслаў Валькірый шукаць на палях бітваў найвялікшых з ваяроў. Мёртвыя ў тым свеце, яны народзяцца зноў…\n"
+"\n"
+"\n"
+"\n"
+"…у ВАЛЬХЭЙМЕ!\n"
 
 #. [UA] "Вас відправляють до Вальгайму — десятого світу — щоби ви довели свою
 #. готовність увійти до Вальгалли. Здолайте могутніх істот цих земель і
@@ -26071,6 +25846,9 @@ msgid ""
 "\n"
 "Look also to the wild boar who roam these lands. They fear fire and the hand of man but they can be taught to obey it. Go quietly to them and let them eat of your stock. Roots of the ground are their pleasure.\n"
 msgstr ""
+"Гэты край суровы і дзікі, але мы, пасланыя сюды, яшчэ суровейшыя. Суцешся, падарожніку, дарамі зямлі гэтай, прыдатным дрэвам і каменем, пладамі і кветкамі ляснымі.\n"
+"\n"
+"Прыглядзіся таксама дзікам, што ходзяць па гэтых землях. Яны баяцца агню і чалавечай рукі, але іх можна навучыць падпарадкоўвацца. Падыдзі да іх ціхенька і пакармі з сваіх запасаў. Караняплоды — ласунак для іх.\n"
 
 #. [UA] "Знання: Вепри"
 #. [PL] "Legenda: Dziki"
@@ -26100,6 +25878,11 @@ msgid ""
 "\n"
 "There will always be a hearth and a home\n"
 msgstr ""
+"Дзе трава расце пад нагамі\n"
+"\n"
+"І ў небе лунае блакіт,\n"
+"\n"
+"Там заўжды будзе ачаг і дом родны\n"
 
 #. [UA] "Давним-давно, коли Всебатько Одін світи об’єднав, знищив він ванів,
 #. велетів та істот, старіших за інших. Кого ж убити не зміг — найвеличніших
@@ -26128,6 +25911,9 @@ msgid ""
 "\n"
 "When they tread the earth, the lesser creatures jump like crumbs on a drumskin. You will know them when you see them.\n"
 msgstr ""
+"Даўным-даўно злучыў Бацька Усяго Одзін сусветы. Паканаў ён ванаў, волатаў і іншых, старэйшых нават істот. Ды нельга забіць наймагутнейшых з іх, і сталі яны замест Забытымі, сасланыя сюды, у Вальхэйм, навечна.\n"
+"\n"
+"Калі ступаюць яны па зямлі, усе меншыя стварэнні наўцёкі кідаюцца. Убачыўшы, пазнаеце вы іх.\n"
 
 #. [UA] "Подякуймо Фреї за сонце і дощ,\n \nЗа пагони з ґрунту ряснії.\n \nЙ
 #. за фрукти, що нині живуть у вині.\n \nПодякуймо Одіну за плоть і кістки,\n
@@ -26167,6 +25953,17 @@ msgid ""
 "\n"
 "And the strength of your arm\n"
 msgstr ""
+"Падзякуйце Фрэі за дождж і за сонца\n"
+"\n"
+"За расткі, што ірвуць паверхню зямлі,\n"
+"\n"
+"І плады вінаграднай лазы.\n"
+"\n"
+"Падзякуйце Одзіну за плоць і за косці,\n"
+"\n"
+"Дым ад вогнішча ў печцы, цёплую шкуру\n"
+"\n"
+"І моц у руках\n"
 
 #. [UA] "Зупиніться, мандрівники, і послухайте моє попередження. Багатьох сюди
 #. Одін присилав до вас, щоби його доручення виконати. Складний шлях і велика
@@ -33365,7 +33162,7 @@ msgstr "Не думаў, што ты пражывеш так доўга… Ал�
 #| msgid "Kraa! Hear me now, I'll riddle you no longer. I am great Munin, the treasure-house of memory. I sit on the left shoulder of the Allfather and do his bidding in the ten worlds. I have seen many great warriors rise and fall but you are among the greatest. Know that Odin himself is watching you..."
 msgctxt "npc_munin_general09"
 msgid "Kraa! Hear me now, I'll riddle you no longer. I am great Munin, the treasure-house of memory. I sit on the left shoulder of the Allfather and do his bidding in the ten worlds. I have seen many great warriors rise and fall but you are among the greatest. Know that Oden himself is watching you..."
-msgstr ""
+msgstr "Кар-р! Паслухай, бо я больш не буду мовіць загадкамі. Я — вялікі Мунін, захавальнік памяці. Я сяджу на левым плячы Бацькі Усяго і выконваю ягоныя загады ў дзесяці сусветах. Бачыў я шмат вялікіх ваякаў, яны ўзвышаліся і гінулі, але ты — з найвялікшых. Ведай, што за табой назірае сам Одзін..."
 
 #. [UA] "Кар-р! Всебатько шле звістку! Він чекає твого слова, щоб опустити
 #. міст. Убий Забутих та очисть шлях!"
@@ -46518,6 +46315,9 @@ msgid ""
 "\n"
 "Be wary though, the Forsaken are not easy prey, so craft a wicked weapon, don your finest armour, and eat a hearty meal before engaging them in combat.\n"
 msgstr ""
+"Знойдзена месца выкліку аднаго з Забытых. Зрабі слушнае ахвяраванне, і ён з’явіцца.\n"
+"\n"
+"Аднак асцерагайся, Забыты не ёсць лёгкай здабычай. Змайструй смяротную зброю, надзень найлепшы рыштунак і добра падсілкуйся, перш чым уступаць з ім у бой."
 
 #. [UA] "Прикликання звіра"
 #. [PL] "Wzywanie bestii"
@@ -46549,6 +46349,8 @@ msgid ""
 "Now you'll be able to craft ceramic tiles, which have excellent heat insulation.\n"
 "You'll need them if you're to travel southwards!\n"
 msgstr ""
+"Цяпер ты можаш вырабляць кафлю, надзвычай устойлівую на жар.\n"
+"А яна табе спатрэбіцца, калі збіраешся ў вандроўку на поўдзень!"
 
 #. [UA] "Нове знаряддя"
 #. [PL] "Nowe narzędzie"
@@ -46582,6 +46384,8 @@ msgid ""
 "It seems you have ventured to the boiling waters of the south. As you surely noted, this can be a deadly pursuit.\n"
 "To traverse these waters you will need to build something sturdier if you dont want to sleep with the fishes.\n"
 msgstr ""
+"Здаецца, вось яны, кіпучыя паўднёвыя воды. Як можаш заўважыць, працягваць плаванне смяротна небяспечна.\n"
+"Калі не хочаш стаць кормам для рыб, для падарожжа ў гэтых водах варта збудаваць нешта трывалейшае."
 
 #. [UA] "Ахой!"
 #. [PL] "Ahoj!"
@@ -46615,6 +46419,8 @@ msgid ""
 "You have discovered the Ashlands, the very hottest parts of the tenth world.\n"
 "Here, water boils without a cauldron, and anything flammable can be set alight with just a spark. Be careful!\n"
 msgstr ""
+"Вы адкрылі Попельныя землі — самую гарачую частку дзясятага сусвету.\n"
+"Тут вада кіпіць без катла, і ўсё лёгкаўзгаральнае можна падпаліць адной іскрай. Сцеражыцеся!"
 
 #. [UA] "Тримайте голову в холоді!"
 #. [PL] "Nie przegrzej sobie głowy!"
@@ -46686,6 +46492,9 @@ msgid ""
 "\n"
 "Another improvement to your home would be some chests where you can store items. <color=yellow>It is good practice to always have some spare equipment</color>, if something unfortunate should happen to you while exploring...\n"
 msgstr ""
+"Праспі ўсю ноч у ложку і прачніся бадзёрым і поўным энэргіі.\n"
+"\n"
+"Яшчэ адным паляпшэннем дома будуць некалькі куфраў, у іх можна захоўваць рэчы. <color=yellow>Пажадана заўсёды мець запасны рыштунак</color>, а то ўсякае можа здарыцца падчас даследавання..."
 
 #. [UA] "Відпочинок утомленим!"
 #. [PL] "Odpoczynek dla znużonych!"
@@ -46784,6 +46593,9 @@ msgid ""
 "\n"
 "Seeking shelter by an open flame is your best option when this happens.\n"
 msgstr ""
+"Калі ноччу панізіцца тэмпература ці калі ты змокнеш, то табе, лагічна, стане холадна. І вынослівасць твая стане аднаўляцца павольней.\n"
+"\n"
+"Найлепшым ратаваннем у такім выпадку будзе знайсці сховішча ля агню."
 
 #. [UA] "Зважай на погоду"
 #. [PL] "Uważaj na warunki pogodowe"
@@ -46819,6 +46631,9 @@ msgid ""
 "\n"
 "Remember to bring a light source!\n"
 msgstr ""
+"Ва ўсім дзясятым сусвеце месцяцца капальні і падзямеллі. Гэта напамінкі мінулага, і часцей за ўсё яны поўняцца багаццямі даўно страчаных цывілізацый.\n"
+"\n"
+"Не забудзь узяць з сабой крыніцу святла!"
 
 #. [UA] "Унизу має бути скарб"
 #. [PL] "Skarby ukryte w podziemiach"
@@ -46857,6 +46672,9 @@ msgid ""
 "\n"
 "If you wish you were home by now I'd recommend <color=yellow\">building a bed</color>, wherever home may be.\n"
 msgstr ""
+"Гінучы, ты будзеш <color=yellow\">губляць крыху сваіх здольнасцяў і пакідаць свае рэчы</color> на месцы смерці.\n"
+"\n"
+"Калі ж ты жадаеш апынуцца пасля смерці дома, дзе б ён для цябе не быў, параю <color=yellow\">змайстраваць ложак</color>."
 
 #. [UA] "Тобі завдали смертельного удару!"
 #. [PL] "Otrzymałeś śmiertelny cios!"
@@ -46912,6 +46730,9 @@ msgid ""
 "\n"
 "Just try not to get lost in the winding tunnels and secret passageways will you?\n"
 msgstr ""
+"Упэўнены, мой меншы брат распавёў табе, наколькі ўражваюць тамтэйшыя падземныя палацы...\n"
+"\n"
+"Проста паспрабуй не заблукаць ў звілістых тунэлях і патаемных хадах, добра?"
 
 #. [UA] "Схоже, ви спили з гілки Іґґдрасілевої й присягаюся, вам було до
 #. смаку.\nТі кумедні кольорові вогники, що кружляють навколо, уже не всі
@@ -46938,6 +46759,9 @@ msgid ""
 "Those fun colored lights you may see spinning around you might not all be in your head anymore.\n"
 "Just don't make it a habit. There may be some long term effects that are anything but magical.\n"
 msgstr ""
+"Табе здарылася пакаштаваць жывіцы з галін Ігдрасіля, і, магу закласціся, табе спадабалася.\n"
+"Тыя каляровенькія агеньчыкі, якія бачыш вакол сябе, могуць быць не толькі ў тваім уяўленні.\n"
+"Толькі не рабі з гэтага звычку. Бо могуць быць і іншыя наступствы, якія ўздзеяннем магіі зусім не назавеш."
 
 #. [UA] "Хуґін: Ейтир"
 #. [PL] "Hugin: Eitr"
@@ -46969,6 +46793,9 @@ msgid ""
 "\n"
 "With eitr you will be able to cast all sorts of powerful spells. Try to find more eitr-infused ingredients to increase your ability.\n"
 msgstr ""
+"Туман прасякае ўсё, што жыве і расце на гэтых землях, а цяпер ён гэтаксама частка цябе.\n"
+"\n"
+"Карыстаючыся эйтрам, ты зможаш чараваць самую розную магію. Каб узмацніць свае здольнасці, паспрабуй знайсці больш рэчаў, прасякнутых эйтрам."
 
 #. [UA] "Хуґін: До Вальгалли"
 #. [PL] "Hugin: Do Walhalli"
@@ -47087,6 +46914,9 @@ msgid ""
 "\n"
 "Be aware that before long you will grow hungry again, so try to always have at least a couple of different meals ready.\n"
 msgstr ""
+"Цяпер у цябе ёсць перакус, якім ты зможаш супакоіць голад. Пэўныя віды ежы павялічваюць здароўе, і ўскосна ўплываюць на тое, колькі пашкоджання ты можаш заблакаваць. Іншыя ўмацуюць тваю вынослівасць. Ёсць і ўніверсальныя, што прыносяць аднолькавыя бонусы.\n"
+"\n"
+"Май на ўвазе, што неўзабаве зноў прагаладаешся, таму старайся заўсёды мець напагатове хаця б некалькі розных страў."
 
 #. [UA] "Хуґін: Їжа"
 #. [PL] "Hugin: Żywność"
@@ -47115,6 +46945,9 @@ msgid ""
 "\n"
 "Be aware that before long you will grow hungry again, so try to always have at least a couple of different meals ready.\n"
 msgstr ""
+"Вось і знойдзена перакуска. З'еж яе, каб павысіць здароўе і вынослівасць.\n"
+"\n"
+"Зважай, што з часам зноў прагаладаешся, таму старайся заўсёды мець прынамсі пару розных страў напагатове."
 
 #. [UA] "Смакоти шматок!"
 #. [PL] "Smakowity kąsek!"
@@ -47187,6 +47020,9 @@ msgid ""
 "\n"
 "One of them should be somewhere in a forest such as this. I'm terribly sorry I can't be of more help... you'll have to keep an eye out.\n"
 msgstr ""
+"Ходзяць чуткі, што ў дзясятым свеце аб’явіліся гандляры. Калі маеш патрэбу ў нейкіх адмысловых таварах, можаш іх пашукаць.\n"
+"\n"
+"Адзін з іх павінен быць дзесьці ў падобным лесе. Мне вельмі шкада, але больш нічога не падкажу... прыйдзецца прыглядацца самастойна."
 
 #. [UA] "Хуґін: Торговець Гальдор"
 #. [PL] "Hugin: handlarz Haldor"
@@ -47231,6 +47067,9 @@ msgid ""
 "\n"
 "Start by building a <color=yellow>workbench</color>. This in turn will enable you to construct other things.\n"
 msgstr ""
+"З гэтым снадзівам ты ўзвядзеш магутныя залы і высокія ўмацаванні.\n"
+"\n"
+"Пачні з стварэння <color=yellow>варштата</color>. Гэта, у сваю чаргу, дазволіць майстраваць іншыя рэчы."
 
 #. [UA] "Виготовлено молот"
 #. [PL] "Wytworzono młot"
@@ -47263,6 +47102,9 @@ msgid ""
 "\n"
 "However, rumour has it that her stocks have been raided. She might need a helping hand, and you are starting to look fairly capable by now.\n"
 msgstr ""
+"Я чуў, што ў падобных мясцовасцях бачылі гандлярку. Тая яшчэ дзівачка, але можа прапанаваць добрыя тавары.\n"
+"\n"
+"Праўда, кажуць, нядаўна на яе запасы зладзілі налёт. Яна б не адмовілася ад дапамогі, і нібы табе гэта ўжо пад сілу."
 
 #. [UA] "Хуґін: Торговка Гільдір"
 #. [PL] "Hugin: handlarka Hildir"
@@ -47331,6 +47173,9 @@ msgid ""
 "\n"
 "Use it to clear the ground and manipulate the terrain. It is easier to create buildings on level ground!\n"
 msgstr ""
+"З гэтым снадзівам ты можаш змяняць навакольны краявід. Можна сказаць, што матыка — ідэальны дадатак да молата.\n"
+"\n"
+"Карыстайся ім, каб расчысціць прастору ці зрабіць насып. Будаваць зручней на роўнай паверхні!"
 
 #. [UA] "Виготовлено мотику"
 #. [PL] "Wytworzono motykę"
@@ -47372,6 +47217,11 @@ msgid ""
 "\n"
 "There are three types of food; One increases health, one fortifies stamina, and then there's also a combination of both. Choose your diet based on your needs!\n"
 msgstr ""
+"Яда <color=yellow>надзвычай важная</color> для вікінга, нават у тагасветным жыцці. Поўны страўнік умацоўвае тваё здароўе ды павышае вынослівасць.\n"
+"\n"
+"Ежу можна знайсці ўсюды ў свеце, большасць страў гатуецца на <color=yellow>пожагу</color>.\n"
+"\n"
+"Ёсць тры тыпы ежы: Першы найбольш павышае здароўе, другі — вынослівасць, а трэці дадае і таго, і другога прыкладна пароўну. Абірайце дыету адпаведна вашым патрэбам!"
 
 #. [UA] "Хуґін: Голод"
 #. [PL] "Hugin: Głód"
@@ -47405,6 +47255,9 @@ msgid ""
 "\n"
 "Food can be found everywhere in the world, and a great deal of it can be prepared at a <color=yellow>cooking station</color>.\n"
 msgstr ""
+"Жыўленне <color=yellow>надзвычай важнае</color> для вікінга, нават у тагасветным жыцці. Поўны страўнік умацоўвае тваё здароўе ды павышае вынослівасць.\n"
+"\n"
+"Ежу можна знайсці ва ўсім свеце, і большасць страў гатуецца на <color=yellow>пожагу</color>."
 
 #. [UA] "Їсти все ж потрібно"
 #. [PL] "Potrzebujesz pożywienia"
@@ -47447,6 +47300,9 @@ msgid ""
 "\n"
 "My lesser brother, Munin, tells me one can fashion a stone axe out of <color=yellow>wood and stone</color>.\n"
 msgstr ""
+"Большасць прадметаў трэба будзе стварыць самастойна. Твае прыбыццё з Мідгарду адбылося нядаўна, таму прыйдзецца ўспамінаць сапраўдную форму рэчаў. Як толькі возьмеш штось у рукі, памяць пачне вяртацца, я ўпэўнены.\n"
+"\n"
+"Мой меншы брат, Мунін, падказвае, што з <color=yellow>дрэва і каменя</color> можна змайстраваць каменную сякеру."
 
 #. [UA] "Оглянь свої пожитки"
 #. [PL] "Ekwipunek"
@@ -47515,6 +47371,9 @@ msgid ""
 "\n"
 "Charms and conjurations will take their toll. If you wish to master the arts you must find appropriate sustenance. As it happens, the parts around here are looking ripe with all sorts of delicious new ingredients to gather. Lucky you!\n"
 msgstr ""
+"Спрабуеш свае сілы ў варажбе з рунамі? Я ўражаны тваімі чараўніцкімі здольнасцямі!\n"
+"\n"
+"Толькі чары і загаворы не даюцца дарма. Калі хочаш авалодаць гэтым мастацтвам, мусіш пачаць адпаведна жывіцца. Як гэта здараецца, навакольныя землі багатыя разнастайнымі і смачнымі складнікамі, якія варта было б сабраць. Шчасціць табе аднак!"
 
 #. [UA] "Хуґін: Стіл мапознавця"
 #. [PL] "Hugin: Stół kartograficzny"
