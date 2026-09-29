@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: localization.csv\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-09 21:29+0000\n"
-"PO-Revision-Date: 2026-09-28 23:35+0200\n"
+"PO-Revision-Date: 2026-09-30 01:47+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: be\n"
@@ -83,7 +83,7 @@ msgstr "Найсуровейшы вікінг"
 #. [RU] "Победить всех боссов на высокой сложности."
 msgctxt "ach_allbosseshard_desc"
 msgid "Defeat all bosses on hard difficulty."
-msgstr "Перамажыце ўсіх босаў на "
+msgstr "Перамажыце ўсіх босаў на высокай складанасці."
 
 #. [UA] "Могутній вікінг"
 #. [PL] "Twardy wiking"
@@ -192,7 +192,7 @@ msgstr "Одзін задаволены"
 #. [RU] "Победить всех мини-боссов."
 msgctxt "ach_allminibosses_desc"
 msgid "Defeat all minibosses."
-msgstr "Перамажыце ўсіх міні-босаў"
+msgstr "Перамажыце ўсіх міні-босаў."
 
 #. [UA] "Коваль"
 #. [PL] "Kowal"
@@ -382,7 +382,7 @@ msgstr "Абраны"
 #. [RU] "Собрать дирнвин."
 msgctxt "ach_builddyrnwyn_desc"
 msgid "Assemble Dyrnwyn."
-msgstr "Збярыце Дэрнвін"
+msgstr "Збярыце Дэрнвін."
 
 #. [UA] "Величні склепіння"
 #. [PL] "Pokaźne komnaty"
@@ -975,14 +975,14 @@ msgstr "Белт"
 #. [RU] "снарядом из черного металла"
 msgctxt "ammo_turretbolt"
 msgid "Black Metal Missile"
-msgstr "знарадам з чорнага металу"
+msgstr "снарадам з чорнага металу"
 
 #. [UA] "Дерев’яний снаряд"
 #. [PL] "Drewniany pocisk"
 #. [RU] "деревянным снарядом"
 msgctxt "ammo_turretboltwood"
 msgid "Wooden Missile"
-msgstr "драўляным знарадам"
+msgstr "драўляным снарадам"
 
 #. [UA] "Прадавня труна"
 #. [PL] "Starożytna trumna"
@@ -5001,14 +5001,14 @@ msgstr "З гор дзьме сцюдзёны вецер"
 #. [RU] "Поиск окончен."
 msgctxt "event_seekerarmy_end"
 msgid "The search is over"
-msgstr "Пошукі скончаны."
+msgstr "Ніхто больш не ціуке"
 
 #. [UA] "Вони шукають вас."
 #. [PL] "Odszukały cię."
 #. [RU] "Они ищут вас."
 msgctxt "event_seekerarmy_start"
 msgid "They sought you out"
-msgstr "Яны вас шукаюць."
+msgstr "Яны ціукюць"
 
 #. [UA] "Скелети втомилися від бою"
 #. [PL] "Szkielety mają dość walki"
@@ -5066,7 +5066,7 @@ msgstr "Мацаванне звона"
 #| msgid "You are warm."
 msgctxt "fallen_viking_randomend_1"
 msgid "You are worthy."
-msgstr "Ты годны"
+msgstr "Ты маеш у сабе годнасць."
 
 #. [UA] "Виявляється, ти маєш гідність."
 #. [PL] "Wygląda na to, że masz w sobie godność."
@@ -5206,7 +5206,7 @@ msgstr "Ты магутны ваяка."
 #. [RU] "Посмотрим, на что вы способны!"
 msgctxt "fallen_viking_randomstart_1"
 msgid "Let us see what you are capable of!"
-msgstr "Паглядзім, якія ў табе здольнасці"
+msgstr "Паглядзім, якія ў табе здольнасці!"
 
 #. [UA] "Хочеш позмагатися зі мною?"
 #. [PL] "Chcesz rzucić mi wyzwanie?"
@@ -5435,10 +5435,9 @@ msgstr "Ты — найлепшае, што яны маглі паслаць?"
 #. [UA] "Вони нині дозволяють будь-кому брати зброю в руки!"
 #. [PL] "W tych czasach każdemu pozwalają chwycić za broń!"
 #. [RU] "Похоже, сейчас оружие выдают всем подряд!"
-#, fuzzy
 msgctxt "fallen_viking_randomtaunt_21"
 msgid "They truly let anyone pick up a weapon these days!"
-msgstr "Сёння сапраўды дазваляюць узяцца за зброю каму папала!"
+msgstr "У мае гады зброю каму папала не давалі!"
 
 #. [UA] "Не ганьби своїх пращурів!"
 #. [PL] "Nie upokarzaj swoich przodków!"
@@ -5506,10 +5505,9 @@ msgstr "Ты можаш лепш!"
 #. [UA] "Це точно та зброя, яку тобі хотілося взяти в бій?"
 #. [PL] "Czy naprawdę chcesz użyć tej broni podczas tej walki?"
 #. [RU] "Вы и правда пришли на бой с этим оружием?"
-#, fuzzy
 msgctxt "fallen_viking_randomtaunt_30"
 msgid "Is that truly the weapon you will bring to this fight?"
-msgstr "Гэта сапраўды тая зброя, з якой ты выйдзеш на бой?"
+msgstr "І з гэтым ты выйдзеш на бой?"
 
 #. [UA] "Та сіролюдики набагато жвавіші за тебе!"
 #. [PL] "Nawet szarzełki mają więcej finezji!"
@@ -7842,7 +7840,7 @@ msgstr "Вашаму посаху дзікай прыроды бракуе мо�
 #. призывов"
 msgctxt "hud_maxsummonsreached_spiritcaller"
 msgid "Your Spirit Caller is not strong enough to control more summons"
-msgstr "Вашаму Заклінальніку Духаў бракуе моцы, каб кантраляваць больш істот."
+msgstr "Вашаму Заклінальніку Духаў бракуе моцы, каб кантраляваць больш істот"
 
 #. [UA] "Тролекличу бракує сил, щоби контролювати більше піднятих слуг."
 #. [PL] "Twoja Trollaska nie jest dostatecznie silna, by kontrolować więcej
@@ -10545,9 +10543,6 @@ msgstr "Трывалы жалезны снарад."
 #. [UA] "Жаринковий заряд"
 #. [PL] "Żarowy ładunek"
 #. [RU] "Угольный заряд"
-#, fuzzy
-#| msgctxt "item_amberpearl"
-#| msgid "Amber Pearl"
 msgctxt "item_bomb_dynamite"
 msgid "Ember Charge"
 msgstr "Жаравы зарад"
@@ -10556,10 +10551,9 @@ msgstr "Жаравы зарад"
 #. Поводитися з обачністю."
 #. [PL] "Gotowy do wybuchu uwięziony żar. Zaleca się ostrożność."
 #. [RU] "Заключенные внутри угли вот-вот взорвутся. Будьте осторожны."
-#, fuzzy
 msgctxt "item_bomb_dynamite_description"
 msgid "Trapped embers, ready to burst. Caution is advised."
-msgstr "Зняволены жар, гатовы выбухнуць. Рэкамендуецца асцярожнасць."
+msgstr "Зняволены жар, гатовы выбухнуць. Карыстацца з асцярожнасцю."
 
 #. [UA] "Флакон із кригою"
 #. [PL] "Szlambomba: Mróz"
@@ -12408,10 +12402,9 @@ msgstr "Марозна-агністы самастрэл"
 #. celować, to z pewnością to zrobią, gdy już ich trafisz."
 #. [RU] "Если враги не замерзли, пока вы целились, то уж после попадания —
 #. непременно."
-#, fuzzy
 msgctxt "item_crossbow_frostfire_gold_description"
 msgid "If your enemies don't freeze as you take aim, they are sure to do so once they are hit."
-msgstr "Калі ворагі не замёрзнуць, пакуль вы мэціцеся, дык напэўна замёрзнуць, калі будуць параненыя."
+msgstr ", дык напэўна замёрзнуць, калі будуць параненыя."
 
 #. [UA] "Заготовина: Вогнекрижний арбалет"
 #. [PL] "Odlew: mroźnognista kusza"
@@ -13076,12 +13069,6 @@ msgstr "Паднос"
 #. [RU] "Поставьте на стол свои любимые блюда и напитки, чтобы устроить
 #. знатный пир на весь мир.\n\n<color=yellow>После того, как пир будет съеден,
 #. при его разборе ресурсы не вернутся.</color>"
-#, fuzzy
-#| msgctxt "item_feaster_description"
-#| msgid ""
-#| "Set the table with whatever food and drink you fancy, and impress your guests with a delicious feast.\n"
-#| "\n"
-#| "<color=yellow>Once a feast has been eaten of, it won't return any resources if dismantled.</color>"
 msgctxt "item_feaster_description"
 msgid ""
 "Set the table with whatever food and drink you fancy, and impress your guests with a delicious feast.\n"
@@ -13961,11 +13948,9 @@ msgstr "Магічны прадмет, трэба загартаваць мар�
 #. [PL] "Drewno świerka nordyckiego"
 #. [RU] "Древесина северной ели"
 #, fuzzy
-#| msgctxt "item_finewood"
-#| msgid "Finewood"
 msgctxt "item_frostwood"
 msgid "Timberwood"
-msgstr "Тымервуд"
+msgstr "Драўніна паў"
 
 #. [UA] "Дуже міцна деревина, ідеально підійде для величних залів."
 #. [PL] "Mocne drewno, które wybornie nadaje się do budowy potężnych hal."
@@ -15662,12 +15647,9 @@ msgstr "Невялікая купка абрэзкаў скуры."
 #. [UA] "Шкіряні обрізки"
 #. [PL] "Skórzane paski"
 #. [RU] "Кожаные ремни"
-#, fuzzy
-#| msgctxt "item_leatherscraps"
-#| msgid "Leather Scraps"
 msgctxt "item_leatherstraps"
 msgid "Leather Straps"
-msgstr "Скураныя папругі"
+msgstr "Скураныя рамяні"
 
 #. [UA] "Міцний але гнучкий матеріал."
 #. [PL] "Solidny, lecz elastyczny materiał."
@@ -15878,10 +15860,9 @@ msgstr "Порткі заклінальніка"
 #. [PL] "Dopasowane ocieplacze, dzięki którym zimno nie przeniknie ci przez
 #. ubranie."
 #. [RU] "Плотные обмотки, не дающие холоду коснуться вашей кожи."
-#, fuzzy
 msgctxt "item_legs_mage_deepnorth_description"
 msgid "Tight legwraps to keep the cold from touching your skin."
-msgstr "Шчыльныя абмоткі для ног, каб холад не кранаўся тваёй скуры."
+msgstr "Шчыльныя абмоткі для ног, каб холад не крануўся вашай скуры."
 
 #. [UA] "Штани, що носять чаклуни, завжди дуже тісні. Дискомфорт стимулює
 #. зосередження, потрібне для чарів…"
@@ -16369,10 +16350,9 @@ msgstr "Марозна-агністая булава"
 #. [UA] "Це іскри розлітаються, коли зброя влучає в ціль, чи крижинки?"
 #. [PL] "Czy przy uderzeniu nią latają iskry, czy to odłamki lodu?"
 #. [RU] "Это искры разлетаются при ударе или осколки льда?"
-#, fuzzy
 msgctxt "item_mace_gold_frostfire_description"
 msgid "Are those sparks that fly as this weapon finds its impact, or are they shards of ice?"
-msgstr "Гэта іскры ляцяць, калі зброя знаходзіць мэту, ці кавалкі лёду?"
+msgstr "Ці гэта іскры ляцяць, ці кавалкі лёду?"
 
 #. [UA] "Заготовина: Вогнекрижна булава"
 #. [PL] "Odlew: mroźnognista buława"
@@ -17088,12 +17068,9 @@ msgstr "Таямнічае прыстасаванне, пабудаванае д
 #. [UA] "Пам’ятна вуглина"
 #. [PL] "Pamiątkowy węgielek"
 #. [RU] "Уголь памяти"
-#, fuzzy
-#| msgctxt "animal_fish8"
-#| msgid "Coral Cod"
 msgctxt "item_memorialcoal"
 msgid "Memorial Coal"
-msgstr "Рэліквійны вугаль"
+msgstr "Памятны вугольчык"
 
 #. [UA] "Десь углибині гарячого невиразного світла ви майже бачите, як
 #. спливають давні спогади…"
@@ -17101,10 +17078,9 @@ msgstr "Рэліквійны вугаль"
 #. odtwarzające się dawne wspomnienie..."
 #. [RU] "Где-то в глубине горячего, мерцающего света словно оживает старое
 #. воспоминание..."
-#, fuzzy
 msgctxt "item_memorialcoal_description"
 msgid "Somewhere deep within the hot, hazy glow, you can almost see an old memory play out..."
-msgstr "Дзесьці глыбока ў гарачым імглістым ззянні амаль бачыш, як разгортваецца стары ўспамін..."
+msgstr "Дзесьці з глыбіні гарачага, невыразнага ззяння вы амаль бачыце, як ажываюць старыя ўспаміны..."
 
 #. [UA] "М’ясний соус"
 #. [PL] "Mielone mięso w sosie"
@@ -19983,10 +19959,9 @@ msgstr "Паўночная Помста"
 #. [PL] "Uwięziony płatek śniegu, z którego rozchodzą się nieskończone
 #. wzory..."
 #. [RU] "Плененная снежинка, из которой рождаются бесконечные узоры..."
-#, fuzzy
 msgctxt "item_staff_frostorbs_description"
 msgid "A caged snowflake, endless patterns emerging from within..."
-msgstr "Зняволеная сняжынка, бясконцыя ўзоры ўзнікаюць знутры..."
+msgstr "Зняволеная сняжынка стварае бясконцыя ўзоры..."
 
 #. [UA] "Дандр"
 #. [PL] "Dundr"
@@ -20969,10 +20944,9 @@ msgstr "Шыярэз"
 #. [UA] "Пазурі, кістки й золото — дайте їм кров і натомість отримаєте дар."
 #. [PL] "Szpon, kość i złoto. Podaruj im krew, a spłynie na ciebie ich dar."
 #. [RU] "Коготь, кость и золото — дайте им кровь, и они даруют вам силу."
-#, fuzzy
 msgctxt "item_trinketbloodgoldhealth_description"
 msgid "Claw and bone and gold – grant them blood and they shall grant you a boon."
-msgstr "Кіпцюр, косць і золата — дайце ім крыві, і яны адоруюць вас."
+msgstr "Кіпцюр, косць і золата — дайце ім крыві, і яны падораць вам сілу."
 
 #. [UA] "Корона відьом"
 #. [PL] "Korona wiedźmy"
@@ -22379,10 +22353,9 @@ msgstr "Вочы-пацеркі і вострыя як брытва зубы с�
 #. [PL] "Paciorkowate oczy i ostre jak brzytwa zęby stanowią zaprzeczenie
 #. pozornie spokojnej natury tej małej jaszczurki."
 #. [RU] "В воде они хозяева, на берегу - добыча для викинга."
-#, fuzzy
 msgctxt "item_trophy_neck_lore"
 msgid "These creatures thrive in water, until a viking lands on their shores."
-msgstr "Гэтыя істоты квітнеюць у вадзе, пакуль на іхні бераг не ступіць вікінг."
+msgstr "Гэтыя істоты цешыліся сваім водным жыццём, пакуль на іхні бераг не ступіла нага вікінга."
 
 #. [UA] "Голова ластонога"
 #. [PL] "Trofeum foki"
@@ -22453,10 +22426,9 @@ msgstr "Менш далікатныя, чым выглядаюць. Яны ло�
 #. płomienia jakby pamiętała lot."
 #. [RU] "Полагаясь на слух вместо зрения, это существо было смертельно опасным
 #. в тумане."
-#, fuzzy
 msgctxt "item_trophy_seeker_lore"
 msgid "Relying on sound rather than sight, this creature was a most dangerous foe in the fog."
-msgstr "Спадзеючыся на слых, а не на зрок, гэтая істота была найнебяспечнейшым ворагам у тумане."
+msgstr "Яны арыентуюцца на слых, а не на зрок, што робіць іх найбольш небяспечнымі праціўнікамі у тумане."
 
 #. [UA] "Голова Королеви"
 #. [PL] "Trofeum Królowej"
@@ -22868,7 +22840,7 @@ msgstr "Нападнік не мае ніводнага шанцу, калі г�
 #. [RU] "Эти толстые снаряды могут пробить шкуру даже самого стойкого врага."
 msgctxt "item_turretbolt_description"
 msgid "These thick missiles can punch through the hide of even the toughest foes."
-msgstr "Гэтыя тоўстыя знарады могуць прабіць нават найтаўсцейшыя шкуры ворагаў."
+msgstr "Гэтыя тоўстыя снарады могуць прабіць нават найтаўсцейшыя шкуры ворагаў."
 
 #. [UA] "Вогнеметалевий снаряд"
 #. [PL] "Pocisk z ogniometalu"
@@ -22902,7 +22874,7 @@ msgstr "Драўляны снарад"
 #. врагов."
 msgctxt "item_turretboltwood_description"
 msgid "Sturdy wooden missiles that can provide a tough defense against foes."
-msgstr "Трывалыя драўнінныя знарады, якія забяспечаць моцную абарону ад ворагаў."
+msgstr "Трывалыя драўнінныя снарады, якія забяспечаць моцную абарону ад ворагаў."
 
 #. [UA] "У дві руки"
 #. [PL] "Dwuręczny"
@@ -24633,16 +24605,15 @@ msgstr "Знайшла старую пабудову, але яна пустая
 #. моих обостренных чувств. Ведь на помощь ко мне не придет никто.\n\nМоих
 #. спутников не вернешь, но именно ради них нужно продолжить свой путь.
 #. Властелин этих земель должен быть уничтожен."
-#, fuzzy
 msgctxt "lore_deepnorth_hervor06"
 msgid ""
 "I don’t like to think about what could have happened, had my axe not been as sharp nor my senses as keen. After all, there is no one left to come to my aid.\n"
 "\n"
 "I may have lost my companions. But it is for their sake that I must continue. The ruler of these lands must die.\n"
 msgstr ""
-"Не хачу думаць пра тое, што магло б здарыцца, калі б мая сякера не была такой вострай, а мае пачуцці такімі чулымі. Бо паратунку ад мяне больш няма.\n"
+"Не хачу думаць, што сталася б, калі б мая сякера не была такой вострай, а мае пачуцці так чулымі. Бо ратаваць мяне няма каму.\n"
 "\n"
-"Можа, я страціла сваіх спадарожнікаў. Але менавіта дзеля іх я павінна працягваць. Уладар гэтых зямель мусіць загінуць.\n"
+"Так, я страціла сваіх таварышаў. Але дзеля іх я маю ісці далей. Валадар гэтага крыю мусіць загінуць.\n"
 
 #. [UA] "Дивно. Ніяк не позбутися відчуття, що тут повинні бути люди, які ось-
 #. ось вийдуть і привітають мене.\n\nГадаю, у моєму дитинстві зими були саме
@@ -24679,16 +24650,15 @@ msgstr ""
 #. не тот.\n\nПейзаж сменяется с зеленого и плодородного на холодный и
 #. безжизненный. Скорее всего, на меня так влияет этот промерзший север. А
 #. что, если нет?"
-#, fuzzy
 msgctxt "lore_deepnorth_hervor08"
 msgid ""
 "I have been haunted by dreams lately, in which I am a raven. On great, black wings I soar across this world that I’ve come to know, but it is not the same.\n"
 "\n"
 "The landscape has gone from green and fertile to cold and barren. Perhaps it is just this frozen north that has been getting to me. Yet...what if it’s not?\n"
 msgstr ""
-"Апошнім часам мяне пераследуюць сны, у якіх я — крумкач. На велізарных чорных крылах я лунаю над гэтым светам, які пазнала, але ён ужо не той.\n"
+"Апошнім часам мяне апаноўваюць сны, у якіх я — крумкач. На велізарных чорных крылах я лунаю над светам, такім знаёмым, але ўсё ж не тым.\n"
 "\n"
-"Ландшафт з зялёнага і ўрадлівага стаў халодным і бясплодным. Можа, усё з-за гэтай замерзлай поўначы. А раптам не?\n"
+"Зямля з зялёнай і ўрадлівай стаў халоднай і бясплоднай. Мабыць, так ўплывае на мяне крайняя поўнай. А раптам не?\n"
 
 #. [UA] "Я знаю, куди треба йти. Пращури вказали мені напрям до оселі володаря
 #. краю. Вони хотіли тримати почвару в ланцюгах, але тепер від його могуті
@@ -24843,16 +24813,15 @@ msgstr "Зважай на словы Каты, якая некалі лічыл�
 #. Теперь же зимы стали холоднее и длиннее, и мы боимся, что вскоре они
 #. захватят все вокруг.\n\nНо именно здесь мы построили свои дома и пустили
 #. корни, и здесь мы останемся."
-#, fuzzy
 msgctxt "lore_deepnorth_random05"
 msgid ""
 "When we first arrived here, this place was rich and prosperous. But the winters are colder and longer now, and we fear they might soon take over altogether.\n"
 "\n"
 "Yet, here we have built our homes and here we have grown our roots, so here it is that we shall stay.\n"
 msgstr ""
-"Калі мы ўпершыню прыйшлі сюды, гэтае месца было багатым і квітнеючым. Але цяпер зімы халаднейшыя і даўжэйшыя, і мы баімся, што неўзабаве яны могуць заняць усё.\n"
+"Калі мы ўпершыню прыйшлі, тут усё цвіло і баяла, але цяпер зімы халаднейшыя і даўжэйшыя. Мы баімся, што неўзабаве зіма будзе адзіным, што застанецца.\n"
 "\n"
-"Усё ж тут мы пабудавалі свае дамы і тут укарэніліся, таму і застанемся тут.\n"
+"Усё ж тут мы ўзвялі свае дамы; тут мы пасяліліся і тут застанемся.\n"
 
 #. [UA] "У дальніх нордичних землях\nДе в небесах чарівний танок миготить,
 #. \nПідношення стане кличем раннім\nДля того, хто під землею приліг на
@@ -28467,10 +28436,9 @@ msgstr "Блакаваць"
 #. пользовательский контент заблокированных игроков. Вы будете отключены от
 #. сервера и не сможете подключиться к другому серверу, если на нем играет
 #. этот игрок. Вы точно хотите заблокировать данного игрока?"
-#, fuzzy
 msgctxt "menu_player_list_block_warning_as_client"
 msgid "Blocking this player will prevent you from playing together. This is in order to follow platform policies where you are not permitted to view User Generated Content (UGC) of blocked players. You will be disconnected, and will not be able to join any server they are playing on. Do you wish to proceed with blocking?"
-msgstr "Блакаванне гэтага гульца перашкодзіць вам гуляць разам. Гэта робіцца ў адпаведнасці з палітыкай платформы, паводле якой вам забаронена праглядаць карыстальніцкі змест (UGC) заблакаваных гульцоў. Вас адключыць, і вы не зможаце далучыцца да сервера, дзе ён гуляе. Ці жадаеце працягнуць блакаванне?"
+msgstr "Заблакаваўшы гэтага гульца, вы больш не зможаце гуляць з ім разам. Гэта робіцца ў адпаведнасці з палітыкай платформы, паводле якой вам забаронена праглядаць карыстальніцкае змесціва (UGC) заблакаваных гульцоў. Вас адключыць, і вы не зможаце далучыцца да сервера, дзе ён гуляе. Ці жадаеце працягнуць блакаванне?"
 
 #. [UA] "Блокування призведе до неможливості спільної гри. Ця дія вилучить
 #. інших гравців із поточної гри. Унаслідок дотримання політики платформи
@@ -28829,12 +28797,9 @@ msgstr "Бракуе месца ў воблачным сховішчы!"
 #. [RU] "Эту операцию не удалось выполнить, так как в памяти для данных
 #. сохранений нет места. Удалите неиспользуемые данные сохранений и повторите
 #. попытку."
-#, fuzzy
-#| msgctxt "menu_cloudstoragefulloperationfailed"
-#| msgid "This operation failed because your cloud storage is full. Please move some worlds to local storage and try again."
 msgctxt "menu_storagefulloperationfailed"
 msgid "This operation failed because save data storage is full. Please remove unused save data and try again."
-msgstr "Гэтая аперацыя не ўдалася, бо сховішча захаваных дадзеных поўнае. Калі ласка, выдаліце неўжываныя дадзеныя захавання і паспрабуйце зноў."
+msgstr "Аперацыя не ўдалася, бо бракуе месца ў сховішчы для захаванняў. Выдаліце неўжываныя захаванні і паспрабуйце зноў."
 
 #. [UA] "Використано місця: $1"
 #. [PL] "Wykorzystane miejsce: $1"
@@ -28909,7 +28874,6 @@ msgstr "УЛЯПШЭННЕ"
 #. [PL] "Valheim może ulec awarii na twoim systemie podczas korzystania z
 #. interfejsu Vulkan"
 #. [RU] "При использовании Vulkan в работе Valheim возможны сбои"
-#, fuzzy
 msgctxt "menu_vulkancrashwarning_header"
 msgid "Valheim might crash on your system when using Vulkan"
 msgstr "Valheim можа выйсці з ладу на вашай сістэме пры выкарыстанні Vulkan"
@@ -28929,10 +28893,9 @@ msgstr "Valheim можа выйсці з ладу на вашай сістэме
 #. потенциально подвержена этой проблеме. Если игра работает нестабильно,
 #. попробуйте использовать API рендеринга по умолчанию (DirectX 11). Приносим
 #. извинения за неудобства!"
-#, fuzzy
 msgctxt "menu_vulkancrashwarning_text"
 msgid "You're currently using Vulkan. We're investigating a known crash when using Vulkan on certain systems, and your system has been detected as potentially being affected. If you experience stability issues, please use the default rendering API instead (DirectX 11). Sorry for the inconvenience!"
-msgstr "Зараз вы карыстаецеся Vulkan. Мы расследуем вядомы збой пры выкарыстанні Vulkan на некаторых сістэмах, і ваша сістэма была вызначана як патэнцыйна закранутая. Калі вы сутыкнецеся з праблемамі стабільнасці, калі ласка, карыстайцеся стандартным API рэндэрынгу (DirectX 11). Прыносім прабачэнні за нязручнасці!"
+msgstr "На некаторых сістэмах існуе збой пры выкарыстанні Vulkan, які мы актыўна даследуем праблему. Вы карыстаецеся Vulkan, і ваша сістэма была вызначана як патэнцыйна закранутая гэтай праблемай. Калі вы заўважыце нестабільнасць у працы гульні, паспрабуйце выкарстоўваць іншую тэхналогію рэндэрынгу (DirectX 11). Перапрашаем за нязручнасці!"
 
 #. [UA] "Щонайменше 5 символів"
 #. [PL] "Min. 5 znaków"
@@ -28958,10 +28921,9 @@ msgstr "Так"
 #. [UA] "Сьогодні вам снився сон"
 #. [PL] "Dziś będziesz śnić"
 #. [RU] "Сегодня ночью вам приснится сон"
-#, fuzzy
 msgctxt "message_dream"
 msgid "You will dream tonight"
-msgstr "Вы будзеце бачыць сны гэтай ноччу"
+msgstr "Гэтай ноччу вас наведаюць сненні"
 
 #. [UA] "Відкидний міст"
 #. [PL] "Most zwodzony"
@@ -29533,7 +29495,7 @@ msgstr "Няма месца"
 #. [RU] "$1: больше не съесть"
 msgctxt "msg_nomore"
 msgid "You can't eat more $1"
-msgstr "$1 вам больш у горла не лезе."
+msgstr "$1 вам больш у горла не лезе"
 
 #. [UA] "Немає відповідних предметів"
 #. [PL] "Nie masz żadnych rzeczy do przetworzenia"
@@ -29582,7 +29544,7 @@ msgstr "Нельга змясціць у падзямеллі"
 #. [RU] "Нет снарядов для баллисты"
 msgctxt "msg_noturretammo"
 msgid "No ballista missiles"
-msgstr "Няма знарадаў для балісты"
+msgstr "Няма снарадаў для балісты"
 
 #. [UA] "Ви зробили пожертву"
 #. [PL] "Składasz ofiarę"
@@ -31451,12 +31413,9 @@ msgstr "Думаю, у цябе ёсць і лепшыя рэчы."
 #. [UA] "Гадаю, що ти хибно розумієш мої потреби."
 #. [PL] "Chyba nie rozumiesz, czego potrzebuję."
 #. [RU] "Кажется, ты не совсем понимаешь, что мне нужно."
-#, fuzzy
-#| msgctxt "npc_giveitem_no8"
-#| msgid "I think you missunderstood my needs."
 msgctxt "npc_giveitem_no8"
 msgid "I think you misunderstood my needs."
-msgstr "Здаецца, ты няслушна зразумеў мае патрэбы."
+msgstr "Здаецца, ты не зусім разумееш, што мне трэба."
 
 #. [UA] "Ні й ще раз ні."
 #. [PL] "Nie i... nie."
@@ -32461,10 +32420,9 @@ msgstr "Гм... Якім чынам ты яшчэ жывеш, ваяка? Маб
 #. [RU] "Это место перемен. Некоторые создания находят здесь новое
 #. предназначение, становясь чем-то большим. Интересно, а не относитесь ли вы
 #. к их числу?"
-#, fuzzy
 msgctxt "npc_munin_deepnorth_general01"
 msgid "This is a place of transformation. Certain creatures find a new purpose here, becoming something more than they once were. Are you one of these creatures, I wonder?"
-msgstr "Гэта месца пераўтварэння. Некаторыя стварэнні знаходзяць тут новае прызначэнне, становячыся чымсьці большым, чым былі. Ці ты адно з такіх стварэнняў, цікава?"
+msgstr "Гэта — месца пераўтварэння. Частка істот знаходзяць тут новае прызначэнне, становячыся чымсьці большым, чым былі. Цікава, ці належыш ты да такіх стварэнняў?"
 
 #. [UA] "Кар-р! Перші прибулі сюди не знали про підземних злодіїв. Якби знали,
 #. то обов’язково б вибрали ліпші місця для будування поселень."
@@ -32487,10 +32445,9 @@ msgstr "Ка-а-ар! Тыя, хто былі тут да цябе, знаць �
 #. [RU] "Присмотритесь к этим землям. Здесь воздвигнуты памятники в честь
 #. воинов, что пришли сюда до вас. Если докажете свою доблесть, сможете
 #. получить их благословение."
-#, fuzzy
 msgctxt "npc_munin_deepnorth_general03"
 msgid "Watch these lands for memorials in the honour of the warriors who came before you. They may bestow a boon upon you, should you prove yourself worthy in their eyes."
-msgstr "Пільна соча гэтыя землі на мемарыялы ў гонар воінаў, якія былі тут да цябе. Яны могуць адораць цябе ласкай, калі ты дакажаш сваю годнасць у іх вачах."
+msgstr "Прыгледзься помнікам гонар вялікіх воінаў мінуўшчыны, што раскіданы па гэтым краі. Яны адораць цябе ласкай, калі  давядзеш, што маеш годнасць."
 
 #. [UA] "Задовго до того, як Всебатько прикликав саме вас, інші мали завдання
 #. охороняти цей світ. Навіть попри численну кількість років потому їхні душі
@@ -32502,10 +32459,9 @@ msgstr "Пільна соча гэтыя землі на мемарыялы ў �
 #. [RU] "Задолго до того, как зов Всеотца призвал вас, другие несли бремя
 #. стражей мира сего. После их кончины прошли века, но их дух так и не обрел
 #. покоя. Проявляйте милосердие — не тревожьте их."
-#, fuzzy
 msgctxt "npc_munin_deepnorth_general04"
 msgid "Long before the Allfather summoned you, others were tasked to guard this world. Even though many years have gone by since their passing, they still can't seem to find peace. Be kind, and do not disturb them."
-msgstr "Задоўга да таго, як Усі-Айцец паклікаў цябе, іншым было даручана ахоўваць гэты свет. І хоць з іх сыходу прайшло шмат гадоў, яны ўсё яшчэ не могуць знайсці спакой. Будзь добры да іх і не турбуй іх."
+msgstr "У гэтага свету былі і іншыя вартаўнікі, задоўга да таго, як Бацька Усяго паклікаў цябе. І хоць прайшло шмат гадоў, яны ўсё яшчэ не могуць знайсці спакою. Зрабі ласку і не турбуй іх."
 
 #. [UA] "Кар-р! Дивний нарід мешкає тут. Вони створені з плоті самого зла…"
 #. [PL] "Kraa! Gnieżdżą się tu dziwne istoty stworzone z samego zła..."
@@ -32520,10 +32476,9 @@ msgstr "Ка-а-ар! Тут жывуць дзіўныя істоты, ство�
 #. im się udało, ale nie mieli jak powrócić z tej wyprawy..."
 #. [RU] "Давным-давно другие смельчаки уже пытались покорить эти земли.
 #. Похоже, им удалось добраться сюда, но пути назад для них уже не было..."
-#, fuzzy
 msgctxt "npc_munin_deepnorth_ship"
 msgid "Long ago, others attempted to sail to these lands. It appears they made it here, but that there was no way for them to make the return journey..."
-msgstr "У даўніну іншыя спрабавалі даплысці да гэтых зямель. Яны, падобна, дабраліся сюды, а вось вяртацца ім было ўжо няма як..."
+msgstr "Даўным-даўно былі іншыя, хто спрабавалі даплысці сюды. І яны, падобна, дабіраліся, а вось вяртацца ўжо не было каму..."
 
 #. [UA] "Кар-р! Вітаю, людино… Я — Мунін, брат Хуґіна. Тобі Всебатько вітання
 #. передає. Його око дивиться крізь моє, мій язик вимовляє його слова.
@@ -32784,10 +32739,9 @@ msgstr "Гэтая рэч сюды не пасуе"
 #. zamiast tego umieścisz je na stojaku?"
 #. [RU] "Некоторые вещи слишком хороши для хранения в шкафу. Выставьте их на
 #. показ!"
-#, fuzzy
 msgctxt "piece_armorstand_description"
 msgid "Some clothes are just too nice to fold away. Why not put them on display instead?"
-msgstr "Некаторыя рэчы занадта добрыя, каб іх складаць. Чаму б не выставіць іх напаказ?"
+msgstr "Некаторыя рэчы надта самавітыя, каб іх прыхоўваць. Дык чаму б не выставіць напаказ?"
 
 #. [UA] "Ремісничий прес"
 #. [PL] "Rzemieślnicza prasa"
@@ -32802,10 +32756,9 @@ msgstr "Рамесны прэс"
 #. zaawansowanych projektów."
 #. [RU] "Этот продвинутый инструмент нужен для создания более сложных
 #. предметов."
-#, fuzzy
 msgctxt "piece_artisan_ext1_description"
 msgid "This intricate tool is needed for crafting more advanced designs."
-msgstr "Гэты складаны інструмент патрэбны для стварэння больш прасунутых вырабаў."
+msgstr "Чым болей прасунуты выраб, тым  дасканалейшыя інструменты патрэбны."
 
 #. [UA] "Ремісничий стіл"
 #. [PL] "Stół mistrzowski"
@@ -32820,10 +32773,9 @@ msgstr "Рамесны стол"
 #. wymagany jest stół mistrzowski."
 #. [RU] "Для создания механизмов и сложных конструкций нужен стол
 #. ремесленника."
-#, fuzzy
 msgctxt "piece_artisanstation_description"
 msgid "To build machinery and craft complicated designs, an artisan table is required."
-msgstr "Каб будаваць механізмы і ствараць складаныя распрацоўкі, патрэбны рамесны стол."
+msgstr "Рамесны стол прыдасца, каб будаваць складаныя машыны і механізмы."
 
 #. [UA] "Аркова стіна з попелистої деревини"
 #. [PL] "Łukowa ściana ze zgliszczaka"
@@ -32860,10 +32812,9 @@ msgstr "Ложак з попельнай драўніны"
 #. zimnem."
 #. [RU] "Эта искусно сделанная кровать обеспечит вам хороший сон — шкуры
 #. пеплосвина защищают и от жары, и от холода."
-#, fuzzy
 msgctxt "piece_ashwood_bed_description"
 msgid "Rest easy on this finely crafted bed, with asksvin hides to insulate you from heat and cold alike."
-msgstr "Адпачнеце на гэтым старанна зробленым ложку — шкуры тленнавепраў абараняюць і ад спёкі, і ад холаду."
+msgstr "Не грэбуйце адпачыць на старанна зробленым ложку — шкуры тленнавепраў абараняюць і ад спёкі, і ад холаду."
 
 #. [UA] "Декоративна стіна з попелистої деревини"
 #. [PL] "Ozdobna ściana ze zgliszczaka"
@@ -32875,7 +32826,6 @@ msgstr "Дэкаратыўная сцяна з попельнай драўнін
 #. [UA] "Ці візерунки можна роздивлятися годинами…"
 #. [PL] "Możesz patrzeć na ten wzór całymi godzinami..."
 #. [RU] "На этот узор можно смотреть часами..."
-#, fuzzy
 msgctxt "piece_ashwood_decowall_description"
 msgid "You could watch this pattern for hours..."
 msgstr "За гэтым узорам можна назіраць гадзінамі..."
@@ -32890,7 +32840,6 @@ msgstr "Перасценак з попельнай драўніны"
 #. [UA] "Додає цікавих елементів у кожне приміщення."
 #. [PL] "Subtelne detale dla każdego pomieszczenia."
 #. [RU] "Добавляет приятную деталь в любой интерьер."
-#, fuzzy
 msgctxt "piece_ashwood_decowall_divider_description"
 msgid "Adds a nice detail to any room."
 msgstr "Дадае прыгожую дэталь любому пакою."
@@ -32922,10 +32871,9 @@ msgstr "Дзверы з попельнай драўніны"
 #. popodziwiać, zamiast przejść."
 #. [RU] "Детали декора могут заставить вас остановиться и рассматривать дверь,
 #. вместо того чтобы пройти в нее."
-#, fuzzy
 msgctxt "piece_ashwood_door_description"
 msgid "The detailed decorations might make you stop and look instead of actually going through."
-msgstr "Складаныя ўпрыгажэнні могуць прымусіць вас спыніцца і палюбавацца, замест таго каб проста прайсці скрозь."
+msgstr "Складаныя аздобы не дадуць вам прайсці міма, не палюбаваўшыся імі."
 
 #. [UA] "Підлога з попелистої деревини 1х1 м"
 #. [PL] "Podłoga ze zgliszczaka 1x1"
@@ -32958,10 +32906,9 @@ msgstr "Узоры выдатна глядзяцца і на падлозе."
 #. [UA] "Діагональні підлогові дошки з попелистої деревини."
 #. [PL] "Ułożona na jodełkę podłoga ze zgliszczaka."
 #. [RU] "Половые доски из пепельного дерева, уложенные по диагонали."
-#, fuzzy
 msgctxt "piece_ashwood_floor_description"
 msgid "Ashwood floorboards, laid diagonally."
-msgstr "Доўбня з попельнай драўніны, укладзеная па дыяганалі."
+msgstr "Масніцы з попельнай драўніны, укладзеная па дыяганалі."
 
 #. [UA] "Півстіна з попелистої деревини"
 #. [PL] "Półściana ze zgliszczaka"
@@ -32987,12 +32934,9 @@ msgstr "Слуп з попельнай драўніны 2 м"
 #. [UA] "Опори, які завжди теплі на дотик."
 #. [PL] "Te podpory zawsze są ciepłe w dotyku."
 #. [RU] "Эти опоры всегда теплые на ощупь."
-#, fuzzy
-#| msgctxt "item_askhide_description"
-#| msgid "This sturdy leather is thick, and still warm to the touch."
 msgctxt "piece_ashwood_poles_description"
 msgid "These supports are always warm to the touch."
-msgstr "Гэтыя апоры заўсёды цёплыя навобмацак."
+msgstr "Апоры заўсёды цёплыя навобмацак."
 
 #. [UA] "Чвертьстіна з попелистої деревини"
 #. [PL] "Ćwierćściana ze zgliszczaka"
@@ -33046,9 +32990,6 @@ msgstr "Бэлька з попельнай драўніны 45°"
 #. [UA] "Балка з попелистої деревини під 67°"
 #. [PL] "Belka ze zgliszczaka 67°"
 #. [RU] "Брус из пепельного дерева 67°"
-#, fuzzy
-#| msgctxt "piece_ashwoodbeam26"
-#| msgid "Ashwood Beam 26°"
 msgctxt "piece_ashwoodbeam67"
 msgid "Ashwood Beam 67°"
 msgstr "Бэлька з попельнай драўніны 67°"
@@ -33077,18 +33018,16 @@ msgstr "Сходы з попельнай драўніны"
 #. [UA] "Сходи набагато міцніші, аніж видається."
 #. [PL] "Te schody są bardziej wytrzymałe, niż mogłoby się wydawać."
 #. [RU] "Эти ступеньки прочнее, чем кажутся."
-#, fuzzy
 msgctxt "piece_ashwoodstair_description"
 msgid "These stairs are sturdier than they might appear."
-msgstr "Гэтыя ўсходы мацнейшыя, чым можа здацца на першы погляд."
+msgstr "Гэтыя сходы надзейнейшыя, чым можа здацца на першы погляд."
 
 #. [UA] "Обидві сторони цієї стіни мають свої переваги. Обирати вам!"
 #. [PL] "Obie strony tej ściany mają swój urok. Wybór należy do ciebie!"
 #. [RU] "У каждой из сторон этой стены есть свой шарм. Выбирайте сами!"
-#, fuzzy
 msgctxt "piece_ashwoodwall_description"
 msgid "Both sides of this wall have their own charm. The choice is yours!"
-msgstr "Абодва бакі гэтай сцяны па-свойму чароўныя. Выбар за вамі!"
+msgstr "Абодва бакі гэтай сцяны па-свайму чароўныя. Выбар за вамі!"
 
 #. [UA] "Стіна з попелистої деревини скісна під 67°"
 #. [PL] "Ściana ze zgliszczaka 67°"
@@ -33468,10 +33407,9 @@ msgstr "Драўляная лаўка"
 #. [PL] "Jeśli masz miejsce w swoim sercu, to znajdzie się też miejsce na twój
 #. zadek."
 #. [RU] "Если в сердце есть место, то и для пятой точки найдется."
-#, fuzzy
 msgctxt "piece_bench01_description"
 msgid "If there is room in your heart, there is room for your butt."
-msgstr "Калі ў сэрцы ёсць месца, то і для сядушкі знойдзецца."
+msgstr "Калі ў сэрцы ёсць месца, то і для попы знойдзецца."
 
 #. [UA] "Різьблена лава"
 #. [PL] "Rzeźbiona ławka"
@@ -34119,10 +34057,9 @@ msgstr "Блакітная стаячая жарніца"
 #. też niesamowite zimno."
 #. [RU] "Трудно понять, это пламя горит невероятно горячо или невероятно
 #. холодно."
-#, fuzzy
 msgctxt "piece_brazierfloor02_description"
 msgid "It's hard to tell whether this flame burns incredibly hot or incredibly cold."
-msgstr "Цяжка сказаць, ці гарыць гэтае полымя страшэнна горача, ці страшэнна холадна."
+msgstr "Цяжка сказаць, ці полымя гарыць страшэнна горача, ці страшэнна холадна."
 
 #. [UA] "Стос бронзи"
 #. [PL] "Stos brązu"
@@ -34224,10 +34161,9 @@ msgstr "Сушылка для траў"
 #. [PL] "Potrzebujesz wielu składników, by zachować zróżnicowaną i smakowitą
 #. dietę."
 #. [RU] "Для разнообразного и вкусного рациона нужно много ингредиентов."
-#, fuzzy
 msgctxt "piece_cauldron_ext1_spice_description"
 msgid "You need many ingredients for a varied and delicious diet."
-msgstr "Для разнастайнага і смачнага рацыёну патрэбна шмат інгрэдыентаў."
+msgstr "Разнастайны і смачны рацыён вымагае мноства складнікаў."
 
 #. [UA] "Стіл м’ясаря"
 #. [PL] "Stół rzeźnika"
@@ -34239,12 +34175,9 @@ msgstr "Стол мясніка"
 #. [UA] "Найліпші страви потребують найліпших шматочків."
 #. [PL] "Najlepsze dania wymagają najlepszych sztuk mięsa."
 #. [RU] "Для идеальных блюд нужны самые лучшие куски мяса."
-#, fuzzy
-#| msgctxt "item_helmet_odin_description"
-#| msgid "Odin's finest warriors deserve the finest cloth."
 msgctxt "piece_cauldron_ext3_butchertable_description"
 msgid "The finest dishes require the finest cuts."
-msgstr "Найлепшыя стравы патрабуюць найлепшых кавалкаў."
+msgstr "Для найлепшай стравы не шкада найлепшых кавалкаў."
 
 #. [UA] "Каструлі та пательні"
 #. [PL] "Garnki i patelnie"
@@ -34256,7 +34189,6 @@ msgstr "Кухонны посуд"
 #. [UA] "Іноді трапляється так, що казан просто не підходить."
 #. [PL] "Czasami sam kociołek po prostu nie wystarcza."
 #. [RU] "Иногда одного котла просто недостаточно."
-#, fuzzy
 msgctxt "piece_cauldron_ext4_pans_description"
 msgid "Sometimes just a cauldron simply isn't enough."
 msgstr "Часам простага катла недастаткова."
@@ -34507,7 +34439,6 @@ msgstr "Куфар"
 #. [PL] "Dobre miejsce do przechowywania wszelkich przedmiotów, których nie
 #. musisz nosić przy sobie."
 #. [RU] "Отличное место для хранения вещей, которые не нужно носить с собой."
-#, fuzzy
 msgctxt "piece_chestwood_description"
 msgid "A good place to store any items you don't need to carry with you."
 msgstr "Нядрэннае месца для рэчаў, якія не абавязкова насіць з сабой."
@@ -34752,10 +34683,9 @@ msgstr "Слуп з цёмнай драўніны 4 м"
 #. [UA] "Опора вкрита хитромудрим різьбленням."
 #. [PL] "Ta podpora jest pokryta misternymi wzorami."
 #. [RU] "Эта опора украшена замысловатыми узорами."
-#, fuzzy
 msgctxt "piece_darkwoodpoles_description"
 msgid "Intricate designs run along this support structure."
-msgstr "Па гэтай структуры апор ідуць мудрагелістыя ўзоры."
+msgstr "Апора, пакрытая хітрамудрымі ўзорамі."
 
 #. [UA] "Оздоблення у вигляді крука"
 #. [PL] "Ozdobny kruk"
@@ -34786,10 +34716,9 @@ msgstr "Гонтавы дах 26°"
 #. tego dobrze wygląda."
 #. [RU] "Эта крыша с небольшим углом наклона не только защищает от дождя, но и
 #. украшает дом."
-#, fuzzy
 msgctxt "piece_darkwoodroof26_description"
 msgid "This shallow roof is sure to keep the rain out, and look good doing it."
-msgstr "Гэты пакаты дах абавязкова ўтрымае дождж і будзе прыгожа выглядаць."
+msgstr "Пакаты дах, які без праблем абароніць ад дажджу, ды яшчэ і будзе самавіта выглядаць у працэсе."
 
 #. [UA] "Ґонтовий дах під 45°"
 #. [PL] "Dach z gontów 45°"
@@ -34803,10 +34732,9 @@ msgstr "Гонтавы дах 45°"
 #. tego dobrze wygląda."
 #. [RU] "Эта крыша с увеличенным углом наклона не только защищает от дождя, но
 #. и украшает дом."
-#, fuzzy
 msgctxt "piece_darkwoodroof45_description"
 msgid "This steeper roof is sure to keep the rain out, and look good doing it."
-msgstr "Гэты больш круты дах абавязкова ўтрымае дождж і будзе прыгожа выглядаць."
+msgstr "Стромкі, які без праблем абароніць ад дажджу, ды яшчэ і будзе самавіта выглядаць у працэсе."
 
 #. [UA] "Ґонтовий дах під 67°"
 #. [PL] "Dach z gontów 67°"
@@ -35165,10 +35093,9 @@ msgstr "Ператворыць мяккую тканіну ў чароўную �
 #. [UA] "Вічне вогнище"
 #. [PL] "Wieczny stos"
 #. [RU] "Вечное пламя"
-#, fuzzy
 msgctxt "piece_faderember"
 msgid "Eternal Pyre"
-msgstr "Вечнае вогнішча"
+msgstr "Вечнае полымя"
 
 #. [UA] "Його гнів та шкодування борються одне з одним, на віки вічні
 #. підживлюючи це полум’я своєю борнею."
@@ -35176,48 +35103,37 @@ msgstr "Вечнае вогнішча"
 #. ten ogień aż do samego końca."
 #. [RU] "Его ярость и сожаление сражаются друг с другом, и их борьба будет
 #. питать этот огонь до самого конца."
-#, fuzzy
 msgctxt "piece_faderember_description"
 msgid "His rage and regret are at war with each other, and their struggle will fuel this fire until the very end."
-msgstr "Ягоныя лютасць і шкадаванне змагаюцца адна з адной, і гэтая барацьба будзе падтрымліваць агонь да самага канца."
+msgstr "Ягоныя лютасць і шкадаванне змагаюцца адна з адной, і гэтая барацьба будзе сіліць агонь да самага канца."
 
 #. [UA] "Жаринки палахкотять яскравим світлом"
 #. [PL] "Rozżarzone węgle jasno płoną"
 #. [RU] "Угли ярко горят"
-#, fuzzy
 msgctxt "piece_faderember_full"
 msgid "The embers are burning bright"
-msgstr "Вугольле гарыць ярка"
+msgstr "Жарынкі гарыць ярка"
 
 #. [UA] "Жаринки горять"
 #. [PL] "Rozżarzone węgle się rozpalają"
 #. [RU] "Угли разгораются"
-#, fuzzy
-#| msgctxt "piece_beehive_sleep"
-#| msgid "The bees are sleeping"
 msgctxt "piece_faderember_light"
 msgid "The embers are catching"
-msgstr "Вугольле разгараецца"
+msgstr "Жарынкі разгараюцца"
 
 #. [UA] "Жаринки ледь тліють"
 #. [PL] "Rozżarzone węgle się duszą"
 #. [RU] "Угли гаснут"
-#, fuzzy
-#| msgctxt "piece_beehive_sleep"
-#| msgid "The bees are sleeping"
 msgctxt "piece_faderember_nospace"
 msgid "The embers are suffocating"
-msgstr "Вугольне затухае"
+msgstr "Жарынкі затухаюць"
 
 #. [UA] "Жаринки розпалюються"
 #. [PL] "Rozżarzone węgle się rozpalają"
 #. [RU] "Угли разгораются"
-#, fuzzy
-#| msgctxt "piece_beehive_sleep"
-#| msgid "The bees are sleeping"
 msgctxt "piece_faderember_ok"
 msgid "The embers are catching"
-msgstr "Вугольне разгараецца"
+msgstr "Жарынкі разгараюцца"
 
 #. [UA] "Фейські вогники"
 #. [PL] "Baśniowe światełka"
@@ -35229,10 +35145,9 @@ msgstr "Казачныя аганькі"
 #. [UA] "Додає приємного освітлення до святкування."
 #. [PL] "Oświetl uroczystości delikatnym blaskiem."
 #. [RU] "Мягкое освещение для ваших гуляний."
-#, fuzzy
 msgctxt "piece_fairylightgarland_description"
 msgid "Lends a gentle light to your festivities."
-msgstr "Падарыць мяккае святло вашаму святу."
+msgstr "Падорыць мяккае святло вашаму святу."
 
 #. [UA] "Бродильна бочка"
 #. [PL] "Kadź fermentacyjna"
@@ -35254,10 +35169,9 @@ msgstr "Дадаць прадмет"
 #. pożądanych właściwości."
 #. [RU] "Медовухе нужно настояться и перебродить, чтобы проявились все ее
 #. свойства."
-#, fuzzy
 msgctxt "piece_fermenter_description"
 msgid "Mead needs to sit and ferment for a while, for all its intended properties to emerge."
-msgstr "Пітны мёд павінен некаторы час настойвацца і брадзіць, каб раскрыліся ўсе яго ўласцівасці."
+msgstr "Каб раскрыць ўсе ўласцівасці пітнага мёду, яму трэба даць час настойвацца і перабрадзіць."
 
 #. [UA] "потрібні стіни"
 #. [PL] "Zbyt odkryty"
@@ -35336,10 +35250,9 @@ msgstr "Жалезнае кастрышча"
 #. klasyczna alternatywa."
 #. [RU] "Достойная альтернатива, когда не хочется раскладывать костер просто
 #. на земле."
-#, fuzzy
 msgctxt "piece_firepit_iron_description"
 msgid "If you don't want to place a campfire directly onto the ground, this is a classy alternative."
-msgstr "Калі вы не хочаце класці вогнішча проста на зямлю, гэта вытанчаная альтэрнатыва."
+msgstr "Калі не хочаце распальваць цяпельца проста на зямлі, ёсць гэта вытанчаная альтэрнатыва."
 
 #. [UA] "Вогнеметалевий брус"
 #. [PL] "Belka z ogniometalu"
@@ -35372,10 +35285,9 @@ msgstr "Стос полыметалу"
 #. [UA] "Цей стос майже пашить жаром…"
 #. [PL] "Ten stos praktycznie promieniuje ciepłem..."
 #. [RU] "От этой стопки буквально исходит жар..."
-#, fuzzy
 msgctxt "piece_flametalbarstack_description"
 msgid "The heat is practically radiating from this stack..."
-msgstr "Ад гэтага штабеля практычна сыплецца цяпло..."
+msgstr "Ад гэтага стосу літаральна прамяніцца цяпло..."
 
 #. [UA] "Вогнеметалеві двері"
 #. [PL] "Brama z ogniometalu"
@@ -35388,10 +35300,9 @@ msgstr "Полыметалёвая брама"
 #. [PL] "Imponujący sposób na powitanie przyjaciół lub odstraszenie wrogów."
 #. [RU] "Впечатляющий способ поприветствовать друзей. Ну, или отпугнуть
 #. врагов."
-#, fuzzy
 msgctxt "piece_flametalgate_description"
 msgid "An impressive way to welcome your friends, or to ward off your foes."
-msgstr "Уражлівы спосаб сустрэць сяброў або стрымаць ворагаў."
+msgstr "Уражальны спосаб сустрэць сяброў або стрымаць ворагаў."
 
 #. [UA] "Груда кременю"
 #. [PL] "Stos krzemienia"
@@ -35405,9 +35316,6 @@ msgstr "Груда крэменю"
 #. [UA] "Пильнуйте, куди ступаєте!"
 #. [PL] "Uważaj pod nogi!"
 #. [RU] "Смотрите под ноги!"
-#, fuzzy
-#| msgctxt "tutorial_hildirdungeon_topic"
-#| msgid "Watch your step, warrior."
 msgctxt "piece_flintpile_description"
 msgid "Watch your step!"
 msgstr "Глядзіце пад ногі!"
@@ -35422,10 +35330,9 @@ msgstr "Кузня"
 #. [UA] "Якщо потрібно працювати з металом, то не обійтися без ковальні."
 #. [PL] "Jeśli chcesz pracować z metalem, potrzebujesz kuźni."
 #. [RU] "Чтобы работать с металлом, нужна кузница."
-#, fuzzy
 msgctxt "piece_forge_description"
 msgid "When you want to work with metal, you need a forge."
-msgstr "Калі вы хочаце працаваць з металам, вам патрэбная кузня."
+msgstr "Калі хочаце працаваць з металам, вам патрэбная кузня."
 
 #. [UA] "Ковальські міхи"
 #. [PL] "Miech"
@@ -35439,10 +35346,9 @@ msgstr "Кавальскія мяхі"
 #. przydatne podczas wykuwania."
 #. [RU] "С помощью этих мехов можно усилить жар, что очень полезно в кузнечном
 #. деле."
-#, fuzzy
 msgctxt "piece_forge_ext1_description"
 msgid "Pressing down on these bellows generates more heat, which is very helpful for smithing."
-msgstr "Націск на гэтыя мяхі дае больш цяпла, што вельмі дапамагае ў кавальстве."
+msgstr "Мяхі даюць лепшы жар, што вельмі дапамагае ў кавальстве."
 
 #. [UA] "Ковадло"
 #. [PL] "Kowadła"
@@ -35455,10 +35361,9 @@ msgstr "Кавадлы"
 #. [PL] "Przy bardziej szczegółowych dziełach przydają się różne rodzaje
 #. kowadeł."
 #. [RU] "Для тонкой работы пригодятся наковальни разных типов."
-#, fuzzy
 msgctxt "piece_forge_ext2_description"
 msgid "For more detailed work, multiple kinds of anvils can come in handy."
-msgstr "Для больш дбайнай працы рукой дапамогуць розныя віды кавадлаў."
+msgstr "Для тонкай работы прыдадуцца кавадла розных тыпаў."
 
 #. [UA] "Шліфувальне колесо"
 #. [PL] "Kamień szlifierski"
@@ -35472,10 +35377,9 @@ msgstr "Шліфавальны круг"
 #. [PL] "Kamień szlifierski jest potrzebny do ostrzenia każdego rodzaju
 #. miecza."
 #. [RU] "Шлифовальный круг необходим для заточки любого меча."
-#, fuzzy
 msgctxt "piece_forge_ext3_description"
 msgid "A grinding wheel is necessary for sharpening any kind of sword."
-msgstr "Шліфавальны круг неабходны для заточкі любога мяча."
+msgstr "Шліфавальны круг прыдасца для заточкі любога мяча."
 
 #. [UA] "Ковадло коваля"
 #. [PL] "Kowadło"
@@ -35490,10 +35394,9 @@ msgstr "Вялікае кавадла"
 #. spadło ci na stopy."
 #. [RU] "Большая наковальня нужна для работы с крупными предметами. Только не
 #. уроните ее себе на ногу."
-#, fuzzy
 msgctxt "piece_forge_ext4_description"
 msgid "A large anvil for working large items. Make sure it doesn't fall on your feet."
-msgstr "Вялікае кавадла для працы з буйнымі прадметамі. Сачыце, каб не ўпусціць яго на ногі."
+msgstr "Вялікае кавадла для працы з буйнымі прадметамі. Сачыце, каб не упала вам на нагу!"
 
 #. [UA] "Діжка для охолодження"
 #. [PL] "Chłodnica"
@@ -35508,10 +35411,9 @@ msgstr "Астуджальная кадзь"
 #. znośnej."
 #. [RU] "После изготовления предмет из металла необходимо остудить в бочке с
 #. водой до нужной температуры."
-#, fuzzy
 msgctxt "piece_forge_ext5_description"
 msgid "Once a creation is done, this barrel of water will bring the metal down to a manageable temperature."
-msgstr "Калі выраб гатовы, гэтая бочка з вадой астудзіць метал да бяспечнай тэмпературы."
+msgstr "Калі выраб гатовы, бочка з вадой астудзіць метал да бяспечнай тэмпературы."
 
 #. [UA] "Стійка для знаряддя"
 #. [PL] "Wieszak na narzędzia"
@@ -35526,10 +35428,9 @@ msgstr "Вешалка для снадзіва"
 #. są w zestawie z wieszakiem do przechowywania."
 #. [RU] "Для работы нужно много разных инструментов. Хранить их можно на
 #. удобном подвесе."
-#, fuzzy
 msgctxt "piece_forge_ext6_description"
 msgid "You need lots of different tools to work with. These conveniently come with a rack for storage."
-msgstr "Для працы патрэбна шмат розных інструментаў. Да іх зручна дадаецца стойка для захоўвання."
+msgstr "Для працы патрэбна шмат розных інструментаў. Іх усе можна зручна размясціць на стойцы."
 
 #. [UA] "Морозна ковальня"
 #. [PL] "Mroźna odlewnia"
@@ -35550,10 +35451,9 @@ msgstr "Змясціць загатоўку"
 #. [PL] "Tutaj możesz utwardzić odlewy, aby uzyskać odpowiednie przedmioty."
 #. [RU] "В этой кузнице можно закалять заготовки, чтобы делать их полноценными
 #. предметами."
-#, fuzzy
 msgctxt "piece_frostfoundry_description"
 msgid "This foundry can be used to harden casts into proper items."
-msgstr "Гэтая ліцейня дазваляе загартаваць адліўкі ў сапраўдныя прадметы."
+msgstr "Ліцейня дазваляе загартаваць загатоўкі ў паўнавартасныя прадметы."
 
 #. [UA] "Узяти предмет"
 #. [PL] "Weź przedmiot"
@@ -37687,7 +37587,7 @@ msgstr "Сілкуецца"
 #. любыми костями."
 msgctxt "piece_shieldgenerator_description"
 msgid "Creates a shield to protect against weather and incoming projectiles. Fuelled by bones of any kind."
-msgstr "Стварае шчыт для абароны ад непагадзі і лятучых знарадаў. Сілкуецца косткамі ўсіх гатункаў."
+msgstr "Стварае шчыт для абароны ад непагадзі і лятучых снарадаў. Сілкуецца косткамі ўсіх гатункаў."
 
 #. [UA] "кістки"
 #. [PL] "kości"
@@ -38313,9 +38213,6 @@ msgstr "За круглым сталом нішто месца не важней
 #. [UA] "Довгий різьблений стіл"
 #. [PL] "Długi, rzeźbiony stół"
 #. [RU] "Длинный резной стол"
-#, fuzzy
-#| msgctxt "piece_table_oak"
-#| msgid "Long Heavy Table"
 msgctxt "piece_table_runed"
 msgid "Long Carved Table"
 msgstr "Доўгі разны стол"
@@ -38326,7 +38223,6 @@ msgstr "Доўгі разны стол"
 #. uczt."
 #. [RU] "Историю, вырезанную на этом столе, приятно почитать во время долгих
 #. пиров."
-#, fuzzy
 msgctxt "piece_table_runed_description"
 msgid "The story carved into this table is excellent to read during long feasts."
 msgstr "Гісторыя, выразаная на гэтым стале, выдатна чытаецца падчас доўгіх банкетаў."
@@ -38365,10 +38261,9 @@ msgstr "Крумкачыны сталец"
 #. jest wygodny!"
 #. [RU] "Возможно, именно так выглядит трон Одина в Вальгалле... Как бы там ни
 #. было, он очень удобен!"
-#, fuzzy
 msgctxt "piece_throne01_description"
 msgid "Perhaps this is what Odin's throne in Valhalla looks like... Either way, it's comfortable!"
-msgstr "Можа, менавіта так выглядае трон Одзіна ў Вальгале... У любым выпадку, на ім камфортна!"
+msgstr "Мабыць, акурат так выглядае трон Одзіна ў Вальхале... Як бы яно не было, на ім зручна сядзець!"
 
 #. [UA] "Стос олова"
 #. [PL] "Stos cyny"
@@ -38518,7 +38413,7 @@ msgstr "Зараджана і гатова"
 #. ему на пути."
 msgctxt "piece_turret_description"
 msgid "Defensive structure that shoots missiles at anything that gets in its way."
-msgstr "Абарончае збудаванне, якое страляе знарадамі ва ўсё, што трапляецца."
+msgstr "Абарончае збудаванне, якое страляе снарадамі ва ўсё, што трапляецца."
 
 #. [UA] "Відсутні снаряди"
 #. [PL] "Brak amunicji"
@@ -38715,7 +38610,7 @@ msgstr "Драўляныя дзверы"
 #. [RU] "Простая дверь, которую можно открывать и закрывать."
 msgctxt "piece_wooddoor_description"
 msgid "A simple door for opening and closing."
-msgstr "Простыя дзверы, адчыняюцца і зачынаюцца"
+msgstr "Простыя дзверы, адчыняюцца і зачынаюцца."
 
 #. [UA] "Дерев’яне оздоблення у вигляді дракона"
 #. [PL] "Drewniany smok ozdobny"
@@ -38771,10 +38666,9 @@ msgstr "Штабель шляхетнай драўніны"
 #. [UA] "Стос деревини так і чекає, допоки зможе перетворитися на меблі."
 #. [PL] "Ta sterta drewna czeka, aż ktoś zamieni ją w meble."
 #. [RU] "Эта куча древесины ждет, когда из нее сделают мебель."
-#, fuzzy
 msgctxt "piece_woodfinestack_description"
 msgid "This pile of wood is waiting to be turned into furniture."
-msgstr "Гэтая куча драўніны чакае, калі з яе вычэпляць мэблю."
+msgstr "Гэтая куча драўніны чакае, калі з яе вычашуць мэблю."
 
 #. [UA] "Дерев’яна підлога 1х1 м"
 #. [PL] "Drewniana podłoga 1x1"
@@ -39223,10 +39117,9 @@ msgstr "Калода для рубкі"
 #. [PL] "Topór jest niezwykle wszechstronnym narzędziem rzemieślniczym."
 #. [RU] "Топор отличается невероятной многофункциональностью, когда речь идет
 #. о ремесле."
-#, fuzzy
 msgctxt "piece_workbench_ext1_description"
 msgid "An axe is a very versatile tool for crafting."
-msgstr "Сякера — вельмі ўніверсальная прылада ў рамёстве."
+msgstr "Сякера — вельмі ўніверсальная прылада."
 
 #. [UA] "Дубильний станок"
 #. [PL] "Stanowisko garbarskie"
@@ -39239,10 +39132,9 @@ msgstr "Дубільны станок"
 #. [PL] "Skóry potrzebują odpowiedniej obróbki, zanim będzie można je
 #. wykorzystać."
 #. [RU] "Кожу и шкуры нужно правильно обработать перед использованием."
-#, fuzzy
 msgctxt "piece_workbench_ext2_description"
 msgid "Leathers and hides need proper treatment before they can be used."
-msgstr "Скуры і шкуры патрабуюць належнай апрацоўкі, перш чым іх можна будзе выкарыстоўваць."
+msgstr "Першы чым пачаць выкарыстоўваць скуры і шкуры, іх належыць адпаведна апрацаваць."
 
 #. [UA] "Тесло"
 #. [PL] "Ciesak"
@@ -39254,7 +39146,6 @@ msgstr "Струг"
 #. [UA] "Іноді потрібно попрацювати над проблемою під іншим кутом."
 #. [PL] "Czasami musisz spojrzeć na problem z innej perspektywy."
 #. [RU] "Иногда нужно подойти к задаче с другой стороны."
-#, fuzzy
 msgctxt "piece_workbench_ext3_description"
 msgid "Sometimes you need to work the problem from a different angle."
 msgstr "Часам трэба падысці да праблемы з іншага боку."
@@ -39269,7 +39160,6 @@ msgstr "Паліца для снадзіва"
 #. [UA] "Майстерне виконання потребує майстерних знарядь."
 #. [PL] "Praca nad misternymi szczegółami wymaga odpowiednich narzędzi."
 #. [RU] "Тонкая работа требует серьезных инструментов."
-#, fuzzy
 msgctxt "piece_workbench_ext4_description"
 msgid "Fine detail work requires fine tools to match."
 msgstr "Для дбайнай працы патрэбныя дбайныя прылады."
@@ -39291,9 +39181,6 @@ msgstr "Штабель драўніны Ігдрасіля"
 #. [UA] "Прекрасне гілля, усе ще пульсує загадковою енергією."
 #. [PL] "Cienkie gałęzie pulsujące tajemniczą energią."
 #. [RU] "Тонкие ветви, звенящие загадочной энергией."
-#, fuzzy
-#| msgctxt "item_dragontear_description"
-#| msgid "The last frozen tear of a dragon, pulsating with mysterious energy."
 msgctxt "piece_yggdrasilstack_description"
 msgid "Fine branches, thrumming with mysterious energy."
 msgstr "Тонкія галіны, што гудуць ад таямнічай энергіі."
@@ -39308,7 +39195,6 @@ msgstr "Ёльскі вянок"
 #. [UA] "Складно придумати щось святковіше за цей вінок!"
 #. [PL] "Trudno jest wymyślić coś bardziej świątecznego od wieńca!"
 #. [RU] "Вряд ли можно представить что-то более праздничное, чем венок!"
-#, fuzzy
 msgctxt "piece_yulecrown_description"
 msgid "It's hard to think of anything more festive than a wreath!"
 msgstr "Цяжка прыдумаць нешта больш святочнае, чым вянок!"
@@ -39323,12 +39209,9 @@ msgstr "Ёльская гірлянда"
 #. [UA] "Прикрасьмо наші житла!"
 #. [PL] "Udekorować komnaty!"
 #. [RU] "Украсьте свои залы!"
-#, fuzzy
-#| msgctxt "piece_beehive_check"
-#| msgid "Check the bees"
 msgctxt "piece_yulegarland_description"
 msgid "Deck the halls!"
-msgstr "Упрыгожце залы!"
+msgstr "Аздобце свой хорам!"
 
 #. [UA] "Йольський подарунок"
 #. [PL] "Paczka na Yule"
@@ -39340,26 +39223,23 @@ msgstr "Ёльскі падарунак"
 #. [UA] "Невеличкий подарунок — вияв приязності."
 #. [PL] "Niewielki podarunek dla kogoś, kogo lubisz."
 #. [RU] "Небольшой подарок для того, кто вам нравится."
-#, fuzzy
 msgctxt "piece_yuleklapp_description1"
 msgid "A small gift for someone you like."
-msgstr "Невялікі падарунак камусьці, каго вы любіце."
+msgstr "Невялікі падарунак для кагосьці, каго любіце."
 
 #. [UA] "Подарунок для тих, хто чемно поводився увесь рік."
 #. [PL] "Podarunek dla kogoś, kto w tym roku był grzeczny."
 #. [RU] "Подарок для того, кто хорошо себя вел в этом году."
-#, fuzzy
 msgctxt "piece_yuleklapp_description2"
 msgid "A gift for someone who was nice this year."
-msgstr "Падарунак таму, хто паводзіў сябе добра ў гэтым годзе."
+msgstr "Падарунак таму, хто сёлета добра паводзіўся."
 
 #. [UA] "Великий подарунок тим, кого ви дуже цінуєте."
 #. [PL] "Wielki podarunek dla kogoś, kogo bardzo doceniasz."
 #. [RU] "Большой подарок для того, кого вы особенно цените."
-#, fuzzy
 msgctxt "piece_yuleklapp_description3"
 msgid "A large gift for someone you appreciate a lot."
-msgstr "Вялікі падарунак таму, каго вы вельмі шануеце."
+msgstr "Вялікі падарунак таму, каго вельмі шануеце."
 
 #. [UA] "Йольське дерево"
 #. [PL] "Drzewko na Yule"
@@ -39371,10 +39251,9 @@ msgstr "Ёльскае дрэва"
 #. [UA] "Ялинка, оздоблена святковими вогниками."
 #. [PL] "Ta jodła została ubrana w ozdobne świąteczne światełka."
 #. [RU] "Эта ель украшена праздничными огнями."
-#, fuzzy
 msgctxt "piece_yuletree_description"
 msgid "This fir tree has been given festive decorative lights."
-msgstr "Гэта піхта ўпрыгожана святочнымі аганькамі."
+msgstr "Ялінка, аздобленая святочнымі аганькамі."
 
 #. [UA] "Загадкова місцина"
 #. [PL] "Tajemnicze miejsce"
@@ -39450,7 +39329,6 @@ msgstr "Гэта неабходна для межплатформеннай гу
 #. [UA] "Досліджує 10-й світ"
 #. [PL] "Odkrywanie Dziesiątego świata"
 #. [RU] "Исследование 10-го мира"
-#, fuzzy
 msgctxt "playstation_activity_name"
 msgid "Exploring the 10th world"
 msgstr "Даследаванне 10-га свету"
@@ -39486,7 +39364,6 @@ msgstr "Кантролер"
 #. [UA] "Трофеї для багатокористувацької гри"
 #. [PL] "Trofea wyłącznie w grze wieloosobowej"
 #. [RU] "Призы только для многопользовательской игры"
-#, fuzzy
 msgctxt "playstation_trophy_set_online_only"
 msgid "Multiplayer-only trophies"
 msgstr "Трафеі толькі для сеткавай гульні"
@@ -39748,7 +39625,6 @@ msgstr "Вы таксама мусіце выконваць Правілы па�
 #. Вне игры: используйте онлайн-форму — https://valheim.com/report-a-player\n•
 #. При использовании PlayStation™Network: см. сведения на странице
 #. https://www.playstation.com/ru-ru/support/account/ps5-report-behaviour/"
-#, fuzzy
 msgctxt "ps_codeofconduct_reporting_violations_body"
 msgid ""
 "If you encounter unacceptable behavior:\n"
@@ -39757,14 +39633,13 @@ msgid ""
 "• Via PlayStation™Network: See https://www.playstation.com/en-us/support/account/ps5-report-behaviour/\n"
 msgstr ""
 "Калі вы сутыкнуліся з недапушчальным паводзінамі:\n"
-"• Унутры гульні: скарыстайцеся ўбудаванай функцыяй «Паскардзіцца на гульца» (Опцыі -> Спіс гульцоў -> Паскардзіцца)\n"
-"• Па-за гульняй: калі ласка, скарыстайцеся гэтай анлайн-формай: https://valheim.com/report-a-player\n"
+"• У гульні: скарыстайцеся ўбудаванай функцыяй «Паскардзіцца на гульца» (Налады -> Спіс гульцоў -> Паскардзіцца)\n"
+"• Па-за гульняй: скарыстайцеся формай: https://valheim.com/report-a-player\n"
 "• Праз PlayStation™Network: глядзіце https://www.playstation.com/en-us/support/account/ps5-report-behaviour/\n"
 
 #. [UA] "Ідентифікатор користувача крос-гри: $1"
 #. [PL] "Identyfikator użytkownika (rozgrywka międzyplatformowa): $1"
 #. [RU] "Идентификатор пользователя для кросс-игры: $1"
-#, fuzzy
 msgctxt "ps_crossplay_user_id_with_name"
 msgid "Crossplay user ID: $1"
 msgstr "Ідэнтыфікатар кросплатформеннага карыстальніка: $1"
@@ -39837,12 +39712,9 @@ msgstr "Вы можаце фільтраваць пазнакі на мапе п
 #. [UA] "Пам’ять консолі заповнена!"
 #. [PL] "Brak pamięci na konsoli!"
 #. [RU] "Память консоли заполнена!"
-#, fuzzy
-#| msgctxt "menu_cloudstoragefull"
-#| msgid "Your cloud storage is full!"
 msgctxt "ps_menu_cloudstoragefull"
 msgid "Your console storage is full!"
-msgstr "Сховішча кансолі поўнае!"
+msgstr "У памяці кансолі бракуе месца!"
 
 #. [UA] "Кодекс поведінки"
 #. [PL] "Kodeks postępowania"
@@ -40145,10 +40017,9 @@ msgstr "Толькі PlayStation™Network"
 #. [RU] "Играть только с игроками в сети PlayStation™Network. Отключает все
 #. взаимодействие с кроссплатформенными пользователями. Можно изменить только
 #. в главном меню."
-#, fuzzy
 msgctxt "ps_settings_same_online_platform_only_desc"
 msgid "Only play with players on PlayStation™Network. Disables all interaction with Cross-platform users. Can only be toggled in the main menu."
-msgstr "Гуляць толькі з гульцамі PlayStation™Network. Адключае ўсялякае ўзаемадзеянне з гульцамі іншых платформаў. Пераключаць можна толькі ў галоўным меню."
+msgstr "Гуляць толькі ўнутры PlayStation™Network. Адключае ўсялякае ўзаемадзеянне з гульцамі з іншых платформаў. Пераключаць можна толькі ў галоўным меню."
 
 #. [UA] "Підказки кнопок"
 #. [PL] "Pokaż podpowiedzi przycisków"
@@ -40428,9 +40299,6 @@ msgstr "Тэрмін вашга блакавання скончыцца:"
 #. [UA] "Обліковий запис обмежено"
 #. [PL] "Zablokowany."
 #. [RU] "Выполнена блокировка."
-#, fuzzy
-#| msgctxt "error_banned"
-#| msgid "Banned"
 msgctxt "report_user_banned_header"
 msgid "Banned."
 msgstr "Заблакавана."
@@ -40440,15 +40308,14 @@ msgstr "Заблакавана."
 #. [RU] "Жалоба не отправлена!"
 msgctxt "report_user_failed_header"
 msgid "Report failed!"
-msgstr "Ска"
+msgstr "Скарга не адпраўлена!"
 
 #. [UA] "Неможливо надіслати скаргу! Спробуйте згодом."
 #. [PL] "Nie udało się wysłać zgłoszenia! Spróbuj ponownie później."
 #. [RU] "Не удалось отправить жалобу! Повторите попытку позже."
-#, fuzzy
 msgctxt "report_user_failed_text"
 msgid "Report could not be sent! Please try again later."
-msgstr "Не атрымалася адправіць скаргу! Паспрабуйце пазней."
+msgstr "Не ўдалося адправіць скаргу! Паспрабуйце пазней."
 
 #. [UA] "Скасувати скаргу"
 #. [PL] "Anuluj zgłoszenie"
@@ -40462,10 +40329,9 @@ msgstr "Адмяніць скаргу"
 #. [PL] "Wpisz więcej szczegółów w polu tekstowym przed wysłaniem zgłoszenia!"
 #. [RU] "Пожалуйста, опишите ситуацию подробнее в текстовом поле перед
 #. отправкой жалобы!"
-#, fuzzy
 msgctxt "report_user_send_report_cant_send_not_enough_text"
 msgid "Please write more details in the text field before sending the report!"
-msgstr "Калі ласка, увядзіце больш падрабязнасцей у поле тэксту перад адпраўкай скаргі!"
+msgstr "Калі ласка, падрабязней апішыце скаргу перад адпраўкай!"
 
 #. [UA] "Не вдалося поскаржитися"
 #. [PL] "Zgłoszenie nieudane"
@@ -40506,10 +40372,9 @@ msgstr "Ваша скарга зарэгістравана. Яе разглед�
 #. [RU] "История чата и имя автоматически прилагаются к жалобе. В текстовом
 #. окне выше опишите, почему вы подаете жалобу на этого пользователя. Не
 #. сообщайте конфиденциальную или не относящуюся к делу личную информацию."
-#, fuzzy
 msgctxt "report_user_window_explanation_text"
 msgid "Chat history and name is automatically included. Please elaborate as to why you are reporting this user in the text window above. Do not include sensitive or irrelevant personal information."
-msgstr "Гісторыя чата і імя гульца ўключаюцца аўтаматычна. Калі ласка, раскрыйце ў поле вышэй, чаму вы скардзіцеся на гэтага гульца. Не ўказвайце адчувальных ці недатычных да справы асабістых звестак."
+msgstr "Гісторыя чата і імя гульца далучаюцца да скаргі аўтаматычна. Падрабязна апішыце ў полі вышэй, чаму вы падаяце скаргу на гульца. Не ўказвайце канфідэнцыяльных ці недатычных да справы асабістых звестак."
 
 #. [UA] "Поскаржитися на гравця"
 #. [PL] "Zgłoś użytkownika"
@@ -40788,10 +40653,9 @@ msgstr "Вы праходзіце без перашкод."
 #. [PL] "Zamieszkujące Valheim stworzenia nie zrobią krzywdy temu, kto nad
 #. nimi panuje."
 #. [RU] "Существа Вальхейма не причинят вреда тому, кто их покорил."
-#, fuzzy
 msgctxt "se_crowned_tooltip"
 msgid "The creatures of Valheim will not harm the one who has mastered them."
-msgstr "Істоты Вальхэйма не датыкнуцца да таго, хто імі завалодаў."
+msgstr "Істоты Вальхэйма не чыняць крыўду таму, хто іх утаймаваў."
 
 #. [UA] "Авангард"
 #. [PL] "Awangarda"
@@ -40804,10 +40668,9 @@ msgstr "Авангард"
 #. [PL] "Czujesz przypływ mocy i szybkości oraz gotowość do zaatakowania
 #. wroga!"
 #. [RU] "Вы ощущаете силу и скорость. Вы готовы поразить врага!"
-#, fuzzy
 msgctxt "se_deepnorthmediumarmorseteffect_tooltip"
 msgid "You feel stronger and faster, ready to strike at your foes!"
-msgstr "Вы адчуваеце сябе мацнейшым і хутчэйшым, гатовым абрынуцца на сваіх ворагаў!"
+msgstr "Вы пачуваецеся мацнейшымі і хутчэйшымі, гатовымі пакараць усіх воранаў!"
 
 #. [UA] "Ви відпустили закріпленого світляка."
 #. [PL] "Uwalniasz ognika"
@@ -41852,10 +41715,9 @@ msgstr "Шыярэз"
 #. Otrzymujesz także natychmiastową premię do zdrowia i pancerza."
 #. [RU] "Здоровье восстанавливается быстрее, а бег и атаки расходуют меньше
 #. выносливости. Также появляется мгновенный прирост здоровья и брони."
-#, fuzzy
 msgctxt "se_trinketbloodgoldhealth_description"
 msgid "Health regenerates faster, running and attacking costs less stamina. You also get an instant boost to health and armour."
-msgstr "Здароўе аднаўляецца хутчэй, бег і ўдары каштуюць менш вынослівасці. Вы таксама атрымліваеце імгненны прырост здароўя і абароны."
+msgstr "Здароўе аднаўляецца хутчэй, бег і атакі трацяць менш вынослівасці. Вы атрымліваеце імгненны прырост здароўя і абароны."
 
 #. [UA] "Корона відьом"
 #. [PL] "Korona wiedźmy"
@@ -41870,10 +41732,9 @@ msgstr "Ведзьміна карона"
 #. otrzymujesz natychmiastową premię do wytrzymałości i eitru."
 #. [RU] "Здоровье, выносливость и эйтр восстанавливаются быстрее, а также
 #. появляется мгновенный прирост выносливости и эйтра."
-#, fuzzy
 msgctxt "se_trinketbloodgoldstamina_description"
 msgid "Health, stamina and eitr regenerate faster, and you get an instant boost to stamina and eitr."
-msgstr "Здароўе, вынослівасць і эйтр аднаўляюцца хутчэй, і вы атрымліваеце імгненны прырост вынослівасці і эйтру."
+msgstr "Здароўе, вынослівасць і эйтр аднаўляюцца хутчэй; вы атрымліваеце імгненны прырост вынослівасці і эйтру."
 
 #. [UA] "Серце лісу"
 #. [PL] "Serce Lasu"
@@ -42464,12 +42325,9 @@ msgstr "Закрыць кальцавое меню / Кола жэстаў"
 #. [UA] "Якість тканин"
 #. [PL] "Jakość ubrania"
 #. [RU] "Качество тканей"
-#, fuzzy
-#| msgctxt "inventory_quality"
-#| msgid "Quality"
 msgctxt "settings_clothquality"
 msgid "Cloth Quality"
-msgstr "Якасць тканкі"
+msgstr "Якасць тканіны"
 
 #. [UA] "Збереження у високій якості може спричинити ризик браку місця у
 #. сховищі."
@@ -42732,10 +42590,9 @@ msgstr "Паказваць аўтара пабудовы"
 #. jest informacja o tym, kto go umieścił."
 #. [RU] "Наведите курсор на постройку в режиме строительства, чтобы узнать,
 #. кто ее разместил."
-#, fuzzy
 msgctxt "settings_enable_show_build_piece_author_desc"
 msgid "When hovering over a build piece in build mode, shows who placed it down."
-msgstr "Пры навядзенні на пабудову ў рэжыме будаўніцтва паказвае, хто яе ўсталяваў."
+msgstr ""
 
 #. [UA] "Надзвичайний"
 #. [PL] "Ekstremalne"
@@ -43431,12 +43288,9 @@ msgstr "Узаемадзейнічаць(кальцавое меню)"
 #. [UA] "Викинути (кругове меню)"
 #. [PL] "Upuść (podręczne)"
 #. [RU] "Выкинуть (кольцо)"
-#, fuzzy
-#| msgctxt "settings_radialclose"
-#| msgid "Close (Radial)"
 msgctxt "settings_radialsecondaryinteract"
 msgid "Drop (Radial)"
-msgstr "Выкінуць (радыяльна)"
+msgstr "Выкінуць (кальцо)"
 
 #. [UA] "Розмір кругового меню"
 #. [PL] "Rozmiar menu podręcznego"
@@ -43450,7 +43304,7 @@ msgstr "Памер кальцавога меню"
 #. [RU] "Управляет размером и расположением кольцевого меню."
 msgctxt "settings_radialsize_descr"
 msgid "Control the size and location of the Radial Menu"
-msgstr "Вызначае памер і размяшчэнне  кальцавога меню "
+msgstr "Вызначае памер і размяшчэнне кальцавога меню"
 
 #. [UA] "Зменшити швидкодію у згорнутому стані"
 #. [PL] "Ogranicz wydajność w tle"
@@ -43486,22 +43340,16 @@ msgstr "Змяншае сілу эфектаў маланкі."
 #. [UA] "Відпустити, щоб використовувати режим"
 #. [PL] "Tryb "puść, aby użyć""
 #. [RU] "Режим «Отпустить для использования»"
-#, fuzzy
-#| msgctxt "guardianstone_hook_deactivate"
-#| msgid "Release power"
 msgctxt "settings_release_to_use_mode"
 msgid "Release To Use Mode"
-msgstr "Рэжым «Адпусканне для выкарыстання»"
+msgstr "Рэжым «Адпусціць, каб выкарыстаць»"
 
 #. [UA] "Відпустити, щоб використати"
 #. [PL] "Puść, aby użyć"
 #. [RU] "Отпустить для использования"
-#, fuzzy
-#| msgctxt "guardianstone_hook_deactivate"
-#| msgid "Release power"
 msgctxt "settings_release_to_use_mode_descr"
 msgid "Release to use"
-msgstr "Адпусціць для выкарыстання"
+msgstr "Адпусціць, каб выкарыстаць"
 
 #. [UA] "Розібрати"
 #. [PL] "Dekonstrukcja"
@@ -43578,10 +43426,9 @@ msgctxt "settings_run"
 msgid "Run"
 msgstr "Бегчы"
 
-#, fuzzy
 msgctxt "settings_same_online_platform_only_desc_ps"
 msgid "Only play with players on PlayStation™Network. Disables all interaction with Cross-platform users. Can only be toggled in the main menu."
-msgstr "Гуляць толькі з гульцамі PlayStation™Network. Адключае ўсялякае ўзаемадзеянне з гульцамі іншых платформаў. Пераключаць можна толькі ў галоўным меню."
+msgstr "Гуляць толькі ўнутры PlayStation™Network. Адключае ўсялякае ўзаемадзеянне з гульцамі з іншых платформаў. Пераключаць можна толькі ў галоўным меню."
 
 msgctxt "settings_same_online_platform_only_ps"
 msgid "PlayStation™Network only"
@@ -43673,10 +43520,9 @@ msgstr "кавадрат $1 м"
 #. wydajność!"
 #. [RU] "Увеличение дальности прорисовки может значительно снизить
 #. производительность!"
-#, fuzzy
 msgctxt "settings_simulationdistance_warning"
 msgid "Increasing the draw distance may severly degrade performance!"
-msgstr "Павелічэнне дыстанцыі прамалёўкі можа моцна пагоршыць прадукцыйнасць!"
+msgstr "Павелічэнне далёкасці прамалёўвання можа негатыўна ўплываць на прадукцыйнасць!"
 
 #. [UA] "Сісти"
 #. [PL] "Siadanie"
@@ -44702,10 +44548,9 @@ msgstr "Прыгатавана ежы"
 #. [UA] "Смерті від океану в Попелистих землях"
 #. [PL] "Śmierć przez ocean Ziemi Popiołów"
 #. [RU] "Смерть от вод океана Пепельных земель"
-#, fuzzy
 msgctxt "stat_DeathByAshlandsOcean"
 msgid "Death by Ashlands ocean"
-msgstr "Смерць на Попельным акіяне"
+msgstr "Смерць ў попельным акіяне"
 
 #. [UA] "Смерть від човна"
 #. [PL] "Śmierć przez łódź"
@@ -45063,7 +44908,6 @@ msgstr "Смерць ад снежнай хвоі"
 #. [UA] "Смерті від дерева на болоті"
 #. [PL] "Śmierć przez drzewo na bagnach"
 #. [RU] "Смертей от деревьев на Болоте"
-#, fuzzy
 msgctxt "stat_TreeSwamp"
 msgid "Death by Swamp Tree"
 msgstr "Смерць ад балотнага дрэва"
@@ -45071,20 +44915,16 @@ msgstr "Смерць ад балотнага дрэва"
 #. [UA] "Смерть від Iґґдрасілевого пагона"
 #. [PL] "Śmierć przez pęd Yggdrasila"
 #. [RU] "Смертей от побегов Иггдрасиля"
-#, fuzzy
-#| msgctxt "prop_yggashoot"
-#| msgid "Yggdrasil Shoot"
 msgctxt "stat_TreeYggdrasilShoot"
 msgid "Death by Yggdrasil Shoot"
-msgstr "Смерць ад парастка Ігдрасіля"
+msgstr "Смерць ад атожылка Ігдрасіля"
 
 #. [UA] "Витесана плита"
 #. [PL] "Wyrzeźbiona platforma"
 #. [RU] "Высеченная платформа"
-#, fuzzy
 msgctxt "stonecircle_hook_name"
 msgid "Chiselled Platform"
-msgstr "Абчасаная пляцоўка"
+msgstr "Высечаная платформа"
 
 #. [UA] "Ви — гідні."
 #. [PL] "Masz w sobie godność"
@@ -45195,12 +45035,9 @@ msgstr "Кнопкай «Права» можна адфільтраваць па
 #. [UA] "Не лишилося місця на консолі!"
 #. [PL] "Twoja pamięć systemowa jest pełna!"
 #. [RU] "В памяти системы нет места!"
-#, fuzzy
-#| msgctxt "menu_cloudstoragefull"
-#| msgid "Your cloud storage is full!"
 msgctxt "switch_menu_cloudstoragefull"
 msgid "Your system memory is full!"
-msgstr "Сістэмная памяць вашай кансолі поўная!"
+msgstr "У сістэмнай памяці кансолі бракуе месца!"
 
 #. [UA] "Запрошення друга прийнято"
 #. [PL] "Zaakceptowano zaproszenie do znajomych"
@@ -45234,29 +45071,24 @@ msgstr "Запрасіць сяброў"
 #. utworzona."
 #. [RU] "Не удалось создать персонажа, так как у вас закончилась память
 #. системы."
-#, fuzzy
 msgctxt "switch_menu_localstoragefullcharacterprompt"
 msgid "You have run out of system memory, so the character could not be created."
-msgstr "Сістэмная памяць скончылася, таму стварыць персанажа не атрымалася."
+msgstr "Бракуе сістэмнай памяці, таму стварыць персанажа не ўдалося."
 
 #. [UA] "Бракує місця, тож світ неможливо створити."
 #. [PL] "Nie masz miejsca w pamięci systemowej, więc świat nie mógł zostać
 #. utworzony."
 #. [RU] "Не удалось создать мир, так как у вас закончилась память системы."
-#, fuzzy
 msgctxt "switch_menu_localstoragefullworldprompt"
 msgid "You have run out of system memory, so the world could not be created."
-msgstr "Сістэмная памяць скончылася, таму стварыць свет не атрымалася."
+msgstr "Бракуе сістэмнай памяці, таму стварыць сусвет не ўдалося."
 
 #. [UA] "Не лишилося пам’яті на консолі!"
 #. [PL] "Twoja pamięć systemowa jest pełna!"
 #. [RU] "Ваша память системы переполнена!"
-#, fuzzy
-#| msgctxt "menu_cloudstoragefull"
-#| msgid "Your cloud storage is full!"
 msgctxt "switch_menu_storagefull"
 msgid "Your system memory is full!"
-msgstr "Сістэмная памяць вашай кансолі поўная!"
+msgstr "У сістэмнай памяці кансолі бракуе месца!"
 
 #. [UA] "Дія не вдалася, оскільки системна пам’ять консолі заповнена. Видаліть
 #. зайві збережені дані та спробуйте знову."
@@ -45491,22 +45323,16 @@ msgstr "Памяняць месцамі кнопкі ZR і ZL"
 #. [UA] "Увімкнена миша"
 #. [PL] "Mysz jest włączona"
 #. [RU] "Подключено управление мышью"
-#, fuzzy
-#| msgctxt "settings_resetcontrols"
-#| msgid "Reset controls"
 msgctxt "switch_settings_switch_mouse_enabled"
 msgid "Mouse controls enabled"
-msgstr "Кіраванне мышкай уключана"
+msgstr "Уключана кіраванне мішкай"
 
 #. [UA] "Ім’я персонажа користувача"
 #. [PL] "Imię postaci UGC"
 #. [RU] "Имя персонажа UGC"
-#, fuzzy
-#| msgctxt "menu_worldnametip"
-#| msgid "5 characters minimum"
 msgctxt "switch_ugc_character_name"
 msgid "UGC character name"
-msgstr "Назва персанажа UGC"
+msgstr "Назва карыстальніцкага персанажа"
 
 #. [UA] "Назва користувацького сервера"
 #. [PL] "Nazwa serwera UGC"
@@ -46362,12 +46188,9 @@ msgstr "І вось сага падыходзіць да канца..."
 #. [UA] "Хуґін: Вічне вогнище"
 #. [PL] "Hugin: Wieczny stos"
 #. [RU] "Хугин: вечное пламя"
-#, fuzzy
-#| msgctxt "tutorial_eitr_label"
-#| msgid "Hugin: Eitr"
 msgctxt "tutorial_faderember_label"
 msgid "Hugin: Eternal Pyre"
-msgstr "Хугін: Вечнае вогнішча"
+msgstr "Хугін: Вечнае полымя"
 
 #. [UA] "Драконячий подих горить так яскраво не сам по собі, а завдяки своїй
 #. сутності. Дехто може опанувати її, якщо має достатні вміння та терпіння…"
@@ -46375,10 +46198,9 @@ msgstr "Хугін: Вечнае вогнішча"
 #. esencję. Odpowiednie umiejętności i cierpliwość pozwalają ją ujarzmić..."
 #. [RU] "Ярко горит не только дыхание дракона, но и сама его сущность.
 #. Овладеть этим можно лишь с достаточным мастерством и терпением..."
-#, fuzzy
 msgctxt "tutorial_faderember_text"
 msgid "It is not just a dragon's breath that burns bright, but its very essence as well. One can harness it, with enough skill and patience..."
-msgstr "Ярка палае не толькі дыханне цмока, але і ягоная сутнасць. Яе можна ўтаймаваць пры дастатковай умеласці і цярплівасці..."
+msgstr "Ярка палае не толькі дыханне цмока, але і ягоная сутнасць. Праявіўшы дастатковае ўмельства і цярплівасць, можна яго ўтаймаваць..."
 
 #. [UA] "Ось і перекус, яким ти втамуєш голод. Деякі харчі ліпше підійдуть для
 #. здоров’я й опосередковано вплинуть на кількість шкоди, яку можна
@@ -47208,7 +47030,6 @@ msgstr "Цудоўная праца, воіне! Ты знайшоў ахвяр�
 #. [UA] "Настав час…"
 #. [PL] "Już czas..."
 #. [RU] "Пора..."
-#, fuzzy
 msgctxt "tutorial_sacrificialblood_topic"
 msgid "It is time..."
 msgstr "Час надышоў..."
@@ -48024,7 +47845,7 @@ msgstr "Падказкі пра элементы кіравання"
 #| msgid "5 characters minimum"
 msgctxt "xbox_ugc_character_name"
 msgid "UGC character name"
-msgstr "Назва персанажа UGC"
+msgstr "Назва карыстальніцкага персанажа"
 
 #. [UA] "Назва користувацького сервера"
 #. [PL] "Nazwa serwera UGC"
