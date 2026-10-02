@@ -1,0 +1,73 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": []
+  },
+  "packageFolders": {
+    "/home/alek/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.3.0",
+    "restore": {
+      "projectUniqueName": "/mnt/ДыскD/lokar/Valheim/Valheim_mega/src/Bielarusizatar.Valheim/Bielarusizatar.Valheim.csproj",
+      "projectName": "Bielarusizatar_Valheim",
+      "projectPath": "/mnt/ДыскD/lokar/Valheim/Valheim_mega/src/Bielarusizatar.Valheim/Bielarusizatar.Valheim.csproj",
+      "packagesPath": "/home/alek/.nuget/packages/",
+      "outputPath": "/mnt/ДыскD/lokar/Valheim/Valheim_mega/src/Bielarusizatar.Valheim/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/alek/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "/usr/lib/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.121/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
