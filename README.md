@@ -2,7 +2,7 @@
 
 [Discord](https://discord.gg/5HTJnRNbT) · [Telegram](https://t.me/lokar_lak) · [Patreon](https://www.patreon.com/c/lokar_lak) · [Boosty](https://boosty.to/lokar_lak) · [Twitter (X)](https://x.com/lokar_lak)
 
-Поўны пераклад Valheim на беларускую мову пад абнаўленне Call to Arms. Адаптаваны для Windows і Linux. Афіцыйны правапіс.
+Поўны пераклад Valheim на беларускую мову. Адаптаваны для Windows і Linux. Афіцыйны правапіс.
 
 > **Калі вам даспадобы наша лакалізацыя, не забудзьцеся паставіць падабайку!**
 > Гэта вельмі паможа ў пашырэнні перакладу!
@@ -48,7 +48,7 @@
 
 [Discord](https://discord.gg/5HTJnRNbT) · [Telegram](https://t.me/lokar_lak) · [Patreon](https://www.patreon.com/c/lokar_lak) · [Boosty](https://boosty.to/lokar_lak) · [Twitter (X)](https://x.com/lokar_lak)
 
-Полный перевод Valheim на белорусский язык для версии 0.220.5. Адаптирован для Windows и Linux. Официальное правописание.
+Полный перевод Valheim на белорусский язык. Адаптирован для Windows и Linux. Официальное правописание.
 
 > **Если вам пришлась по душе наша локализация, не забудьте поставить лайк!**
 > Это очень поможет в распространении перевода!
