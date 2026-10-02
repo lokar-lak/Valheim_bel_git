@@ -3,7 +3,7 @@
 .debris/tmp/lock
 
 # Build artifacts
-src/bin/
-src/obj/
+bin/
+obj/
 *.user
 *.suo

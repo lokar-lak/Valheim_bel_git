@@ -5,45 +5,32 @@ using System.Reflection;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
+using Jotunn.Entities;
 using TMPro;
 using UnityEngine;
 
 namespace Bielarusizatar.Valheim
 {
-    [BepInPlugin("lokar.Bielarusizatar_Valheim", "Bielarusizatar Valheim", "1.3.0")]
+    [BepInPlugin("lokar.Bielarusizatar_Valheim", "Bielarusizatar Valheim", "2.0.0")]
     public class BielarusizatarPlugin : BaseUnityPlugin
     {
-        // Only the letters Valheim's own fonts genuinely lack. The shipped fonts already
-        // contain the full Russian Cyrillic range, so adding more than this would just
-        // waste atlas space and risk overlapping existing glyphs.
-        private const string CharsToAdd = "ЎўЁёІі";
-
-        private const float PollInterval = 1f;
-        private const int MaxPolls = 600;
-
-        // Patched TTFs shipped next to the DLL, matched to the game font family they back.
-        private static readonly (string Match, string File)[] Sources =
-        {
-            ("AveriaSerifLibre", "Averia Serif Libre Regular.ttf"),
-            ("AveriaSerifLibre", "Averia Serif Libre Bold.ttf"),
-            ("AveriaSansLibre",  "Averia Sans Libre.ttf"),
-            ("AveriaSansLibre",  "Averia Sans Libre Bold.ttf"),
-            ("Norse",            "Norse.ttf"),
-            ("Norse",            "Norsebold.ttf"),
-        };
-
-        private static readonly FieldInfo SourceFontFilePath =
-            typeof(TMP_FontAsset).GetField("m_SourceFontFilePath", BindingFlags.NonPublic | BindingFlags.Instance);
-        private static readonly FieldInfo SourceFontFile =
-            typeof(TMP_FontAsset).GetField("m_SourceFontFile", BindingFlags.NonPublic | BindingFlags.Instance);
-
         internal static BielarusizatarPlugin Instance { get; private set; }
         internal string PluginDir { get; private set; }
         internal ManualLogSource Log => Logger;
 
-        private readonly HashSet<string> _done = new HashSet<string>(StringComparer.Ordinal);
-        private float _lastPoll;
-        private int _polls;
+        // Valheim's own font assets lack the Belarusian short-u (ў/Ў), and every attempt to
+        // rasterize it into their glyph atlas corrupts neighbouring glyphs (Ж broke this way).
+        // U+00FD ý / U+00DD Ý — Latin y with an acute — exist in all six shipped fonts and are
+        // visually close to ў, so we substitute them at the text level and never touch an atlas.
+        // The substitution is idempotent and applies only to our own translated strings, so
+        // player-typed Russian is untouched.
+        internal const char ShortU = 'ў';
+        internal const char ShortUUpper = 'Ў';
+        internal const char ShortUSub = 'ý';
+        internal const char ShortUSubUpper = 'Ý';
+
+        private const float SweepDelay = 3f;
+        private bool _swept;
 
         private void Awake()
         {
@@ -52,112 +39,138 @@ namespace Bielarusizatar.Valheim
 
             Logger.LogInfo("Bielarusizatar Valheim started (plugin dir: " + PluginDir + ")");
 
-            foreach (var source in Sources)
-            {
-                string path = Path.Combine(PluginDir, source.File);
-                if (!File.Exists(path)) Logger.LogWarning("Font file missing: " + path);
-            }
-
             try
             {
                 new Harmony("lokar.Bielarusizatar_Valheim").PatchAll();
-                Logger.LogInfo("Subtitle patch applied.");
+                Logger.LogInfo("Localization substitution patch applied.");
             }
             catch (Exception e)
             {
-                Logger.LogError("Subtitle patch failed: " + e);
+                Logger.LogError("Localization patch failed: " + e);
             }
         }
 
+        // Safety net for the case where Jotunn's JSON auto-loader writes straight into
+        // CustomLocalization.Map instead of routing through AddTranslation. The map is an
+        // instance property, so the instances come from LocalizationManager.Localizations.
         private void Update()
         {
-            if (_polls >= MaxPolls) return;
-            if (Time.realtimeSinceStartup - _lastPoll < PollInterval) return;
-            _lastPoll = Time.realtimeSinceStartup;
-            _polls++;
+            if (_swept) return;
+            if (Time.realtimeSinceStartup < SweepDelay) return;
+            _swept = true;
 
-            TMP_FontAsset[] gameFonts = Resources.FindObjectsOfTypeAll<TMP_FontAsset>();
-            if (gameFonts == null || gameFonts.Length == 0) return;
-
-            foreach (var source in Sources)
-            {
-                string match = source.Match;
-                string file = source.File;
-                if (_done.Contains(file)) continue;
-
-                string path = Path.Combine(PluginDir, file);
-                if (!File.Exists(path)) { _done.Add(file); continue; }
-
-                bool isBold = file.IndexOf("Bold", StringComparison.OrdinalIgnoreCase) >= 0;
-                var targets = MatchGameFonts(gameFonts, match, isBold);
-                if (targets.Count == 0) continue;
-
-                _done.Add(file);
-                foreach (var font in targets) ApplyToFont(font, path, file);
-
-                if (_done.Count >= Sources.Length)
-                {
-                    _polls = MaxPolls;
-                    Logger.LogInfo("Font setup complete.");
-                }
-            }
-        }
-
-        private static List<TMP_FontAsset> MatchGameFonts(TMP_FontAsset[] all, string match, bool isBold)
-        {
-            var result = new List<TMP_FontAsset>();
-            foreach (var gf in all)
-            {
-                if (gf == null) continue;
-                string n = gf.name ?? string.Empty;
-                if (n.IndexOf(match, StringComparison.OrdinalIgnoreCase) < 0) continue;
-                bool gfBold = n.IndexOf("bold", StringComparison.OrdinalIgnoreCase) >= 0;
-                if (gfBold != isBold) continue;
-                if (gf.HasCharacter(0x45E) && gf.HasCharacter(0x40E)) continue;
-                result.Add(gf);
-            }
-            return result;
-        }
-
-        private void ApplyToFont(TMP_FontAsset font, string ttfPath, string file)
-        {
             try
             {
-                string name = font.name ?? "?";
-                int before = font.glyphTable?.Count ?? 0;
-
-                // Dynamic population is what lets TMP rasterize the new glyphs.
-                if (font.atlasPopulationMode != AtlasPopulationMode.Dynamic)
+                var localizations = LocalizationList?.GetValue(null) as System.Collections.IEnumerable;
+                if (localizations == null)
                 {
-                    Logger.LogInfo("Font [" + name + "]: AtlasPopulationMode " + font.atlasPopulationMode + " -> Dynamic.");
-                    font.atlasPopulationMode = AtlasPopulationMode.Dynamic;
+                    Logger.LogWarning("Localization list unavailable; AddTranslation hook is the only path.");
+                    return;
                 }
 
-                // Point the asset at our patched TTF and drop the cached Unity Font so
-                // TMP reloads the face through its own LoadFontFace() on the next add.
-                // We deliberately do NOT call FontEngine.LoadFontFace ourselves: it shares
-                // one global face slot and corrupts the game's glyphs when raced with TMP.
-                SourceFontFilePath?.SetValue(font, ttfPath);
-                SourceFontFile?.SetValue(font, null);
-
-                bool ok = font.TryAddCharacters(CharsToAdd, out string missing, false);
-                var textures = font.atlasTextures;
-                if (textures != null)
+                int locales = 0;
+                int changed = 0;
+                foreach (CustomLocalization loc in localizations)
                 {
-                    foreach (var t in textures) if (t != null) t.Apply(false, false);
+                    if (loc == null) continue;
+                    var map = LocalizationMap?.GetValue(loc) as Dictionary<string, Dictionary<string, string>>;
+                    if (map == null) continue;
+                    locales++;
+
+                    foreach (var language in new List<string>(map.Keys))
+                    {
+                        if (!IsBelarusian(language)) continue;
+                        var entries = map[language];
+                        if (entries == null) continue;
+
+                        var keys = new List<string>(entries.Keys);
+                        foreach (var key in keys)
+                        {
+                            string before = entries[key];
+                            if (string.IsNullOrEmpty(before)) continue;
+                            string after = Substitute(before);
+                            if (after == before) continue;
+                            entries[key] = after;
+                            changed++;
+                        }
+                    }
                 }
 
-                Logger.LogInfo("Font [" + name + "] <- " + Path.GetFileName(ttfPath) +
-                               ": added=" + ok + " missing='" + (missing ?? "") + "'" +
-                               " glyphs " + before + "->" + (font.glyphTable?.Count ?? 0) +
-                               " ў=" + font.HasCharacter(0x45E) + " Ў=" + font.HasCharacter(0x40E) +
-                               " Ж=" + font.HasCharacter(0x416) + " ж=" + font.HasCharacter(0x436) +
-                               " і=" + font.HasCharacter(0x456));
+                Logger.LogInfo("Map sweep visited " + locales + " localization(s), rewrote " + changed + " string(s).");
             }
             catch (Exception e)
             {
-                Logger.LogError("Font [" + (font == null ? "?" : font.name) + "]: " + e);
+                Logger.LogError("Localization map sweep failed: " + e);
             }
+        }
+
+        // Map is an instance property; LocalizationManager.Localizations holds the instances.
+        internal static readonly PropertyInfo LocalizationMap =
+            typeof(CustomLocalization).GetProperty("Map", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+
+        internal static readonly FieldInfo LocalizationList =
+            typeof(Jotunn.Managers.LocalizationManager).GetField("Localizations",
+                BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic);
+
+        internal static string Substitute(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return text;
+            if (text.IndexOf(ShortU) < 0 && text.IndexOf(ShortUUpper) < 0) return text;
+
+            var builder = new System.Text.StringBuilder(text.Length);
+            foreach (char c in text)
+            {
+                if (c == ShortU) builder.Append(ShortUSub);
+                else if (c == ShortUUpper) builder.Append(ShortUSubUpper);
+                else builder.Append(c);
+            }
+            return builder.ToString();
+        }
+
+        internal static bool IsBelarusian(string language)
+        {
+            if (string.IsNullOrEmpty(language)) return false;
+            return language.IndexOf("belarus", StringComparison.OrdinalIgnoreCase) >= 0 ||
+                   language.IndexOf("Белар", StringComparison.Ordinal) >= 0;
+        }
+    }
+
+    // Every translation inserted into a CustomLocalization is rewritten here, whichever
+    // loader (JSON, YAML, direct) delivered it. Both AddTranslation overloads expose a
+    // by-ref 'translation' parameter, so one postfix covers them.
+    [HarmonyPatch]
+    internal static class AddTranslationPatch
+    {
+        private static IEnumerable<MethodBase> TargetMethods()
+        {
+            yield return AccessTools.Method(typeof(CustomLocalization), "AddTranslation",
+                new[] { typeof(string).MakeByRefType(), typeof(string).MakeByRefType(), typeof(string) });
+            yield return AccessTools.Method(typeof(CustomLocalization), "AddTranslation",
+                new[] { typeof(string).MakeByRefType(), typeof(string) });
+        }
+
+        private static void Postfix(ref string translation)
+        {
+            if (string.IsNullOrEmpty(translation)) return;
+            string after = BielarusizatarPlugin.Substitute(translation);
+            if (!ReferenceEquals(after, translation) && after != translation) translation = after;
+        }
+    }
+
+    // Anything the player types — a character name, a chat message — never passes through
+    // AddTranslation, so it has to be substituted on its way into the renderer. Patching the
+    // base TMP_Text.text setter covers every label and the input field's own display; no
+    // Valheim type overrides the accessor, so nothing bypasses this. The stored string keeps
+    // its real ў because we only rewrite the value handed to the renderer.
+    [HarmonyPatch(typeof(TMP_Text), "set_text")]
+    internal static class TmpTextSetterPatch
+    {
+        private static void Prefix(ref string value)
+        {
+            if (string.IsNullOrEmpty(value)) return;
+            if (value.IndexOf(BielarusizatarPlugin.ShortU) < 0 &&
+                value.IndexOf(BielarusizatarPlugin.ShortUUpper) < 0) return;
+            value = BielarusizatarPlugin.Substitute(value);
         }
     }
 
@@ -211,7 +224,7 @@ namespace Bielarusizatar.Valheim
                     plugin.Log.LogWarning("Subtitle file not found: " + path);
                     return null;
                 }
-                string text = File.ReadAllText(path);
+                string text = BielarusizatarPlugin.Substitute(File.ReadAllText(path));
                 plugin.Log.LogInfo("Subtitles loaded: " + file + " (" + text.Length + " chars)");
                 return new TextAsset(text);
             }
@@ -224,13 +237,9 @@ namespace Bielarusizatar.Valheim
 
         private static bool IsBelarusian(string language)
         {
-            if (!string.IsNullOrEmpty(language) && MentionsBelarusian(language)) return true;
+            if (BielarusizatarPlugin.IsBelarusian(language)) return true;
             string pref = PlayerPrefs.GetString("language", "English");
-            return MentionsBelarusian(pref);
+            return BielarusizatarPlugin.IsBelarusian(pref);
         }
-
-        private static bool MentionsBelarusian(string s) =>
-            s.IndexOf("belarus", StringComparison.OrdinalIgnoreCase) >= 0 ||
-            s.IndexOf("Белар", StringComparison.Ordinal) >= 0;
     }
 }
